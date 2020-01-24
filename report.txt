@@ -1,0 +1,79 @@
+CEC CS 18 C29
+Jesswin W Varghese
+
+--------------------------------
+#1: Learn how to use Git
+---------------------------------
+Command/Shell script/Program name : gitscript.txt
+
+---------------------------------
+
+Input: test.txt
+---------------
+Process Used:
+-------------
+-> Used to GitHub to create a repo under the name "cs232" and pushed readme file and test.txt into it
+
+-> used git from the terminal for the uploading
+
+
+--------------------------------
+Output: None
+
+
+-------------------
+Remarks if any: 
+-> the script file is called gitscript.txt
+
+-------------------------------------
+
+
+
+-------------------------------------
+#2: linux Commands
+-------------------------------------
+
+Command/Shell script/Program name : 24Jan2020/linux-commands/work.txt
+
+---------------------------------
+
+Input:def.txt,nums.txt
+---------------
+Process Used:
+-------------
+-> used various linux commands to familiarize with linux
+
+-> some commands and its use
+
+1.ls : listing all files 
+2.ls -a : listing all files including hidden files or .files
+3.alias : aliasing linux commands 
+4.sort : to sort contents in file 
+5.cut : to cut out some contents from the file
+6.grep : used for searching
+7.man : to see the manuel for the command
+8.ping : pings the server for an  echo from the server
+9.mkdir :make directory
+10.rmdir :removing directory 
+11.mv : equivalent to cut
+12.cp : equivalent to copy
+13.ps : shows all processes
+14.whoami : shows which user are you
+15.mount : mounts usb.etc
+16.poweroff : poweroffs pc
+17.reboot : reboots device
+--------------------------------
+Output: abc.txt
+
+
+-------------------
+Remarks if any: 
+-> abc.txt is the output from ls -l
+
+#3:
+
+#4:
+
+#5:
+
+

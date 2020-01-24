@@ -876,4 +876,51 @@ rtt min/avg/max/mdev = 0.628/0.862/1.641/0.193 ms
 [42;1H[K[7m Manual page ping(8) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       ping, ping6 - send ICMP ECHO_REQUEST to network hosts[m
 [42;1H[K[7m Manual page ping(8) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mNAME[0m[m
 [42;1H[K[7m Manual page ping(8) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
-[42;1H[K[7m Manual page ping(8) line 2 (press h for help or q to quit)[27m[K[K [KE
+[42;1H[K[7m Manual page ping(8) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HMPING(8)            System Manager's Manual: iputils           PING(8)[m
+[42;1H[K[7m Manual page ping(8) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page ping(8) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page ping(8) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page ping(8) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page ping(8) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page ping(8) line 1 (press h for help or q to quit)[27m[K[K[7m Manual page ping(8) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ ls
+abc.txt  def.txt  nums.txt  work.txt
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ ls - a
+[0m[01;34m.[0m  [01;34m..[0m  abc.txt  def.txt  nums.txt  work.txt
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ cd [K[K[Kps
+  PID TTY          TIME CMD
+ 6154 pts/7    00:00:00 bash
+ 6243 pts/7    00:00:00 cat
+ 6274 pts/7    00:00:00 cat
+ 6697 pts/7    00:00:00 nano
+ 6896 pts/7    00:00:00 ps
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ kill  6234[K[K43
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ ww[Khoa mi
+ceclab2
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ e[Kexit [A
+exit
+There are stopped jobs.
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ cd . .
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020[00m$ cd ..
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232[00m$ nano [K[K[K[K[Kgit status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mdeleted:    test.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m24Jan2020/[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232[00m$ girt [K[K[Kt add --all
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232[00m$ gti[K[Kit cmom[K[K[Kommit -m "li[Kinux  commands"
+[master 5192aa3] linux commands
+ 6 files changed, 1119 insertions(+)
+ create mode 100644 24Jan2020/gitscript.txt
+ create mode 100644 24Jan2020/linux/abc.txt
+ create mode 100644 24Jan2020/linux/def.txt
+ create mode 100644 24Jan2020/linux/nums.txt
+ create mode 100644 24Jan2020/linux/work.txt
+ rename test.txt => 24Jan2020/test.txt (100%)
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232[00m$ git push
+warning: push.default is unset; its implicit value has changed in
+Git
