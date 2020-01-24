@@ -1,0 +1,227 @@
+Script started on Friday 24 January 2020 03:42:37 PM IST
+]0;ceclab2@ceclab2-Veriton-Series: ~[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~[00m$ mkdir ceccs18c29
+]0;ceclab2@ceclab2-Veriton-Series: ~[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~[00m$ cd ceccs18c29/
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29[00m$ mkdir cs232
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29[00m$ cd cs232/
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232[00m$ git init
+The program 'git' is currently not installed. You can install it by typing:
+sudo apt install git
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232[00m$ sudo [K[K[K[K[Kecho "No got ins[K[K[K[K[K[Kit installed"
+No git installed
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232[00m$ sud [Ki[Ko apt insta; [K[Kll git
+[sudo] password for ceclab2: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 1%Reading state information... Done
+The following additional packages will be installed:
+  git-man liberror-perl
+Suggested packages:
+  git-daemon-run | git-daemon-sysvinit git-doc git-el git-email git-gui gitk
+  gitweb git-arch git-cvs git-mediawiki git-svn
+The following NEW packages will be installed:
+  git git-man liberror-perl
+0 upgraded, 3 newly installed, 0 to remove and 272 not upgraded.
+Need to get 3,917 kB of archives.
+After this operation, 25.6 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+[33m0% [Working][0m            Get:1 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 liberror-perl all 0.17-1.2 [19.6 kB]
+[33m0% [1 liberror-perl 14.2 kB/19.6 kB 73%][0m[33m                                        7% [Working][0m            Get:2 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 git-man all 1:2.7.4-0ubuntu1.7 [736 kB]
+[33m7% [2 git-man 1,448 B/736 kB 0%][0m[33m10% [2 git-man 133 kB/736 kB 18%][0m[33m14% [2 git-man 328 kB/736 kB 45%][0m[33m19% [2 git-man 585 kB/736 kB 79%][0m[33m                                 29% [Waiting for headers][0m                         Get:3 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 git amd64 1:2.7.4-0ubuntu1.7 [3,160 kB]
+[33m29% [3 git 0 B/3,160 kB 0%][0m[33m39% [3 git 478 kB/3,160 kB 15%][0m[33m52% [3 git 1,134 kB/3,160 kB 36%][0m[33m70% [3 git 2,001 kB/3,160 kB 63%][0m[33m85% [3 git 2,741 kB/3,160 kB 87%][0m                                 Get:3 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 git amd64 1:2.7.4-0ubuntu1.7 [3,160 kB]
+[33m85% [3 git 2,755 kB/3,160 kB 87%][0m[33m                                 100% [Working][0m              Fetched 1,176 kB in 4s (254 kB/s)
+
+7[0;23r8[1ASelecting previously unselected package liberror-perl.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 210726 files and directories currently installed.)
+Preparing to unpack .../liberror-perl_0.17-1.2_all.deb ...
+7[24;0f[42m[30mProgress: [  0%][49m[39m [..........................................................] 87[24;0f[42m[30mProgress: [  6%][49m[39m [####......................................................] 8Unpacking liberror-perl (0.17-1.2) ...
+7[24;0f[42m[30mProgress: [ 12%][49m[39m [########..................................................] 87[24;0f[42m[30mProgress: [ 18%][49m[39m [###########...............................................] 8Selecting previously unselected package git-man.
+Preparing to unpack .../git-man_1%3a2.7.4-0ubuntu1.7_all.deb ...
+7[24;0f[42m[30mProgress: [ 25%][49m[39m [###############...........................................] 8Unpacking git-man (1:2.7.4-0ubuntu1.7) ...
+7[24;0f[42m[30mProgress: [ 31%][49m[39m [###################.......................................] 87[24;0f[42m[30mProgress: [ 37%][49m[39m [######################....................................] 8Selecting previously unselected package git.
+Preparing to unpack .../git_1%3a2.7.4-0ubuntu1.7_amd64.deb ...
+7[24;0f[42m[30mProgress: [ 43%][49m[39m [##########################................................] 8Unpacking git (1:2.7.4-0ubuntu1.7) ...
+7[24;0f[42m[30mProgress: [ 50%][49m[39m [#############################.............................] 87[24;0f[42m[30mProgress: [ 56%][49m[39m [#################################.........................] 8Processing triggers for man-db (2.7.5-1) ...
+Setting up liberror-perl (0.17-1.2) ...
+7[24;0f[42m[30mProgress: [ 62%][49m[39m [#####################################.....................] 87[24;0f[42m[30mProgress: [ 68%][49m[39m [########################################..................] 8Setting up git-man (1:2.7.4-0ubuntu1.7) ...
+7[24;0f[42m[30mProgress: [ 75%][49m[39m [############################################..............] 87[24;0f[42m[30mProgress: [ 81%][49m[39m [################################################..........] 8Setting up git (1:2.7.4-0ubuntu1.7) ...
+7[24;0f[42m[30mProgress: [ 87%][49m[39m [###################################################.......] 87[24;0f[42m[30mProgress: [ 93%][49m[39m [#######################################################...] 8
+7[0;24r8[1A[J]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232[00m$ cleqar[K[K[Kar
+[3;J[H[2J]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232[00m$ git init
+Initialized empty Git repository in /home/ceclab2/ceccs18c29/cs232/.git/
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232[00m$ git pull http://github.com/ce ccs18cxx/cs232[1P/cs232[1P/cs2322/cs2329/cs232
+fatal: Couldn't find remote ref HEAD
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232[00m$ https://github.com/ceccs18c29 /cs232.git[A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232[00m$ git pull http://github.com/cec[C[C18c29/cs232[A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232[00m$ https://github.com/ceccs18c29/[C[C[4P232.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cghttps://github.com/ceccs18c29/cs232.git[A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232[00m$ [Cihttps://github.com/ceccs18c29/cs232.git[A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[Cthttps://github.com/ceccs18c29/cs232.git[A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C https://github.com/ceccs18c29/cs232.git[A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[Cphttps://github.com/ceccs18c29/cs232.git[A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[Cuhttps://github.com/ceccs18c29/cs232.git[A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[Clhttps://github.com/ceccs18c29/cs232.git[A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[C[Clhttps://github.com/ceccs18c29/cs232.git[A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[C[C[C https://github.com/ce[Ccs18c29/cs232.git[A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[C[C[C[C
+
+fatal: Couldn't find remote ref HEAD
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232[00m$ echo "was not initialised wit h readme"
+was not initialised with readme
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232[00m$ nano Rea[K[KEADME.MD
+[?1049h[1;24r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[22;35H(B[0;7m[ New File ][3d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3              File: README.MD                                   [23;1H^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[3d[1;71H(B[0;7mModified[3d(B[mfOSS    [KFoss lab repo[22d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                    [23;1H Y(B[m Yes[K[24d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[22;62H(B[0;7mFile Name to Write: README.MD                               [23d^G(B[m Get Help     (B[0;7mM-D(B[m DOS Format  (B[0;7mM-A(B[m Append[49G(B[0;7mM-B(B[m Backup File[24d(B[0;7m^C(B[m Cancel[17G(B[0;7mM-M(B[m Mac Format  (B[0;7mM-P(B[m Prepend     (B[0;7m^T(B[m To Files[22;30H[?25l[32G[39;49m(B[m[1K (B[0;7m[ Wrote 1 line ](B[m[K[3;14H[22d[J[1;71H(B[0;7m        [24;80H(B[m[24;1H[?12l[?25h[?1049l[?1l>]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232[00m$ git add README.MD 
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232[00m$ git commit-[K m "add[Kded readme fi lew[K"
+error: pathspec 'm' did not match any file(s) known to git.
+error: pathspec 'added readme file' did not match any file(s) known to git.
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232[00m$ git commit m "added readme fille"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-m "added readme file"[A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[C[C[C[C[C[C[C
+
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'ceclab2@ceclab2-Veriton-Series.(none)')
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232[00m$ git remote add origin https:/ /github.com/ceccs18c29/cs232.git
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232[00m$ C[Kgit config --global user.emai l "you@example.com"
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232[00m$ git config --global user.emaill "you@example.com"[1P"[1P"[1P"[1P"[1P"[A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232[00m$ [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit config --global user.emaill "you@exampl"[A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232[00m$ [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho "sorry "
+sorry 
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232[00m$ echo "sorry "git config --global user.emaill "you@exampl"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"j"e"s"s"w"i"n"w"[1P"v"@"g"m"a"i"l"."c"o"m"
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232[00m$ git config --global user.emaill "jesswinv@gmail.com"[A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232[00m$ [16Pecho "sorry "
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit config --global user.emaill "jesswinv@gmail.com"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"c"e"c"c"s"1"8"c"2"9"[C[1P "ceccs18c29"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C "[1Pceccs18c29"[A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C "c[1Peccs18c29"[A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C "ce[1Pccs18c29"[A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C "cec[C[1Ps18c29"[A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cn "ce[Ccs18c29"[A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca "ceccs18c29"[A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cm "ceccs18c29"[A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce "ceccs18c29"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232[00m$ git config --global user.name  "ceccs18c29"[A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232[00m$ [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit comi[Kmit -m "adding readme  filew[K"
+[master (root-commit) 3941a6a] adding readme file
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.MD
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232[00m$ git remote add origin https:/ /github.com/ceccs18c29/cs232.git
+fatal: remote origin already exists.
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232[00m$ git push [K0u[K[K -u origin master
+Username for 'https://github.com': ceccs1829
+Password for 'https://ceccs1829@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/ceccs18c29/cs232.git/'
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232[00m$ git push -u origin master
+Username for 'https://github.com': ceccs1829
+Password for 'https://ceccs1829@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/ceccs18c29/cs232.git/'
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232[00m$ git push -u origin master
+Username for 'https://github.com': ceccs18c29
+Password for 'https://ceccs18c29@github.com': 
+fatal: unable to access 'https://github.com/ceccs18c29/cs232.git/': GnuTLS recv error (-54): Error in the pull function.
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232[00m$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232[00m$ git push -u origin master[K[K[K[K[K[K[K[K[Kin
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232[00m$ git push -u origin maste3r[K -u origin maste3r[K[Kr
+Username for 'https://github.com': ceccs18c29
+Password for 'https://ceccs18c29@github.com': 
+Counting objects: 3, done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 228 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/ceccs18c29/cs232.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232[00m$ echo "readme file added succe ss[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kes sfully
+> "
+readme file added sucessfully
+
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232[00m$ nano[K[K[K[Kecho "
+> test fille[K[Ke part"
+
+test file part
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232[00m$ nasno [K[K[K[Ko [K[Knot [K[K[Ko tea[Kst.txt
+[?1049h[1;24r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[22;35H(B[0;7m[ New File ][3d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3              File: test.txt                                    [23;1H^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[3d[1;71H(B[0;7mModified[3d(B[mHello QWo   World[22d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                    [23;1H Y(B[m Yes[K[24d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[22;62H(B[0;7mFile Name to Write: test.txt                                [23d^G(B[m Get Help     (B[0;7mM-D(B[m DOS Format  (B[0;7mM-A(B[m Append[49G(B[0;7mM-B(B[m Backup File[24d(B[0;7m^C(B[m Cancel[17G(B[0;7mM-M(B[m Mac Format  (B[0;7mM-P(B[m Prepend     (B[0;7m^T(B[m To Files[22;29H[?25l[32G[39;49m(B[m[1K (B[0;7m[ Wrote 1 line ](B[m[K[3;12H[22d[J[1;71H(B[0;7m        [24;80H(B[m[24;1H[?12l[?25h[?1049l[?1l>]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232[00m$ got [K[K[Kit add test.txt 
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232[00m$ git commit -m "added test fle [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[Kd[Ksample f ile"
+[master 41c9658] added sample file
+ 1 file changed, 1 insertion(+)
+ create mode 100644 test.txt
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232[00m$ git pusj[Kh
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': ceccs18c29
+Password for 'https://ceccs18c29@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 287 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/ceccs18c29/cs232.git
+   3941a6a..41c9658  master -> master
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232[00m$ echo "git tur[Ktorial 
+> Ends here
+> "
+git tutorial 
+Ends here
+
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232[00m$ exit
+exit
+
+Script done on Friday 24 January 2020 04:21:53 PM IST

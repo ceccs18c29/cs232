@@ -1,0 +1,879 @@
+Script started on Friday 24 January 2020 04:37:34 PM IST
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ [K]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ ls
+work.txt
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ ls - l
+total 0
+-rw-rw-r-- 1 ceclab2 ceclab2 0 Jan 24 16:37 work.txt
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ ls - lt
+total 0
+-rw-rw-r-- 1 ceclab2 ceclab2 0 Jan 24 16:37 work.txt
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ la[Ks w o*rk.txt [K[K[K[K[K[K[K* -d
+work.txt
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ alis [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kia s ||='ls -al'
+alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias grep='grep --color=auto'
+alias l='ls -CF'
+alias la='ls -A'
+alias ll='ls -alF'
+alias ls='ls --color=auto'
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ aliass ||='ls -al'[C[1P[1P[1@l[1@l
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ ll
+total 8
+drwxrwxr-x 2 ceclab2 ceclab2 4096 Jan 24 16:37 [0m[01;34m.[0m
+drwxrwxr-x 4 ceclab2 ceclab2 4096 Jan 24 16:37 [01;34m..[0m
+-rw-rw-r-- 1 ceclab2 ceclab2    0 Jan 24 16:37 work.txt
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ ll > abc.txt
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ cat  abc.txt 
+total 8
+drwxrwxr-x 2 ceclab2 ceclab2 4096 Jan 24 16:48 .
+drwxrwxr-x 4 ceclab2 ceclab2 4096 Jan 24 16:37 ..
+-rw-rw-r-- 1 ceclab2 ceclab2    0 Jan 24 16:48 abc.txt
+-rw-rw-r-- 1 ceclab2 ceclab2    0 Jan 24 16:37 work.txt
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ clea r
+[3;J[H[2J]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ nano  [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[Kcat  >  abc.[K[K[K[Kdef,[K.txt
+hello foss lab
+^Z
+[1]+  Stopped                 cat > def.txt
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ cat  def.txt 
+hello foss lab
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ cat  nums.txt
+cat: nums.txt: No such file or directory
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ cat nnums.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+ nums.txt> nums.txt[C
+8
+5
+1
+8
+6
+3
+^Z
+[2]+  Stopped                 cat > nums.txt
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ sort  -n nums.txt 
+1
+3
+5
+6
+8
+8
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ sort  -n nums.txt [1@r
+8
+8
+6
+5
+3
+1
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ soer [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Krt  [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[Kcatsort  -rn nums.txt [A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ [1Pcat
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csort  -rn nums.txt [C[C[1P[C[C[C[C[C[C[C[C[C[C[C[A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ cat >[3P nums.txt[A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ sort -n nums.txt [C[C[1@r[C[C[C[C[C[C[C[C[C[C[C[A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ [1Pcat
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cn ano [K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[Knano  nums.txt 
+[?1049h[1;42r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[40;28H(B[0;7m[ Reading File ][3d(B[m[40;34H(B[0;7m 6 lines[9d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3           File: nums.txt                              [3;1H(B[m8[4d5[5d1[6d8[7d6[8d3[41d(B[0;7m^G(B[m Get Help   (B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut Text   (B[0;7m^J(B[m Justify[42d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Uncut Text (B[0;7m^T(B[m To Spell[3d[4d[5d1[A[A8[1;62H(B[0;7mModified[3;3H(B[m 3[4d[A 3[4d[A8 3 5[4d[9G5[41m       [3G[49m(B[m[K 6[40d[K[5d1 57[6;40r8[6dM[1;42r[6;1H[6;40r[40;1H
+[1;42r[5;4H[6d 3[7d 1[8d 8[40d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?           [41;1H Y(B[m Yes[K[42d(B[0;7m N(B[m No  [15G  (B[0;7m^C(B[m Cancel[K[40;62H(B[0;7mFile Name to Write: nums.txt                                [41d^G(B[m Get Help   (B[0;7mM-D(B[m DOS Format(B[0;7mM-A(B[m Append    (B[0;7mM-B(B[m Backup File[42d(B[0;7m^C(B[m Cancel     (B[0;7mM-M(B[m Mac Format(B[0;7mM-P(B[m Prepend   (B[0;7m^T(B[m To Files[40;29H[?25l[39;49m(B[m[1K (B[0;7m[ Wrote 6 lines ](B[m[K[8;4H[40d[J[1;62H(B[0;7m        [42;71H(B[m[42;1H[?12l[?25h[?1049l[?1l>]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ nano  nums.txt [A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ sort [4@-rn [C[C[C[C[C[C[C[C[C[1P[C[1@K[1@2[1P[1P[1@k[1@2
+6 1
+8 3
+1 5
+8 5
+5 6
+3 8
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ sort  -nk2 nums.txt [1@r
+3 8
+5 6
+8 5
+1 5
+8 3
+6 1
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ nano  nums.txt 
+[?1049h[1;42r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[40;28H(B[0;7m[ Reading File ][3d(B[m[40;34H(B[0;7m 6 lines[9d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3           File: nums.txt                              [3;1H(B[m8 5[4d5 6[5d1 5[6d8 3[7d6 1[8d3 8[41d(B[0;7m^G(B[m Get Help   (B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut Text   (B[0;7m^J(B[m Justify[42d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Uncut Text (B[0;7m^T(B[m To Spell[3d8[1;62H(B[0;7mModified[3;2H(B[m  [10G5\ 5 5[K8 5[K 5[K [4d[5d[6d[7d[8d[9d[A3 8 [K[A6 1 [40d[K[7d6[K[A8 3 [K[A1 5 [K[A5 6 [K[A 5[K [3;9H10[9G5[17G3[25G4[4d2[9G2[17G1[25G2[5d3[9G4[17G5[25G2[6d1[9G1[17G2[25G5[7d[40d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?           [41;1H Y(B[m Yes[K[42d(B[0;7m N(B[m No  [15G  (B[0;7m^C(B[m Cancel[K[40;62H(B[0;7mFile Name to Write: nums.txt                                [41d^G(B[m Get Help   (B[0;7mM-D(B[m DOS Format(B[0;7mM-A(B[m Append    (B[0;7mM-B(B[m Backup File[42d(B[0;7m^C(B[m Cancel     (B[0;7mM-M(B[m Mac Format(B[0;7mM-P(B[m Prepend   (B[0;7m^T(B[m To Files[40;29H[C[C[C[C[C[C[C(B[0;7m6(B[m(B[0;7mc(B[m(B[0;7m (B[m(B[0;7m (B[m[?25l[39;49m(B[m[1K (B[0;7m[ Wrote 5 lines ](B[m[K[7d[40d[J[1;62H(B[0;7m        [42;71H(B[m[42;1H[?12l[?25h[?1049l[?1l>]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ nano  nums.txt 
+[?1049h[1;42r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[40;28H(B[0;7m[ Reading File ][3d(B[m[40;34H(B[0;7m 5 lines[8d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3           File: nums.txt                              [3;1H(B[m10[9G5[17G3[25G4[4d2[9G2[17G1[25G2[5d3[9G4[17G5[25G2[6d1[9G1[17G2[25G5[41d(B[0;7m^G(B[m Get Help   (B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut Text   (B[0;7m^J(B[m Justify[42d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Uncut Text (B[0;7m^T(B[m To Spell[3d[2;39r[2;1HM[1;42r[1;62H(B[0;7mModified[4d(B[m[2;39r[2;1HM[1;42r[5;1H[40d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?           [41;1H Y(B[m Yes[K[42d(B[0;7m N(B[m No  [15G  (B[0;7m^C(B[m Cancel[K[40;62H(B[0;7mFile Name to Write: nums.txt                                [41d^G(B[m Get Help   (B[0;7mM-D(B[m DOS Format(B[0;7mM-A(B[m Append    (B[0;7mM-B(B[m Backup File[42d(B[0;7m^C(B[m Cancel     (B[0;7mM-M(B[m Mac Format(B[0;7mM-P(B[m Prepend   (B[0;7m^T(B[m To Files[40;29H[?25l[39;49m(B[m[1K (B[0;7m[ Wrote 7 lines ](B[m[K[5d[40d[J[1;62H(B[0;7m        [42;71H(B[m[42;1H[?12l[?25h[?1049l[?1l>]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ sort -n fn
+
+sort-n: command not found
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ 
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ sort--n fn[K[K
+sort-n: command not found
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ sort -[K -nk3
+m num      ^[[A^[[A^[[A             
+
+
+num.text
+
+
+^X  ^X  ^C
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ sort  nk 3n[K num.txt
+sort: cannot read: nk: No such file or directory
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ sort  nk 3 num.txt[C[8P-nk3[2P-n fn[A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ nano [Cums.txt [A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ sort [6@-rnk2 [C[C[C[C[C[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ nano [5P[C[C[C[C[C[C[C[C[C[A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ sort [4@-rn [C[C[C[C[C[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[C[C[C[A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ cat >[3P nums.txt[2Pnums.txtdef.txt >  def.txt[A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ [Clear[K[A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ [Cat abc.txt [A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ ll >a[C[C[C[C[C[C[K[A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ cat a[C[C[C[C[C[C [A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ ll >a[C[C[C[C[C[C[K[A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ [C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C >aabc.txt[A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ cat a[C[C[C[C[C[C [A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ [Clear[K[A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ [Cat abc.txt [A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ ll >a[C[C[C[C[C[C[K[A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ [C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Caliass ll='ls -al'[C[C||[C[C[C[C[C[C[C[C[C[A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ ls wo[8P* -d[A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ [C[C[C-lt[K[A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ [C[C[Cwo* -d[A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ alias ||='ls -al'[C[Cll[C[C[C[C[C[C[C[C[C[A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ [2Pll
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C >aabc.txt[A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ cat a[C[C[C[C[C[C [A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ [Clear[K[A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ [Cat >  def.txt[2Pdef.txt nums.txt> nums.txt[A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ sort -n nums.txt [C[C[1@r[C[C[C[C[C[C[C[C[C[C[C[A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ nano [4P[C[C[C[C[C[C[C[C[C[A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ sort [5@-nk2 [C[C[C[C[C[C[C[C[C[C[C[1@r[C[C[C[C[C[C[C[C[C[C[C[C[C[A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ nano [6P[C[C[C[C[C[C[C[C[C[A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ sort-[C[5P fn[K -nk3[Cnk 3 num.txt[A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csort  -rnk[Cnk 3 num.txt[C[8P-nk3[2P-n fn[A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ nano [Cums.txt [A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ sort [6@-rnk2 [C[C[C[C[C[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ nano [5P[C[C[C[C[C[C[C[C[C[A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ sort [4@-rn [C[C[C[C[C[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[C[C[C[A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ cat >[3P nums.txt[2Pnums.txtdef.txt >  def.txt[A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ [Clear[K[A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ [Cat abc.txt [A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ ll >a[C[C[C[C[C[C[K[A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ [C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Caliass ll='ls -al'[C[C||[C[C[C[C[C[C[C[C[C[A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ ls wo[8P* -d[A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ [C[C[C-lt[K[K[A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ [C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+abc.txt  def.txt  nums.txt  work.txt
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ lssort  nk 3 num.txt[C[8P-nk3[K[A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ sort -nk3[K[K[K[K[K[K[K[K[Knanoi [K[K nums.txt 
+[?1049h[1;43r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[41;64H(B[0;7m[ Reading File ][3d(B[m[41;70H(B[0;7m 7 lines[10d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3                                   File: nums.txt                                                                              [5;1H(B[m10[9G5[17G3[25G4[6d2[9G2[17G1[25G2[7d3[9G4[17G5[25G2[8d1[9G1[17G2[25G5[42d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7m^Y(B[m Prev Page   (B[0;7mM-\(B[m First Line (B[0;7mM-W(B[m WhereIs Next[43d(B[0;7m^X(B[m Exit[43;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7m^V(B[m Next Page   (B[0;7mM-/(B[m Last Line  (B[0;7mM-](B[m To Bracket[3d[43;1H[?1049l[?1l>Use "fg" to return to nano.
+
+[3]+  Stopped                 nano nums.txt
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ nano nums.txt ls[Ksort nk 3 num.txt[8P-nk3[K]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ sort  -nk3[Cnk 3 num.txt[C[8P-nk3[2P-n  -nk3[Cnk 3 num.txt[A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ [2Pls
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cnano  nums.txt [A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccut  -f3 fn[K[Knums.txt 
+
+
+3
+1
+5
+2
+
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ cut --f3 nums.txt [A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ nano [3P[C[C[C[C[C[C[C[C[C[A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ [2Pls
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cnano  nums.txt 
+[?1049h[1;42r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J[40d(B[0;7mFile nums.txt is being edited (by ceclab2 with nano 2.5.3, PID 6697);  [41;1H Y(B[m Yes[42d(B[0;7m N(B[m No[42;17H(B[0;7m^C(B[m Cancel[40;71H[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3             New Buffer                                [40;1H(B[m[K[41d(B[0;7m^G(B[m Get Help   (B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut Text   (B[0;7m^J(B[m Justify[42d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Uncut Text (B[0;7m^T(B[m To Spell[3d[41d[J[42;71H[42;1H[?1049l[?1l>]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ nano  nums.txt [A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ cut -[3@f3 [C[C[C[C[C[C[C[C[C[A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ nano [3P[C[C[C[C[C[C[C[C[C
+[?1049h[1;42r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J[40d(B[0;7mFile nums.txt is being edited (by ceclab2 with nano 2.5.3, PID 6697);  [41;1H Y(B[m Yes[42d(B[0;7m N(B[m No[42;17H(B[0;7m^C(B[m Cancel[40;71H[?25l[40;27H[1K (B[0;7m[ Reading File ](B[m[K[3d[40;34H(B[0;7m 7 lines[10d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3           File: nums.txt                              [5;1H(B[m10[9G5[17G3[25G4[6d2[9G2[17G1[25G2[7d3[9G4[17G5[25G2[8d1[9G1[17G2[25G5[41d(B[0;7m^G(B[m Get Help   (B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut Text   (B[0;7m^J(B[m Justify[42d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Uncut Text (B[0;7m^T(B[m To Spell[3d[4d[5d[6d[7d[8d[9d[10d[40d[J[42;71H[42;1H[?1049l[?1l>]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ cut  -f-3
+1 3 4
+1 3 4
+
+
+
+
+122 33 44 
+122 33 44 
+
+
+^C
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ cler [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kea r
+[3;J[H[2J]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ clearr[A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ [Cut -f-3
+1  	4	2
+1	4	2
+
+
+^[[A    ^C
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ clea r
+[3;J[H[2J]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ ls
+abc.txt  def.txt  nums.txt  work.txt
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ cat  abc[K.txtc.txt
+total 8
+drwxrwxr-x 2 ceclab2 ceclab2 4096 Jan 24 16:48 .
+drwxrwxr-x 4 ceclab2 ceclab2 4096 Jan 24 16:37 ..
+-rw-rw-r-- 1 ceclab2 ceclab2    0 Jan 24 16:48 abc.txt
+-rw-rw-r-- 1 ceclab2 ceclab2    0 Jan 24 16:37 work.txt
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ cat aabc.txt[1P.txt[C[C\.txt[1P.txt[C[C[1P.txt[C[1P.txtd.txt[Ce.txt[C[Cf.txt
+hello foss lab
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ cat ddef.txtabc.txt[A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ [2Pls
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat aabc.txtdef.txt[A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpast e abc.txt def.txt 
+total 8	hello foss lab
+drwxrwxr-x 2 ceclab2 ceclab2 4096 Jan 24 16:48 .	
+drwxrwxr-x 4 ceclab2 ceclab2 4096 Jan 24 16:37 ..	
+-rw-rw-r-- 1 ceclab2 ceclab2    0 Jan 24 16:48 abc.txt	
+-rw-rw-r-- 1 ceclab2 ceclab2    0 Jan 24 16:37 work.txt	
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ grep  [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[Kman  grep
+[?1049h[?1h=GREP(1)                General Commands Manual                GREP(1)[m
+[m
+[1mNAME[0m[m
+       grep, egrep, fgrep, rgrep - print lines matching a pattern[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mgrep[0m [[4mOPTIONS[24m] [4mPATTERN[24m [[4mFILE[24m...][m
+       [1mgrep[0m [[4mOPTIONS[24m] [[1m-e[0m [4mPATTERN[24m]...  [[1m-f[0m [4mFILE[24m]...  [[4mFILE[24m...][m
+[m
+[1mDESCRIPTION[0m[m
+       [1mgrep[0m  searches  the  named  input [4mFILE[24ms for lines containing a[m
+       match to the given [4mPATTERN[24m.  If no files are specified, or  if[m
+       the  file  “[1m-[0m”  is  given,  [1mgrep[0m  searches standard input.  By[m
+       default, [1mgrep[0m prints the matching lines.[m
+[m
+       In addition, the variant programs [1megrep[0m, [1mfgrep[0m and  [1mrgrep[0m  are[m
+       the  same  as  [1mgrep[0m [1m-E[0m,  [1mgrep[0m [1m-F[0m,  and  [1mgrep[0m [1m-r[0m, respectively.[m
+       These variants are deprecated, but are provided  for  backward[m
+       compatibility.[m
+[m
+[1mOPTIONS[0m[m
+   [1mGeneric[0m [1mProgram[0m [1mInformation[0m[m
+       [1m--help[0m Output a usage message and exit.[m
+[m
+       [1m-V[0m, [1m--version[0m[m
+              Output the version number of [1mgrep[0m and exit.[m
+[m
+   [1mMatcher[0m [1mSelection[0m[m
+       [1m-E[0m, [1m--extended-regexp[0m[m
+              Interpret  [4mPATTERN[24m  as  an  extended regular expression[m
+              (ERE, see below).[m
+[m
+       [1m-F[0m, [1m--fixed-strings[0m[m
+              Interpret [4mPATTERN[24m as a list of fixed  strings  (instead[m
+              of  regular expressions), separated by newlines, any of[m
+              which is to be matched.[m
+[m
+       [1m-G[0m, [1m--basic-regexp[0m[m
+              Interpret [4mPATTERN[24m as a basic regular  expression  (BRE,[m
+              see below).  This is the default.[m
+[m
+[7m Manual page grep(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-P[0m, [1m--perl-regexp[0m[m
+[7m Manual page grep(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Interpret  the  pattern  as  a  Perl-compatible regular[m
+[7m Manual page grep(1) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              expression (PCRE).  This  is  highly  experimental  and[m
+[7m Manual page grep(1) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              [1mgrep[0m [1m-P[0m may warn of unimplemented features.[m
+[7m Manual page grep(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page grep(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K   [1mMatching[0m [1mControl[0m[m
+[7m Manual page grep(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-e[0m [4mPATTERN[24m, [1m--regexp=[0m[4mPATTERN[24m[m
+[7m Manual page grep(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Use  [4mPATTERN[24m  as  the  pattern.  If this option is used[m
+[7m Manual page grep(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              multiple times or is  combined  with  the  [1m-f[0m  ([1m--file[0m)[m
+[7m Manual page grep(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              option, search for all patterns given.  This option can[m
+[7m Manual page grep(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              be used to protect a pattern beginning with “-”.[m
+[7m Manual page grep(1) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page grep(1) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-f[0m [4mFILE[24m, [1m--file=[0m[4mFILE[24m[m
+[7m Manual page grep(1) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Obtain patterns from  [4mFILE[24m,  one  per  line.   If  this[m
+[7m Manual page grep(1) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              option  is  used multiple times or is combined with the[m
+[7m Manual page grep(1) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              [1m-e[0m ([1m--regexp[0m) option, search for  all  patterns  given.[m
+[7m Manual page grep(1) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              The  empty  file  contains zero patterns, and therefore[m
+[7m Manual page grep(1) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              matches nothing.[m
+[7m Manual page grep(1) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page grep(1) line 20 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-i[0m, [1m--ignore-case[0m[m
+[7m Manual page grep(1) line 21 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Ignore case distinctions in both the  [4mPATTERN[24m  and  the[m
+[7m Manual page grep(1) line 22 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              input files.[m
+[7m Manual page grep(1) line 23 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page grep(1) line 24 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-v[0m, [1m--invert-match[0m[m
+[7m Manual page grep(1) line 25 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Invert  the  sense  of matching, to select non-matching[m
+[7m Manual page grep(1) line 26 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              lines.[m
+[7m Manual page grep(1) line 27 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page grep(1) line 28 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-w[0m, [1m--word-regexp[0m[m
+[7m Manual page grep(1) line 29 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Select only those lines containing  matches  that  form[m
+[7m Manual page grep(1) line 30 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              whole  words.   The test is that the matching substring[m
+[7m Manual page grep(1) line 31 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              must either  be  at  the  beginning  of  the  line,  or[m
+[7m Manual page grep(1) line 32 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              preceded   by   a   non-word   constituent   character.[m
+[7m Manual page grep(1) line 33 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Similarly, it must be either at the end of the line  or[m
+[7m Manual page grep(1) line 34 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              followed  by  a  non-word constituent character.  Word-[m
+[7m Manual page grep(1) line 35 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              constituent characters are  letters,  digits,  and  the[m
+[7m Manual page grep(1) line 36 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              underscore.[m
+[7m Manual page grep(1) line 37 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page grep(1) line 38 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-x[0m, [1m--line-regexp[0m[m
+[7m Manual page grep(1) line 39 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Select  only those matches that exactly match the whole[m
+[7m Manual page grep(1) line 40 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              line.  For a regular expression pattern, this  is  like[m
+[7m Manual page grep(1) line 41 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              parenthesizing the pattern and then surrounding it with[m
+[7m Manual page grep(1) line 42 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              [1m^[0m and [1m$[0m.[m
+[7m Manual page grep(1) line 43 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page grep(1) line 44 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-y[0m     Obsolete synonym for [1m-i[0m.[m
+[7m Manual page grep(1) line 45 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page grep(1) line 46 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K   [1mGeneral[0m [1mOutput[0m [1mControl[0m[m
+[7m Manual page grep(1) line 47 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-c[0m, [1m--count[0m[m
+[7m Manual page grep(1) line 48 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Suppress  normal  output;  instead  print  a  count  of[m
+[7m Manual page grep(1) line 49 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              matching  lines  for  each  input  file.   With the [1m-v[0m,[m
+[7m Manual page grep(1) line 50 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              [1m--invert-match[0m option (see below),  count  non-matching[m
+[7m Manual page grep(1) line 51 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              lines.[m
+[7m Manual page grep(1) line 52 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page grep(1) line 53 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--color[0m[[1m=[0m[4mWHEN[24m], [1m--colour[0m[[1m=[0m[4mWHEN[24m][m
+[7m Manual page grep(1) line 54 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Surround  the  matched  (non-empty)  strings,  matching[m
+[7m Manual page grep(1) line 55 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              lines, context lines, file names,  line  numbers,  byte[m
+[7m Manual page grep(1) line 56 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              offsets,  and  separators  (for  fields  and  groups of[m
+[7m Manual page grep(1) line 57 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              context lines) with escape sequences to display them in[m
+[7m Manual page grep(1) line 58 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              color  on  the terminal.  The colors are defined by the[m
+[7m Manual page grep(1) line 59 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              environment  variable  [1mGREP_COLORS[0m.    The   deprecated[m
+[7m Manual page grep(1) line 60 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              environment variable [1mGREP_COLOR[0m is still supported, but[m
+[7m Manual page grep(1) line 61 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              its setting does not have  priority.   [4mWHEN[24m  is  [1mnever[0m,[m
+[7m Manual page grep(1) line 62 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              [1malways[0m, or [1mauto[0m.[m
+[7m Manual page grep(1) line 63 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page grep(1) line 64 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-L[0m, [1m--files-without-match[0m[m
+[7m Manual page grep(1) line 65 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Suppress  normal output; instead print the name of each[m
+[7m Manual page grep(1) line 66 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              input file from which no  output  would  normally  have[m
+[7m Manual page grep(1) line 67 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              been  printed.   The  scanning  will  stop on the first[m
+[7m Manual page grep(1) line 68 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              match.[m
+[7m Manual page grep(1) line 69 (press h for help or q to quit)[27m[K[K[7m Manual page grep(1) line 69 (press h for help or q to quit)[27m[K[K[?1l>[?1049l]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ man ggrep[A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgrep  -c l def.txt 
+1
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ grep  -c l def.txt [C[1P[1@w[C[1@"[C[1@"
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ grep  -w "l" def.txt [C[1P[1@c
+1
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ grep  -c "l" def.txt [C[C[1P[1@'[1P[1@'w "l"[C[C[C[C[C[C[C[C[C
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ grep  -w "l" def.txt [A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgrep  -w "l" def.txt [C[Cc 'l'[C[C[C[C[C[C[C[C[C
+1
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ grep  -c 'l' def.txt [A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgrep  l def.txt `[K\[K[K
+he[01;31m[Kl[m[K[01;31m[Kl[m[Ko foss [01;31m[Kl[m[Kab
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ grep  l def.txt[C-c 'l' def.txt [C[Cw "l"[C[C[C[C[C[C[C[C[C[C[Cc[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cw[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2Pc l[C[C[C[C[C[C[C[C[C[A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ man grep[K[A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ paste abc.txt def.txt [A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ cat d[11Pef.txtabc.txtdef.txtabc.txt[A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ [2Pls
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat aabc.txtdef.txt[A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ paste abc.txt def.txt [A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ man grep[K[A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ grep -c l def.txt [C[C[2@w "l"[C[C[C[C[C[C[C[C[C[C[Cc[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cw[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc 'l'[C[C[C[C[C[C[C[C[C[C[6Pl def.txt[A]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cman  grep
+[?1049h[?1h=GREP(1)                General Commands Manual                GREP(1)[m
+[m
+[1mNAME[0m[m
+       grep, egrep, fgrep, rgrep - print lines matching a pattern[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mgrep[0m [[4mOPTIONS[24m] [4mPATTERN[24m [[4mFILE[24m...][m
+       [1mgrep[0m [[4mOPTIONS[24m] [[1m-e[0m [4mPATTERN[24m]...  [[1m-f[0m [4mFILE[24m]...  [[4mFILE[24m...][m
+[m
+[1mDESCRIPTION[0m[m
+       [1mgrep[0m  searches  the  named  input [4mFILE[24ms for lines containing a[m
+       match to the given [4mPATTERN[24m.  If no files are specified, or  if[m
+       the  file  “[1m-[0m”  is  given,  [1mgrep[0m  searches standard input.  By[m
+       default, [1mgrep[0m prints the matching lines.[m
+[m
+       In addition, the variant programs [1megrep[0m, [1mfgrep[0m and  [1mrgrep[0m  are[m
+       the  same  as  [1mgrep[0m [1m-E[0m,  [1mgrep[0m [1m-F[0m,  and  [1mgrep[0m [1m-r[0m, respectively.[m
+       These variants are deprecated, but are provided  for  backward[m
+       compatibility.[m
+[m
+[1mOPTIONS[0m[m
+   [1mGeneric[0m [1mProgram[0m [1mInformation[0m[m
+       [1m--help[0m Output a usage message and exit.[m
+[m
+       [1m-V[0m, [1m--version[0m[m
+              Output the version number of [1mgrep[0m and exit.[m
+[m
+   [1mMatcher[0m [1mSelection[0m[m
+       [1m-E[0m, [1m--extended-regexp[0m[m
+              Interpret  [4mPATTERN[24m  as  an  extended regular expression[m
+              (ERE, see below).[m
+[m
+       [1m-F[0m, [1m--fixed-strings[0m[m
+              Interpret [4mPATTERN[24m as a list of fixed  strings  (instead[m
+              of  regular expressions), separated by newlines, any of[m
+              which is to be matched.[m
+[m
+       [1m-G[0m, [1m--basic-regexp[0m[m
+              Interpret [4mPATTERN[24m as a basic regular  expression  (BRE,[m
+              see below).  This is the default.[m
+[m
+[7m Manual page grep(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-P[0m, [1m--perl-regexp[0m[m
+[7m Manual page grep(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Interpret  the  pattern  as  a  Perl-compatible regular[m
+[7m Manual page grep(1) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              expression (PCRE).  This  is  highly  experimental  and[m
+[7m Manual page grep(1) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              [1mgrep[0m [1m-P[0m may warn of unimplemented features.[m
+[7m Manual page grep(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page grep(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K   [1mMatching[0m [1mControl[0m[m
+[7m Manual page grep(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-e[0m [4mPATTERN[24m, [1m--regexp=[0m[4mPATTERN[24m[m
+[7m Manual page grep(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Use  [4mPATTERN[24m  as  the  pattern.  If this option is used[m
+[7m Manual page grep(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              multiple times or is  combined  with  the  [1m-f[0m  ([1m--file[0m)[m
+[7m Manual page grep(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              option, search for all patterns given.  This option can[m
+[7m Manual page grep(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              be used to protect a pattern beginning with “-”.[m
+[7m Manual page grep(1) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page grep(1) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-f[0m [4mFILE[24m, [1m--file=[0m[4mFILE[24m[m
+[7m Manual page grep(1) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Obtain patterns from  [4mFILE[24m,  one  per  line.   If  this[m
+[7m Manual page grep(1) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              option  is  used multiple times or is combined with the[m
+[7m Manual page grep(1) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              [1m-e[0m ([1m--regexp[0m) option, search for  all  patterns  given.[m
+[7m Manual page grep(1) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              The  empty  file  contains zero patterns, and therefore[m
+[7m Manual page grep(1) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              matches nothing.[m
+[7m Manual page grep(1) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page grep(1) line 20 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-i[0m, [1m--ignore-case[0m[m
+[7m Manual page grep(1) line 21 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Ignore case distinctions in both the  [4mPATTERN[24m  and  the[m
+[7m Manual page grep(1) line 22 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              input files.[m
+[7m Manual page grep(1) line 23 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page grep(1) line 24 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-v[0m, [1m--invert-match[0m[m
+[7m Manual page grep(1) line 25 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Invert  the  sense  of matching, to select non-matching[m
+[7m Manual page grep(1) line 26 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              lines.[m
+[7m Manual page grep(1) line 27 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page grep(1) line 28 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-w[0m, [1m--word-regexp[0m[m
+[7m Manual page grep(1) line 29 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Select only those lines containing  matches  that  form[m
+[7m Manual page grep(1) line 30 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              whole  words.   The test is that the matching substring[m
+[7m Manual page grep(1) line 31 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              must either  be  at  the  beginning  of  the  line,  or[m
+[7m Manual page grep(1) line 32 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              preceded   by   a   non-word   constituent   character.[m
+[7m Manual page grep(1) line 33 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Similarly, it must be either at the end of the line  or[m
+[7m Manual page grep(1) line 34 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              followed  by  a  non-word constituent character.  Word-[m
+[7m Manual page grep(1) line 35 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              constituent characters are  letters,  digits,  and  the[m
+[7m Manual page grep(1) line 36 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              underscore.[m
+[7m Manual page grep(1) line 37 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page grep(1) line 38 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-x[0m, [1m--line-regexp[0m[m
+[7m Manual page grep(1) line 39 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Select  only those matches that exactly match the whole[m
+[7m Manual page grep(1) line 40 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              line.  For a regular expression pattern, this  is  like[m
+[7m Manual page grep(1) line 41 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              parenthesizing the pattern and then surrounding it with[m
+[7m Manual page grep(1) line 42 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              [1m^[0m and [1m$[0m.[m
+[7m Manual page grep(1) line 43 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page grep(1) line 44 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-y[0m     Obsolete synonym for [1m-i[0m.[m
+[7m Manual page grep(1) line 45 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page grep(1) line 46 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K   [1mGeneral[0m [1mOutput[0m [1mControl[0m[m
+[7m Manual page grep(1) line 47 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-c[0m, [1m--count[0m[m
+[7m Manual page grep(1) line 48 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM   [1mMatching[0m [1mControl[0m[m
+[42;1H[K[7m Manual page grep(1) line 47 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[42;1H[K[7m Manual page grep(1) line 46 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              [1mgrep[0m [1m-P[0m may warn of unimplemented features.[m
+[42;1H[K[7m Manual page grep(1) line 45 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              expression (PCRE).  This  is  highly  experimental  and[m
+[42;1H[K[7m Manual page grep(1) line 44 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              Interpret  the  pattern  as  a  Perl-compatible regular[m
+[42;1H[K[7m Manual page grep(1) line 43 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-P[0m, [1m--perl-regexp[0m[m
+[42;1H[K[7m Manual page grep(1) line 42 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[42;1H[K[7m Manual page grep(1) line 41 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              see below).  This is the default.[m
+[42;1H[K[7m Manual page grep(1) line 40 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              Interpret [4mPATTERN[24m as a basic regular  expression  (BRE,[m
+[42;1H[K[7m Manual page grep(1) line 39 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-G[0m, [1m--basic-regexp[0m[m
+[42;1H[K[7m Manual page grep(1) line 38 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[42;1H[K[7m Manual page grep(1) line 37 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              which is to be matched.[m
+[42;1H[K[7m Manual page grep(1) line 36 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              of  regular expressions), separated by newlines, any of[m
+[42;1H[K[7m Manual page grep(1) line 35 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              Interpret [4mPATTERN[24m as a list of fixed  strings  (instead[m
+[42;1H[K[7m Manual page grep(1) line 34 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-F[0m, [1m--fixed-strings[0m[m
+[42;1H[K[7m Manual page grep(1) line 33 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[42;1H[K[7m Manual page grep(1) line 32 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              (ERE, see below).[m
+[42;1H[K[7m Manual page grep(1) line 31 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              Interpret  [4mPATTERN[24m  as  an  extended regular expression[m
+[42;1H[K[7m Manual page grep(1) line 30 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-E[0m, [1m--extended-regexp[0m[m
+[42;1H[K[7m Manual page grep(1) line 29 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM   [1mMatcher[0m [1mSelection[0m[m
+[42;1H[K[7m Manual page grep(1) line 28 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[42;1H[K[7m Manual page grep(1) line 27 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              Output the version number of [1mgrep[0m and exit.[m
+[42;1H[K[7m Manual page grep(1) line 26 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-V[0m, [1m--version[0m[m
+[42;1H[K[7m Manual page grep(1) line 25 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[42;1H[K[7m Manual page grep(1) line 24 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m--help[0m Output a usage message and exit.[m
+[42;1H[K[7m Manual page grep(1) line 23 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM   [1mGeneric[0m [1mProgram[0m [1mInformation[0m[m
+[42;1H[K[7m Manual page grep(1) line 22 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mOPTIONS[0m[m
+[42;1H[K[7m Manual page grep(1) line 21 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[42;1H[K[7m Manual page grep(1) line 20 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       compatibility.[m
+[42;1H[K[7m Manual page grep(1) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       These variants are deprecated, but are provided  for  backward[m
+[42;1H[K[7m Manual page grep(1) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       the  same  as  [1mgrep[0m [1m-E[0m,  [1mgrep[0m [1m-F[0m,  and  [1mgrep[0m [1m-r[0m, respectively.[m
+[42;1H[K[7m Manual page grep(1) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       In addition, the variant programs [1megrep[0m, [1mfgrep[0m and  [1mrgrep[0m  are[m
+[42;1H[K[7m Manual page grep(1) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[42;1H[K[7m Manual page grep(1) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       default, [1mgrep[0m prints the matching lines.[m
+[42;1H[K[7m Manual page grep(1) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       the  file  “[1m-[0m”  is  given,  [1mgrep[0m  searches standard input.  By[m
+[42;1H[K[7m Manual page grep(1) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       match to the given [4mPATTERN[24m.  If no files are specified, or  if[m
+[42;1H[K[7m Manual page grep(1) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1mgrep[0m  searches  the  named  input [4mFILE[24ms for lines containing a[m
+[42;1H[K[7m Manual page grep(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mDESCRIPTION[0m[m
+[42;1H[K[7m Manual page grep(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[42;1H[K[7m Manual page grep(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1mgrep[0m [[4mOPTIONS[24m] [[1m-e[0m [4mPATTERN[24m]...  [[1m-f[0m [4mFILE[24m]...  [[4mFILE[24m...][m
+[42;1H[K[7m Manual page grep(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Use  [4mPATTERN[24m  as  the  pattern.  If this option is used[m
+[7m Manual page grep(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              multiple times or is  combined  with  the  [1m-f[0m  ([1m--file[0m)[m
+[7m Manual page grep(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              option, search for all patterns given.  This option can[m
+[7m Manual page grep(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              be used to protect a pattern beginning with “-”.[m
+[7m Manual page grep(1) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page grep(1) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-f[0m [4mFILE[24m, [1m--file=[0m[4mFILE[24m[m
+[7m Manual page grep(1) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Obtain patterns from  [4mFILE[24m,  one  per  line.   If  this[m
+[7m Manual page grep(1) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              option  is  used multiple times or is combined with the[m
+[7m Manual page grep(1) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              [1m-e[0m ([1m--regexp[0m) option, search for  all  patterns  given.[m
+[7m Manual page grep(1) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              The  empty  file  contains zero patterns, and therefore[m
+[7m Manual page grep(1) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              matches nothing.[m
+[7m Manual page grep(1) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page grep(1) line 20 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-i[0m, [1m--ignore-case[0m[m
+[7m Manual page grep(1) line 21 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Ignore case distinctions in both the  [4mPATTERN[24m  and  the[m
+[7m Manual page grep(1) line 22 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              input files.[m
+[7m Manual page grep(1) line 23 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page grep(1) line 24 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-v[0m, [1m--invert-match[0m[m
+[7m Manual page grep(1) line 25 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Invert  the  sense  of matching, to select non-matching[m
+[7m Manual page grep(1) line 26 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              lines.[m
+[7m Manual page grep(1) line 27 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page grep(1) line 28 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-w[0m, [1m--word-regexp[0m[m
+[7m Manual page grep(1) line 29 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Select only those lines containing  matches  that  form[m
+[7m Manual page grep(1) line 30 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              whole  words.   The test is that the matching substring[m
+[7m Manual page grep(1) line 31 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              must either  be  at  the  beginning  of  the  line,  or[m
+[7m Manual page grep(1) line 32 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              preceded   by   a   non-word   constituent   character.[m
+[7m Manual page grep(1) line 33 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Similarly, it must be either at the end of the line  or[m
+[7m Manual page grep(1) line 34 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              followed  by  a  non-word constituent character.  Word-[m
+[7m Manual page grep(1) line 35 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              constituent characters are  letters,  digits,  and  the[m
+[7m Manual page grep(1) line 36 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              underscore.[m
+[7m Manual page grep(1) line 37 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page grep(1) line 38 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-x[0m, [1m--line-regexp[0m[m
+[7m Manual page grep(1) line 39 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Select  only those matches that exactly match the whole[m
+[7m Manual page grep(1) line 40 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              line.  For a regular expression pattern, this  is  like[m
+[7m Manual page grep(1) line 41 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              parenthesizing the pattern and then surrounding it with[m
+[7m Manual page grep(1) line 42 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              [1m^[0m and [1m$[0m.[m
+[7m Manual page grep(1) line 43 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page grep(1) line 44 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-y[0m     Obsolete synonym for [1m-i[0m.[m
+[7m Manual page grep(1) line 45 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page grep(1) line 46 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K   [1mGeneral[0m [1mOutput[0m [1mControl[0m[m
+[7m Manual page grep(1) line 47 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-c[0m, [1m--count[0m[m
+[7m Manual page grep(1) line 48 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Suppress  normal  output;  instead  print  a  count  of[m
+[7m Manual page grep(1) line 49 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              matching  lines  for  each  input  file.   With the [1m-v[0m,[m
+[7m Manual page grep(1) line 50 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              [1m--invert-match[0m option (see below),  count  non-matching[m
+[7m Manual page grep(1) line 51 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              lines.[m
+[7m Manual page grep(1) line 52 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page grep(1) line 53 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--color[0m[[1m=[0m[4mWHEN[24m], [1m--colour[0m[[1m=[0m[4mWHEN[24m][m
+[7m Manual page grep(1) line 54 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Surround  the  matched  (non-empty)  strings,  matching[m
+[7m Manual page grep(1) line 55 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              lines, context lines, file names,  line  numbers,  byte[m
+[7m Manual page grep(1) line 56 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              offsets,  and  separators  (for  fields  and  groups of[m
+[7m Manual page grep(1) line 57 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              context lines) with escape sequences to display them in[m
+[7m Manual page grep(1) line 58 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              color  on  the terminal.  The colors are defined by the[m
+[7m Manual page grep(1) line 59 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              environment  variable  [1mGREP_COLORS[0m.    The   deprecated[m
+[7m Manual page grep(1) line 60 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              environment variable [1mGREP_COLOR[0m is still supported, but[m
+[7m Manual page grep(1) line 61 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              its setting does not have  priority.   [4mWHEN[24m  is  [1mnever[0m,[m
+[7m Manual page grep(1) line 62 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              [1malways[0m, or [1mauto[0m.[m
+[7m Manual page grep(1) line 63 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page grep(1) line 64 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-L[0m, [1m--files-without-match[0m[m
+[7m Manual page grep(1) line 65 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Suppress  normal output; instead print the name of each[m
+[7m Manual page grep(1) line 66 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              input file from which no  output  would  normally  have[m
+[7m Manual page grep(1) line 67 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              been  printed.   The  scanning  will  stop on the first[m
+[7m Manual page grep(1) line 68 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              match.[m
+[7m Manual page grep(1) line 69 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page grep(1) line 70 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-l[0m, [1m--files-with-matches[0m[m
+[7m Manual page grep(1) line 71 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Suppress normal output; instead print the name of  each[m
+[7m Manual page grep(1) line 72 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              input  file  from which output would normally have been[m
+[7m Manual page grep(1) line 73 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              printed.  The scanning will stop on the first match.[m
+[7m Manual page grep(1) line 74 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page grep(1) line 75 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-m[0m [4mNUM[24m, [1m--max-count=[0m[4mNUM[24m[m
+[7m Manual page grep(1) line 76 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Stop reading a file after [4mNUM[24m matching lines.   If  the[m
+[7m Manual page grep(1) line 77 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              input  is  standard  input from a regular file, and [4mNUM[24m[m
+[7m Manual page grep(1) line 78 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              matching  lines  are  output,  [1mgrep[0m  ensures  that  the[m
+[7m Manual page grep(1) line 79 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              standard  input  is  positioned  to just after the last[m
+[7m Manual page grep(1) line 80 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              matching  line  before  exiting,  regardless   of   the[m
+[7m Manual page grep(1) line 81 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              presence  of  trailing  context  lines.  This enables a[m
+[7m Manual page grep(1) line 82 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              calling process to resume a search.   When  [1mgrep[0m  stops[m
+[7m Manual page grep(1) line 83 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              after  [4mNUM[24m  matching  lines,  it  outputs  any trailing[m
+[7m Manual page grep(1) line 84 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              context lines.  When the [1m-c[0m or [1m--count[0m option  is  also[m
+[7m Manual page grep(1) line 85 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              used,  [1mgrep[0m  does  not output a count greater than [4mNUM[24m.[m
+[7m Manual page grep(1) line 86 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              When the [1m-v[0m or [1m--invert-match[0m option is also used, [1mgrep[0m[m
+[7m Manual page grep(1) line 87 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              stops after outputting [4mNUM[24m non-matching lines.[m
+[7m Manual page grep(1) line 88 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page grep(1) line 89 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-o[0m, [1m--only-matching[0m[m
+[7m Manual page grep(1) line 90 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Print  only the matched (non-empty) parts of a matching[m
+[7m Manual page grep(1) line 91 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              line, with each such part on a separate output line.[m
+[7m Manual page grep(1) line 92 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page grep(1) line 93 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-q[0m, [1m--quiet[0m, [1m--silent[0m[m
+[7m Manual page grep(1) line 94 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Quiet; do not write anything to standard output.   Exit[m
+[7m Manual page grep(1) line 95 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              immediately  with  zero  status  if any match is found,[m
+[7m Manual page grep(1) line 96 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              even if an error was detected.   Also  see  the  [1m-s[0m  or[m
+[7m Manual page grep(1) line 97 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              [1m--no-messages[0m option.[m
+[7m Manual page grep(1) line 98 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page grep(1) line 99 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-s[0m, [1m--no-messages[0m[m
+[7m Manual page grep(1) line 100 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Suppress error messages about nonexistent or unreadable[m
+[7m Manual page grep(1) line 101 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              files.[m
+[7m Manual page grep(1) line 102 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page grep(1) line 103 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K   [1mOutput[0m [1mLine[0m [1mPrefix[0m [1mControl[0m[m
+[7m Manual page grep(1) line 104 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-b[0m, [1m--byte-offset[0m[m
+[7m Manual page grep(1) line 105 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Print the 0-based byte offset  within  the  input  file[m
+[7m Manual page grep(1) line 106 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              before each line of output.  If [1m-o[0m ([1m--only-matching[0m) is[m
+[7m Manual page grep(1) line 107 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              specified,  print  the  offset  of  the  matching  part[m
+[7m Manual page grep(1) line 108 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              itself.[m
+[7m Manual page grep(1) line 109 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page grep(1) line 110 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-H[0m, [1m--with-filename[0m[m
+[7m Manual page grep(1) line 111 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Print  the  file  name  for  each  match.   This is the[m
+[7m Manual page grep(1) line 112 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              default when there is more than one file to search.[m
+[7m Manual page grep(1) line 113 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page grep(1) line 114 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-h[0m, [1m--no-filename[0m[m
+[7m Manual page grep(1) line 115 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Suppress the prefixing of file names on  output.   This[m
+[7m Manual page grep(1) line 116 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              is  the  default  when  there is only one file (or only[m
+[7m Manual page grep(1) line 117 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              standard input) to search.[m
+[7m Manual page grep(1) line 118 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page grep(1) line 119 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--label=[0m[4mLABEL[24m[m
+[7m Manual page grep(1) line 120 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Display input actually coming from  standard  input  as[m
+[7m Manual page grep(1) line 121 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              input  coming  from  file  [4mLABEL[24m.   This  is especially[m
+[7m Manual page grep(1) line 122 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              useful when implementing tools like [1mzgrep[0m,  e.g.,  [1mgzip[0m[m
+[7m Manual page grep(1) line 123 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              [1m-cd[0m  [1mfoo.gz[0m  [1m|[0m [1mgrep[0m [1m--label=foo[0m [1m-H[0m [1msomething[0m.  See also[m
+[7m Manual page grep(1) line 124 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              the [1m-H[0m option.[m
+[7m Manual page grep(1) line 125 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page grep(1) line 126 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-n[0m, [1m--line-number[0m[m
+[7m Manual page grep(1) line 127 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Prefix each line of output with the 1-based line number[m
+[7m Manual page grep(1) line 128 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              within its input file.[m
+[7m Manual page grep(1) line 129 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page grep(1) line 130 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-T[0m, [1m--initial-tab[0m[m
+[7m Manual page grep(1) line 131 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Make  sure  that  the  first  character  of actual line[m
+[7m Manual page grep(1) line 132 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              content lies on a tab stop, so that  the  alignment  of[m
+[7m Manual page grep(1) line 133 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              tabs  looks  normal.   This is useful with options that[m
+[7m Manual page grep(1) line 134 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              prefix their output to the actual content:  [1m-H[0m,[1m-n[0m,  and[m
+[7m Manual page grep(1) line 135 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              [1m-b[0m.   In  order  to  improve the probability that lines[m
+[7m Manual page grep(1) line 136 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              from a single file will all start at the  same  column,[m
+[7m Manual page grep(1) line 137 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              this  also  causes  the line number and byte offset (if[m
+[7m Manual page grep(1) line 138 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              present) to be printed in a minimum size field width.[m
+[7m Manual page grep(1) line 139 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page grep(1) line 140 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-u[0m, [1m--unix-byte-offsets[0m[m
+[7m Manual page grep(1) line 141 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Report Unix-style byte  offsets.   This  switch  causes[m
+[7m Manual page grep(1) line 142 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              [1mgrep[0m to report byte offsets as if the file were a Unix-[m
+[7m Manual page grep(1) line 143 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              style text file, i.e., with CR characters stripped off.[m
+[7m Manual page grep(1) line 144 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              This  will produce results identical to running [1mgrep[0m on[m
+[7m Manual page grep(1) line 145 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              a Unix machine.  This option has no  effect  unless  [1m-b[0m[m
+[7m Manual page grep(1) line 146 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              option  is  also  used;  it  has no effect on platforms[m
+[7m Manual page grep(1) line 147 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              other than MS-DOS and MS-Windows.[m
+[7m Manual page grep(1) line 148 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page grep(1) line 149 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-Z[0m, [1m--null[0m[m
+[7m Manual page grep(1) line 150 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Output a zero byte (the ASCII [1mNUL[0m character) instead of[m
+[7m Manual page grep(1) line 151 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              the  character  that normally follows a file name.  For[m
+[7m Manual page grep(1) line 152 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              example, [1mgrep[0m [1m-lZ[0m outputs a zero byte after  each  file[m
+[7m Manual page grep(1) line 153 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              name  instead  of the usual newline.  This option makes[m
+[7m Manual page grep(1) line 154 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              the output unambiguous, even in the  presence  of  file[m
+[7m Manual page grep(1) line 155 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              names  containing  unusual  characters  like  newlines.[m
+[7m Manual page grep(1) line 156 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              This  option  can  be  used  with  commands  like  [1mfind[0m[m
+[7m Manual page grep(1) line 157 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              [1m-print0[0m,  [1mperl[0m  [1m-0[0m,  [1msort[0m  [1m-z[0m,  and [1mxargs[0m [1m-0[0m to process[m
+[7m Manual page grep(1) line 158 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              arbitrary file names, even those that  contain  newline[m
+[7m Manual page grep(1) line 159 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              characters.[m
+[7m Manual page grep(1) line 160 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page grep(1) line 161 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K   [1mContext[0m [1mLine[0m [1mControl[0m[m
+[7m Manual page grep(1) line 162 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-A[0m [4mNUM[24m, [1m--after-context=[0m[4mNUM[24m[m
+[7m Manual page grep(1) line 163 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Print  [4mNUM[24m  lines  of  trailing  context after matching[m
+[7m Manual page grep(1) line 164 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              lines.  Places a line containing a group separator ([1m--[0m)[m
+[7m Manual page grep(1) line 165 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              between  contiguous  groups of matches.  With the [1m-o[0m or[m
+[7m Manual page grep(1) line 166 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              [1m--only-matching[0m  option,  this  has  no  effect  and  a[m
+[7m Manual page grep(1) line 167 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              warning is given.[m
+[7m Manual page grep(1) line 168 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page grep(1) line 169 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-B[0m [4mNUM[24m, [1m--before-context=[0m[4mNUM[24m[m
+[7m Manual page grep(1) line 170 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Print  [4mNUM[24m  lines  of  leading  context before matching[m
+[7m Manual page grep(1) line 171 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              lines.  Places a line containing a group separator ([1m--[0m)[m
+[7m Manual page grep(1) line 172 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              between  contiguous  groups of matches.  With the [1m-o[0m or[m
+[7m Manual page grep(1) line 173 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              [1m--only-matching[0m  option,  this  has  no  effect  and  a[m
+[7m Manual page grep(1) line 174 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              warning is given.[m
+[7m Manual page grep(1) line 175 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page grep(1) line 176 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-C[0m [4mNUM[24m, [1m-[0m[4mNUM[24m, [1m--context=[0m[4mNUM[24m[m
+[7m Manual page grep(1) line 177 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Print  [4mNUM[24m  lines  of  output  context.   Places a line[m
+[7m Manual page grep(1) line 178 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              containing a group separator  ([1m--[0m)  between  contiguous[m
+[7m Manual page grep(1) line 179 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              groups  of  matches.   With  the  [1m-o[0m or [1m--only-matching[0m[m
+[7m Manual page grep(1) line 180 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              option, this has no effect and a warning is given.[m
+[7m Manual page grep(1) line 181 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page grep(1) line 182 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K   [1mFile[0m [1mand[0m [1mDirectory[0m [1mSelection[0m[m
+[7m Manual page grep(1) line 183 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-a[0m, [1m--text[0m[m
+[7m Manual page grep(1) line 184 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Process a binary file as  if  it  were  text;  this  is[m
+[7m Manual page grep(1) line 185 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              equivalent to the [1m--binary-files=text[0m option.[m
+[7m Manual page grep(1) line 186 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page grep(1) line 187 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--binary-files=[0m[4mTYPE[24m[m
+[7m Manual page grep(1) line 188 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              If the first few bytes of a file indicate that the file[m
+[7m Manual page grep(1) line 189 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              contains binary data, assume that the file is  of  type[m
+[7m Manual page grep(1) line 190 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              [4mTYPE[24m.   By  default,  [4mTYPE[24m is [1mbinary[0m, and [1mgrep[0m normally[m
+[7m Manual page grep(1) line 191 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              outputs either a one-line message saying that a  binary[m
+[7m Manual page grep(1) line 192 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              file  matches,  or no message if there is no match.  If[m
+[7m Manual page grep(1) line 193 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              [4mTYPE[24m is [1mwithout-match[0m, [1mgrep[0m assumes that a binary  file[m
+[7m Manual page grep(1) line 194 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              does  not  match;  this is equivalent to the [1m-I[0m option.[m
+[7m Manual page grep(1) line 195 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              If [4mTYPE[24m is [1mtext[0m, [1mgrep[0m processes a binary file as if  it[m
+[7m Manual page grep(1) line 196 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              were  text;  this is equivalent to the [1m-a[0m option.  When[m
+[7m Manual page grep(1) line 197 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              processing binary data, [1mgrep[0m may treat  non-text  bytes[m
+[7m Manual page grep(1) line 198 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              as  line  terminators;  for  example,  the  pattern '[1m.[0m'[m
+[7m Manual page grep(1) line 199 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              (period) might not match a null byte, as the null  byte[m
+[7m Manual page grep(1) line 200 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              might  be  treated as a line terminator.  [4mWarning:[24m [1mgrep[0m[m
+[7m Manual page grep(1) line 201 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              [1m--binary-files=text[0m might output binary garbage,  which[m
+[7m Manual page grep(1) line 202 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              can have nasty side effects if the output is a terminal[m
+[7m Manual page grep(1) line 203 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              and if the terminal driver interprets  some  of  it  as[m
+[7m Manual page grep(1) line 204 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              commands.[m
+[7m Manual page grep(1) line 205 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page grep(1) line 206 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-D[0m [4mACTION[24m, [1m--devices=[0m[4mACTION[24m[m
+[7m Manual page grep(1) line 207 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              If  an  input  file  is  a  device, FIFO or socket, use[m
+[7m Manual page grep(1) line 208 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              [4mACTION[24m to process it.   By  default,  [4mACTION[24m  is  [1mread[0m,[m
+[7m Manual page grep(1) line 209 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              which  means that devices are read just as if they were[m
+[7m Manual page grep(1) line 210 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              ordinary  files.   If  [4mACTION[24m  is  [1mskip[0m,  devices   are[m
+[7m Manual page grep(1) line 211 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              silently skipped.[m
+[7m Manual page grep(1) line 212 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page grep(1) line 213 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-d[0m [4mACTION[24m, [1m--directories=[0m[4mACTION[24m[m
+[7m Manual page grep(1) line 214 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              If  an input file is a directory, use [4mACTION[24m to process[m
+[7m Manual page grep(1) line 215 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              it.  By default, [4mACTION[24m is [1mread[0m, i.e., read directories[m
+[7m Manual page grep(1) line 216 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              just  as  if  they  were  ordinary files.  If [4mACTION[24m is[m
+[7m Manual page grep(1) line 217 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              [1mskip[0m, silently skip directories.  If [4mACTION[24m is [1mrecurse[0m,[m
+[7m Manual page grep(1) line 218 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              read  all  files  under  each  directory,  recursively,[m
+[7m Manual page grep(1) line 219 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              following symbolic  links  only  if  they  are  on  the[m
+[7m Manual page grep(1) line 220 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              command line.  This is equivalent to the [1m-r[0m option.[m
+[7m Manual page grep(1) line 221 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page grep(1) line 222 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--exclude=[0m[4mGLOB[24m[m
+[7m Manual page grep(1) line 223 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Skip files whose base name matches [4mGLOB[24m (using wildcard[m
+[7m Manual page grep(1) line 224 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              matching).  A file-name glob can use [1m*[0m,  [1m?[0m,  and  [1m[[0m...[1m][0m[m
+[7m Manual page grep(1) line 225 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              as  wildcards,  and  [1m\[0m to quote a wildcard or backslash[m
+[7m Manual page grep(1) line 226 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              character literally.[m
+[7m Manual page grep(1) line 227 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page grep(1) line 228 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--exclude-from=[0m[4mFILE[24m[m
+[7m Manual page grep(1) line 229 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Skip files whose base name matches any of the file-name[m
+[7m Manual page grep(1) line 230 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              globs  read  from  [4mFILE[24m  (using  wildcard  matching  as[m
+[7m Manual page grep(1) line 231 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              described under [1m--exclude[0m).[m
+[7m Manual page grep(1) line 232 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page grep(1) line 233 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--exclude-dir=[0m[4mDIR[24m[m
+[7m Manual page grep(1) line 234 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Exclude  directories  matching  the  pattern  [4mDIR[24m  from[m
+[7m Manual page grep(1) line 235 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              recursive searches.[m
+[7m Manual page grep(1) line 236 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page grep(1) line 237 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-I[0m     Process a binary file as if it did not contain matching[m
+[7m Manual page grep(1) line 238 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              data; this is equivalent to the [1m--binary-files=without-[0m[m
+[7m Manual page grep(1) line 239 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              [1mmatch[0m option.[m
+[7m Manual page grep(1) line 240 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page grep(1) line 241 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--include=[0m[4mGLOB[24m[m
+[7m Manual page grep(1) line 242 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Search  only  files whose base name matches [4mGLOB[24m (using[m
+[7m Manual page grep(1) line 243 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              wildcard matching as described under [1m--exclude[0m).[m
+[7m Manual page grep(1) line 244 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page grep(1) line 245 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-r[0m, [1m--recursive[0m[m
+[7m Manual page grep(1) line 246 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Read  all  files  under  each  directory,  recursively,[m
+[7m Manual page grep(1) line 247 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              following  symbolic  links  only  if  they  are  on the[m
+[7m Manual page grep(1) line 248 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              command line.  Note that if no file operand  is  given,[m
+[7m Manual page grep(1) line 249 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              grep   searches   the   working   directory.   This  is[m
+[7m Manual page grep(1) line 250 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              equivalent to the [1m-d[0m [1mrecurse[0m option.[m
+[7m Manual page grep(1) line 251 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page grep(1) line 252 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-R[0m, [1m--dereference-recursive[0m[m
+[7m Manual page grep(1) line 253 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Read  all  files  under  each  directory,  recursively.[m
+[7m Manual page grep(1) line 254 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Follow all symbolic links, unlike [1m-r[0m.[m
+[7m Manual page grep(1) line 255 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page grep(1) line 256 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K   [1mOther[0m [1mOptions[0m[m
+[7m Manual page grep(1) line 257 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--line-buffered[0m[m
+[7m Manual page grep(1) line 258 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Use  line  buffering  on  output.   This  can  cause  a[m
+[7m Manual page grep(1) line 259 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              performance penalty.[m
+[7m Manual page grep(1) line 260 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page grep(1) line 261 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-U[0m, [1m--binary[0m[m
+[7m Manual page grep(1) line 262 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Treat the file(s) as binary.  By default, under  MS-DOS[m
+[7m Manual page grep(1) line 263 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              and  MS-Windows,  [1mgrep[0m guesses the file type by looking[m
+[7m Manual page grep(1) line 264 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              at the contents of the first 32KB read from  the  file.[m
+[7m Manual page grep(1) line 265 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              If  [1mgrep[0m decides the file is a text file, it strips the[m
+[7m Manual page grep(1) line 266 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              CR characters from the original file contents (to  make[m
+[7m Manual page grep(1) line 267 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              regular  expressions  with  [1m^[0m  and  [1m$[0m  work correctly).[m
+[7m Manual page grep(1) line 268 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Specifying [1m-U[0m overrules  this  guesswork,  causing  all[m
+[7m Manual page grep(1) line 269 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              files  to  be read and passed to the matching mechanism[m
+[7m Manual page grep(1) line 270 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              verbatim; if the file is a text file with  CR/LF  pairs[m
+[7m Manual page grep(1) line 271 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              at  the  end of each line, this will cause some regular[m
+[7m Manual page grep(1) line 272 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              expressions to fail.  This  option  has  no  effect  on[m
+[7m Manual page grep(1) line 273 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              platforms other than MS-DOS and MS-Windows.[m
+[7m Manual page grep(1) line 274 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page grep(1) line 275 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-z[0m, [1m--null-data[0m[m
+[7m Manual page grep(1) line 276 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Treat the input as a set of lines, each terminated by a[m
+[7m Manual page grep(1) line 277 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              zero byte  (the  ASCII  [1mNUL[0m  character)  instead  of  a[m
+[7m Manual page grep(1) line 278 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              newline.  Like the [1m-Z[0m or [1m--null[0m option, this option can[m
+[7m Manual page grep(1) line 279 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              be used with commands like [1msort[0m [1m-z[0m to process arbitrary[m
+[7m Manual page grep(1) line 280 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              file names.[m
+[7m Manual page grep(1) line 281 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page grep(1) line 282 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mREGULAR[0m [1mEXPRESSIONS[0m[m
+[7m Manual page grep(1) line 283 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       A  regular  expression  is  a  pattern that describes a set of[m
+[7m Manual page grep(1) line 284 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       strings.  Regular expressions are constructed  analogously  to[m
+[7m Manual page grep(1) line 285 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       arithmetic  expressions, by using various operators to combine[m
+[7m Manual page grep(1) line 286 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       smaller expressions.[m
+[7m Manual page grep(1) line 287 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page grep(1) line 288 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mgrep[0m  understands  three   different   versions   of   regular[m
+[7m Manual page grep(1) line 289 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       expression  syntax: “basic” (BRE), “extended” (ERE) and “perl”[m
+[7m Manual page grep(1) line 290 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       (PCRE).  In GNU [1mgrep[0m, there  is  no  difference  in  available[m
+[7m Manual page grep(1) line 291 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       functionality  between  basic and extended syntaxes.  In other[m
+[7m Manual page grep(1) line 292 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       implementations, basic regular expressions are less  powerful.[m
+[7m Manual page grep(1) line 293 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The   following   description   applies  to  extended  regular[m
+[7m Manual page grep(1) line 294 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       expressions; differences for  basic  regular  expressions  are[m
+[7m Manual page grep(1) line 295 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       summarized  afterwards.   Perl-compatible  regular expressions[m
+[7m Manual page grep(1) line 296 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       give  additional  functionality,   and   are   documented   in[m
+[7m Manual page grep(1) line 297 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       pcresyntax(3)  and  pcrepattern(3),  but  work only if PCRE is[m
+[7m Manual page grep(1) line 298 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       available in the system.[m
+[7m Manual page grep(1) line 299 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page grep(1) line 300 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The fundamental building blocks are  the  regular  expressions[m
+[7m Manual page grep(1) line 301 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       that match a single character.  Most characters, including all[m
+[7m Manual page grep(1) line 302 (press h for help or q to quit)[27m[K[K[?1l>[?1049l]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ unam ew[K
+Linux
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ unam  [Ke -a
+Linux ceclab2-Veriton-Series 4.15.0-74-generic #83~16.04.1-Ubuntu SMP Wed Dec 18 04:56:23 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ fre[K[K[Kman  free
+[?1049h[?1h=FREE(1)                     User Commands                     FREE(1)[m
+[m
+[1mNAME[0m[m
+       free - Display amount of free and used memory in the system[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mfree[0m [[4moptions[24m][m
+[m
+[1mDESCRIPTION[0m[m
+       [1mfree[0m  displays  the total amount of free and used physical and[m
+       swap memory in the system, as well as the buffers  and  caches[m
+       used  by  the  kernel.  The information is gathered by parsing[m
+       /proc/meminfo. The displayed columns are:[m
+[m
+       [1mtotal[0m  Total  installed  memory  (MemTotal  and  SwapTotal  in[m
+              /proc/meminfo)[m
+[m
+       [1mused[0m   Used  memory  (calculated  as  [1mtotal[0m - [1mfree[0m - [1mbuffers[0m -[m
+              [1mcache[0m)[m
+[m
+       [1mfree[0m   Unused memory (MemFree and SwapFree in /proc/meminfo)[m
+[m
+       [1mshared[0m Memory used (mostly) by tmpfs (Shmem in  /proc/meminfo,[m
+              available  on  kernels 2.6.32, displayed as zero if not[m
+              available)[m
+[m
+       [1mbuffers[0m[m
+              Memory used by kernel buffers  (Buffers  in  /proc/mem‐[m
+              info)[m
+[m
+       [1mcache[0m  Memory  used  by  the  page cache and slabs (Cached and[m
+              Slab in /proc/meminfo)[m
+[m
+       [1mbuff/cache[0m[m
+              Sum of [1mbuffers[0m and [1mcache[0m[m
+[m
+       [1mavailable[0m[m
+              Estimation of how much memory is available for starting[m
+              new  applications,  without  swapping.  Unlike the data[m
+              provided by the [1mcache[0m or [1mfree[0m fields, this field  takes[m
+              into   account   page  cache  and  also  that  not  all[m
+[7m Manual page free(1) line 1 (press h for help or q to quit)[27m[K[K[7m Manual page free(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ 
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ free [A
+              total        used        free      shared  buff/cache   available
+Mem:        1902656     1012960      127276      244280      762420      453284
+Swap:       1955836       94372     1861464
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ clea r
+[3;J[H[2J]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ ifco nfig -a
+enp0s25   Link encap:Ethernet  HWaddr 10:78:d2:e1:a7:c2  
+          inet addr:192.168.0.95  Bcast:192.168.0.255  Mask:255.255.255.0
+          inet6 addr: fe80::685d:9363:6177:f42f/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:311753 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:17336 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:48139934 (48.1 MB)  TX bytes:2257690 (2.2 MB)
+          Interrupt:20 Memory:fbbc0000-fbbe0000 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:32768 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:32768 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2165472 (2.1 MB)  TX bytes:2165472 (2.1 MB)
+
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ ping  192.168.0.20[K[K30
+PING 192.168.0.30 (192.168.0.30) 56(84) bytes of data.
+64 bytes from 192.168.0.30: icmp_seq=1 ttl=64 time=1.64 ms
+64 bytes from 192.168.0.30: icmp_seq=2 ttl=64 time=0.899 ms
+64 bytes from 192.168.0.30: icmp_seq=3 ttl=64 time=0.852 ms
+64 bytes from 192.168.0.30: icmp_seq=4 ttl=64 time=0.847 ms
+64 bytes from 192.168.0.30: icmp_seq=5 ttl=64 time=0.820 ms
+64 bytes from 192.168.0.30: icmp_seq=6 ttl=64 time=0.836 ms
+64 bytes from 192.168.0.30: icmp_seq=7 ttl=64 time=0.798 ms
+64 bytes from 192.168.0.30: icmp_seq=8 ttl=64 time=0.832 ms
+64 bytes from 192.168.0.30: icmp_seq=9 ttl=64 time=0.857 ms
+64 bytes from 192.168.0.30: icmp_seq=10 ttl=64 time=0.822 ms
+64 bytes from 192.168.0.30: icmp_seq=11 ttl=64 time=0.628 ms
+64 bytes from 192.168.0.30: icmp_seq=12 ttl=64 time=0.816 ms
+64 bytes from 192.168.0.30: icmp_seq=13 ttl=64 time=0.831 ms
+64 bytes from 192.168.0.30: icmp_seq=14 ttl=64 time=0.835 ms
+64 bytes from 192.168.0.30: icmp_seq=15 ttl=64 time=0.733 ms
+64 bytes from 192.168.0.30: icmp_seq=16 ttl=64 time=0.843 ms
+64 bytes from 192.168.0.30: icmp_seq=17 ttl=64 time=0.841 ms
+64 bytes from 192.168.0.30: icmp_seq=18 ttl=64 time=0.822 ms
+64 bytes from 192.168.0.30: icmp_seq=19 ttl=64 time=0.834 ms
+^C
+--- 192.168.0.30 ping statistics ---
+19 packets transmitted, 19 received, 0% packet loss, time 18410ms
+rtt min/avg/max/mdev = 0.628/0.862/1.641/0.193 ms
+]0;ceclab2@ceclab2-Veriton-Series: ~/ceccs18c29/cs232/24Jan2020/linux[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c29/cs232/24Jan2020/linux[00m$ man  ping
+[?1049h[?1h=PING(8)            System Manager's Manual: iputils           PING(8)[m
+[m
+[1mNAME[0m[m
+       ping, ping6 - send ICMP ECHO_REQUEST to network hosts[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mping[0m [[1m-aAbBdDfhLnOqrRUvV[0m] [[1m-c[0m [4mcount[24m] [[1m-F[0m [4mflowlabel[24m] [[1m-i[0m [4minter‐[24m[m
+       [4mval[24m]  [[1m-I[0m  [4minterface[24m]  [[1m-l[0m  [4mpreload[24m]  [[1m-m[0m  [4mmark[24m]  [[1m-M[0m   [4mpmtud‐[24m[m
+       [4misc_option[24m]  [[1m-N[0m  [4mnodeinfo_option[24m]  [[1m-w[0m [4mdeadline[24m] [[1m-W[0m [4mtimeout[24m][m
+       [[1m-p[0m [4mpattern[24m] [[1m-Q[0m [4mtos[24m] [[1m-s[0m [4mpacketsize[24m] [[1m-S[0m [4msndbuf[24m] [[1m-t[0m [4mttl[24m] [[1m-T[0m[m
+       [4mtimestamp[24m [4moption[24m] [[4mhop[24m [4m...[24m] [4mdestination[24m[m
+[m
+[1mDESCRIPTION[0m[m
+       [1mping[0m  uses the ICMP protocol's mandatory ECHO_REQUEST datagram[m
+       to elicit an  ICMP  ECHO_RESPONSE  from  a  host  or  gateway.[m
+       ECHO_REQUEST datagrams (``pings'') have an IP and ICMP header,[m
+       followed by a struct timeval and then an arbitrary  number  of[m
+       ``pad'' bytes used to fill out the packet.[m
+[m
+       [1mping6[0m is IPv6 version of [1mping[0m, and can also send Node Informa‐[m
+       tion Queries (RFC4620).  Intermediate [4mhop[24ms may not be allowed,[m
+       because IPv6 source routing was deprecated (RFC5095).[m
+[m
+[1mOPTIONS[0m[m
+       [1m-a[0m     Audible ping.[m
+[m
+       [1m-A[0m     Adaptive  ping.  Interpacket  interval adapts to round-[m
+              trip time, so that effectively not more  than  one  (or[m
+              more, if preload is set) unanswered probe is present in[m
+              the network. Minimal interval is 200msec for not super-[m
+              user.   On  networks  with  low rtt this mode is essen‐[m
+              tially equivalent to flood mode.[m
+[m
+       [1m-b[0m     Allow pinging a broadcast address.[m
+[m
+       [1m-B[0m     Do not allow [1mping[0m to change source address  of  probes.[m
+              The address is bound to one selected when [1mping[0m starts.[m
+[m
+       [1m-c[0m [4mcount[24m[m
+              Stop  after  sending  [4mcount[24m  ECHO_REQUEST packets. With[m
+              [4mdeadline[24m option, [1mping[0m waits for [4mcount[24m ECHO_REPLY  pack‐[m
+[7m Manual page ping(8) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              ets, until the timeout expires.[m
+[7m Manual page ping(8) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ping(8) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-d[0m     Set  the  SO_DEBUG  option  on  the  socket being used.[m
+[7m Manual page ping(8) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Essentially, this socket option is not  used  by  Linux[m
+[7m Manual page ping(8) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              kernel.[m
+[7m Manual page ping(8) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ping(8) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-D[0m     Print  timestamp  (unix  time + microseconds as in get‐[m
+[7m Manual page ping(8) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              timeofday) before each line.[m
+[7m Manual page ping(8) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ping(8) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-f[0m     Flood ping. For every ECHO_REQUEST sent a period  ``.''[m
+[7m Manual page ping(8) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [[1m-p[0m [4mpattern[24m] [[1m-Q[0m [4mtos[24m] [[1m-s[0m [4mpacketsize[24m] [[1m-S[0m [4msndbuf[24m] [[1m-t[0m [4mttl[24m] [[1m-T[0m[m
+[42;1H[K[7m Manual page ping(8) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [4misc_option[24m]  [[1m-N[0m  [4mnodeinfo_option[24m]  [[1m-w[0m [4mdeadline[24m] [[1m-W[0m [4mtimeout[24m][m
+[42;1H[K[7m Manual page ping(8) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [4mval[24m]  [[1m-I[0m  [4minterface[24m]  [[1m-l[0m  [4mpreload[24m]  [[1m-m[0m  [4mmark[24m]  [[1m-M[0m   [4mpmtud‐[24m[m
+[42;1H[K[7m Manual page ping(8) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1mping[0m [[1m-aAbBdDfhLnOqrRUvV[0m] [[1m-c[0m [4mcount[24m] [[1m-F[0m [4mflowlabel[24m] [[1m-i[0m [4minter‐[24m[m
+[42;1H[K[7m Manual page ping(8) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mSYNOPSIS[0m[m
+[42;1H[K[7m Manual page ping(8) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[42;1H[K[7m Manual page ping(8) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       ping, ping6 - send ICMP ECHO_REQUEST to network hosts[m
+[42;1H[K[7m Manual page ping(8) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mNAME[0m[m
+[42;1H[K[7m Manual page ping(8) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[42;1H[K[7m Manual page ping(8) line 2 (press h for help or q to quit)[27m[K[K [KE
