@@ -18,7 +18,7 @@ def cgpacal(grades):
                         point+=6
 		elif("(D)" or "(C)" in i):
                         point+=5
-	return(point/float(len(grades)))
+	return("{:.2f}".format(point/float(len(grades))))
 
 
 with open(fname,"r+") as f:
@@ -27,6 +27,6 @@ with open(fname,"r+") as f:
 			failed+=1
 		else:
 			studdic[i.split()[0]]=cgpacal(i.split()[1:]) 
-
-pprint.pprint(studdic)
-print(failed)
+for student in studdic.keys():
+	print("{0}\n{1}\n".format(student,studdic[student]))
+print("FAILED:>{}".format(failed))
