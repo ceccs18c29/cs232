@@ -1703,4 +1703,2834 @@ s1cr.txt   sample.py
  'CHN18CS122': None,
  'CHN18CS123': None}
 ]0;admin1@cc-Sy: ~/ceccs18c29/cs232/31Jan20[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/31Jan20[00m$ python sample.py clear[Knano sample.py 
-[?1049h[1;42r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[40;28H(B[0;7m[ Reading File ][3d(B[m[40;34H(B[0;7m 18 lines ][21d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3           File: sample.py                             [3;1H(B[0;1m[36mimport[39m(B[m pprint,re[4dfname = input()[5dfailed = 0[6dstuddic={}[8d(B[0;1m[36mdef[34m cgpacal[39m(B[m(grades):[9;9H(B[0;1m[36mprint[39m(B[m(grades)[12d(B[0;1m[36mwith[39m(B[m open(fname,(B[0;1m[32m"r+"[39m(B[m) (B[0;1m[36mas[39m(B[m f:[13;9H(B[0;1m[36mfor[39m(B[m i (B[0;1m[36min[39m(B[m f:[14;17H(B[0;1m[36mif[39m(B[m(re.search((B[0;1m[32m"(F)"[39m(B[m, i)):[15;25Hfailed+=1[16;17H(B[0;1m[36melse[39m(B[m:[17;25Hstuddic[i.split()[0]]=cgpacal(i.split()[1:])[42m [19d(B[0;1m[36mprint[39m(B[m(failed)[20dpprint.pprint(studdic)[41d(B[0;7m^G(B[m Get Help   (B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut Text   (B[0;7m^J(B[m Justify[42d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Uncut Text (B[0;7m^T(B[m To Linter[3d[4d[5d[6d[7d[8d[9d[10d[11d[12d[13d[14d[15d[16d[17d[18d[19d[20d[19;14H[A[19d[40d[K[19;2H[C[C[C[C(failed)[20dpprint.ppr[41d[J[42;71H[42;1H[?1049l[?1l>]0;admin1@cc-Sy: ~/ceccs18c29/cs232/31Jan20[01;32madmin1@cc-Sy[00m:[01;34m~/c
+[?1049h[1;42r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[40;28H(B[0;7m[ Reading File ][3d(B[m[40;34H(B[0;7m 18 lines ][21d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3           File: sample.py                             [3;1H(B[0;1m[36mimport[39m(B[m pprint,re[4dfname = input()[5dfailed = 0[6dstuddic={}[8d(B[0;1m[36mdef[34m cgpacal[39m(B[m(grades):[9;9H(B[0;1m[36mprint[39m(B[m(grades)[12d(B[0;1m[36mwith[39m(B[m open(fname,(B[0;1m[32m"r+"[39m(B[m) (B[0;1m[36mas[39m(B[m f:[13;9H(B[0;1m[36mfor[39m(B[m i (B[0;1m[36min[39m(B[m f:[14;17H(B[0;1m[36mif[39m(B[m(re.search((B[0;1m[32m"(F)"[39m(B[m, i)):[15;25Hfailed+=1[16;17H(B[0;1m[36melse[39m(B[m:[17;25Hstuddic[i.split()[0]]=cgpacal(i.split()[1:])[42m [19d(B[0;1m[36mprint[39m(B[m(failed)[20dpprint.pprint(studdic)[41d(B[0;7m^G(B[m Get Help   (B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut Text   (B[0;7m^J(B[m Justify[42d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Uncut Text (B[0;7m^T(B[m To Linter[3d[4d[5d[6d[7d[8d[9d[10d[11d[12d[13d[14d[15d[16d[17d[18d[19d[20d[19;14H[A[19d[40d[K[19;2H[C[C[C[C(failed)[20dpprint.ppr[41d[J[42;71H[42;1H[?1049l[?1l>]0;admin1@cc-Sy: ~/ceccs18c29/cs232/31Jan20[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/31Jan20[00m$ cd ..
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ ls
+[0m[01;34m24Jan2020[0m  [01;34m31Jan20[0m  gitscript.txt  README.MD  report.txt  test.txt
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ ls -a
+[0m[01;34m.[0m   [01;34m24Jan2020[0m  [01;34m.git[0m           README.MD   test.txt
+[01;34m..[0m  [01;34m31Jan20[0m    gitscript.txt  report.txt
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ git af[Kdd- [K[K -A
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ gt[K[Kf[Kgit commir[Kt -m "created a scri[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K"scripting task partiall y done"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: empty ident name (for <admin1@cc-Sy.(none)>) not allowed
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ git config --global user.email "you@ex ample.com"
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ git config --global user.email "you@exaample.com"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P"
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P"[1P"[1P"[1P"[Kj"e"s"s"w"o" [A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ci""n"[1P"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P"
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P"[1P"[1P"[1P"[1P"[C[K"jesswi nw@gmai;[Kl.com"
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ git config --global user.email "jesswinnw@gmail.com"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cyou@exa[3Pmple.com"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cjesswinw@gmail.com"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cyou@exa[3Pmple.com"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cjesswinw@gmail.com"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C "jesswinw[1P@gmail.com"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C "jesswinw@[1Pgmail.com"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C "jesswinw@g[1Pmail.com"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C "jesswinw@gm[1Pail.com"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C "jesswinw@gma[1Pil.com"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cn "jesswinw@gmail.com"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca "jesswinw@gmail.com"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cm "jesswinw@gmail.com"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce "jesswinw@gmail.com"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit config --global user.name "jesswinww@gmail.com"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ git config --global user.name "jesswinww"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cemail "jesswinw@gmail.com"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cyou@exa[3Pmple.com"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[Cmmit -m "scripting task partially[3P done"
+[master 6b3337c] scripting task partially done
+ 8 files changed, 3363 insertions(+)
+ create mode 100644 31Jan20/S1Cres.txt
+ create mode 100644 31Jan20/h.txt
+ create mode 100644 31Jan20/result_CHN.pdf
+ create mode 100644 31Jan20/result_CHN.txt
+ create mode 100644 31Jan20/s1cr.txt
+ create mode 100644 31Jan20/sample.py
+ create mode 100644 31Jan20/work.txt
+ create mode 100644 31Jan20/work2.txt
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ git commit -m "scripting task partiallyy done"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[Cnfig --global user.name "jesswinw"[K[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cemail "jesswinw@gmail.com"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cyou@exa[3Pmple.com"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cjesswinw@gmail.com"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cname "jesswinw"[K[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[Cmmit -m "scripting task partially done"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': jessw     ^C
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ git pushcommit -m "scripting task partiallyy done"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[Cnfig --global user.name "jesswinw"[K[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cemail "jesswinw@gmail.com"[1P@gmail.com"[C[1P@gmail.com"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C@g[1Pmail.com"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C@gm[1Pail.com"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C@gma[1Pil.com"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C@gmai[1Pl.com"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C@gmail[1P.com"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C@gmail.[1Pcom"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc@gmail.com"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce@gmail.com"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc@gmail.com"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1@gmail.com"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C8@gmail.com"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc@gmail.com"s@gmail.com"[C2@gmail.com"[C[C9@gmail.com"[C[C[C[1P@gmail.com"[C[C[1P@gmail.com"[C[1P@gmail.com"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C@g[1Pmail.com"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C@gm[1Pail.com"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C@gma[1Pil.com"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C@gmai[1Pl.com"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C@gmail[1P.com"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C@gmail.[1Pcom"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cj@gmail.com"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce@gmail.com"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs@gmail.com"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs@gmail.com"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cw@gmail.com"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ci@gmail.com"n@gmail.com"[Cv@gmail.com"[C[C
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ git config --global user.email "jesswinnv@gmail.com"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[Cpush[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cconfig --global user.email "jesswinnv@gmail.com"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit config --global user.email "jesswinnv@gmail.com"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[Cpush[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccommit -m "scripting task partiallyy done"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[Cpush[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cconfig --global user.email "jesswinnv@gmail.com"[C[C[C[C[C[C[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P"
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P"[1P"[1P"[1P"c"e"c"1"8" [A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc""s"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C "cec18cs"[K[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C "cec18cs" [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P "cec18cs"
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P "cec18cs"[1P "cec18cs"n "cec18cs"a "cec18cs"e "cec18cs" [A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cm "cec18cs""[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C "cec18cs" [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P "cec18cs"
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cm "cec18cs" [A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce "cec18cs""[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+2"9"
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ git config --global user.name "cec18cs229"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cemail "jesswinv@gmail.com"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[Cpush[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': cec18cs29
+Password for 'https://cec18cs29@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/ceccs18c29/cs232.git/'
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': cec18vs    cs18c29
+Password for 'https://ceccs18c29@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/ceccs18c29/cs232.git/'
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ git pushconfig --global user.name "cec18cs229"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[Cpush[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': ceccs18c29
+Password for 'https://ceccs18c29@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/ceccs18c29/cs232.git/'
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ git pushconfig --global user.name "cec18cs229"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cemail "jesswinv@gmail.com"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cname "cec18cs29"[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs18cs29"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpush[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cconfig --global user.name "cecs18css29"[1P29"
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ git config --global user.name "cecs18c229"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[Cpush[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': ceccs18c29
+Password for 'https://ceccs18c29@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/ceccs18c29/cs232.git/'
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com':  ceccs18c29 
+Password for 'https:// ceccs18c29 @github.com': 
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ git pushconfig --global user.name "cecs18c229"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[Cpush[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com':  ceccs18c29 ^[[D     
+Password for 'https:// ceccs18c29@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/ceccs18c29/cs232.git/'
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ git pushconfig --global user.name "cecs18c229"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[Cpush[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cconfig --global user.name "cecs18c229"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[Cpush[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cconfig --global user.name "cec18cs229"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cemail "jesswinv@gmail.com"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[Cpush[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccommit -m "scripting task partiallyy done"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[Cnfig --global user.name "jesswinw"[K[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cemail "jesswinw@gmail.com"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cname "jesswinw"[K[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[Cmmit -m "scripting task partially done"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[Cpush[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cconfig --global user.email "jesswinnv@gmail.com"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cname "cec18cs29"[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C29[1P"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cemail "jesswinv@gmail.com"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[Cpush[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccommit -m "scripting task partiallyy done"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[Cpush[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -u orihi[K[K[Kigin master
+Username for 'https://github.com': ceccs18c29
+Password for 'https://ceccs18c29@github.com': 
+Counting objects: 10, done.
+Delta compression using up to 4 threads.
+Compressing objects:  11% (1/9)   Compressing objects:  22% (2/9)   Compressing objects:  33% (3/9)   Compressing objects:  44% (4/9)   Compressing objects:  55% (5/9)   Compressing objects:  66% (6/9)   Compressing objects:  77% (7/9)   Compressing objects:  88% (8/9)   Compressing objects: 100% (9/9)   Compressing objects: 100% (9/9), done.
+Writing objects:  10% (1/10)   Writing objects:  20% (2/10)   Writing objects:  30% (3/10)   Writing objects:  40% (4/10)   Writing objects:  50% (5/10)   Writing objects:  60% (6/10)   Writing objects:  70% (7/10)   Writing objects:  80% (8/10)   Writing objects:  90% (9/10)   Writing objects: 100% (10/10)   Writing objects: 100% (10/10), 39.67 KiB | 0 bytes/s, done.
+Total 10 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/2)[Kremote: Resolving deltas:  50% (1/2)[Kremote: Resolving deltas: 100% (2/2)[Kremote: Resolving deltas: 100% (2/2), completed with 1 local object.[K
+To https://github.com/ceccs18c29/cs232.git
+   99baa20..6b3337c  master -> master
+Branch master set up to track remote branch master from origin.
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ git push -u origin master[Kconfig --global user.name "cecs18c229"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[Cpush[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cconfig --global user.name "cec18c299"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cemail "jesswinv@gmail.com"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[Cpush[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccommit -m "scripting task partiallyy done"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[Cnfig --global user.name "jesswinw"[K[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cemail "jesswinw@gmail.com"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cyou@exa[3Pmple.com"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[Cmmit -m "scripting task partially[3P done"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[Cadd -A[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5Pls -a[K -agit add -Acommit -m "scripting task partiallyy done"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[Cnfig --global user.email "you@example.com"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cjesswinw@gmail.com"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cname "jesswinw"[K[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[Cmmit -m "scripting task partially done"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[Cpush[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cconfig --global user.email "jesswinnv@gmail.com"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cname "cec18c29"[K[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[Cpush[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cconfig --global user.name "cecs18c229"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ [C[C[C[Cpush[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -u origin master[Klsw[K
+[0m[01;34m24Jan2020[0m  [01;34m31Jan20[0m  gitscript.txt  README.MD  report.txt  test.txt
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ cd 31Jan20/
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232/31Jan20[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/31Jan20[00m$ n[Kclear
+[3;J[H[2J]0;admin1@cc-Sy: ~/ceccs18c29/cs232/31Jan20[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/31Jan20[00m$ nano s
+s1cr.txt   sample.py  
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232/31Jan20[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/31Jan20[00m$ nano samp;l[K[Kle.py
+[?1049h[1;42r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[40;28H(B[0;7m[ Reading File ][3d(B[m[40;34H(B[0;7m 18 lines ][21d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3           File: sample.py                             [3;1H(B[0;1m[36mimport[39m(B[m pprint,re[4dfname = input()[5dfailed = 0[6dstuddic={}[8d(B[0;1m[36mdef[34m cgpacal[39m(B[m(grades):[9;9H(B[0;1m[36mprint[39m(B[m(grades)[12d(B[0;1m[36mwith[39m(B[m open(fname,(B[0;1m[32m"r+"[39m(B[m) (B[0;1m[36mas[39m(B[m f:[13;9H(B[0;1m[36mfor[39m(B[m i (B[0;1m[36min[39m(B[m f:[14;17H(B[0;1m[36mif[39m(B[m(re.search((B[0;1m[32m"(F)"[39m(B[m, i)):[15;25Hfailed+=1[16;17H(B[0;1m[36melse[39m(B[m:[17;25Hstuddic[i.split()[0]]=cgpacal(i.split()[1:])[42m [19d(B[0;1m[36mprint[39m(B[m(failed)[20dpprint.pprint(studdic)[41d(B[0;7m^G(B[m Get Help   (B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut Text   (B[0;7m^J(B[m Justify[42d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Uncut Text (B[0;7m^T(B[m To Linter[3d[4d[5d[6d[7d[8d[9d[10d[11d[12d[13d[14d[15d[16d[17d[18d[19d[A[17;70H[40d[K[17;62H[16;22H[A[15;9H[A[A[12;28H[13;20H[14;28H[15d[16;22H[17;28H[18d[19;14H[A[17;70H[16;22H:[17;17H[17;25Hstuddic[i.split()[0]]=cgpacal(i.split()[11[1;62H(B[0;7mModified[17;65H(B[m:])[42m [49m(B[m[K[40d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?           [41;1H Y(B[m Yes[K[42d(B[0;7m N(B[m No  [15G  (B[0;7m^C(B[m Cancel[K[40;62H(B[0;7mFile Name to Write: sample.py                               [41d^G(B[m Get Help   (B[0;7mM-D(B[m DOS Format(B[0;7mM-A(B[m Append    (B[0;7mM-B(B[m Backup File[42d(B[0;7m^C(B[m Cancel     (B[0;7mM-M(B[m Mac Format(B[0;7mM-P(B[m Prepend   (B[0;7m^T(B[m To Files[40;30H[?25l[39;49m(B[m[1K (B[0;7m[ Wrote 18 lines ](B[m[K[17;65H[40d[J[1;62H(B[0;7m        [42;71H(B[m[42;1H[?12l[?25h[?1049l[?1l>]0;admin1@cc-Sy: ~/ceccs18c29/cs232/31Jan20[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/31Jan20[00m$ nano sample.py[9Pcleard 31Jan20/[6Plearnano sample.py[Kpython sm[Kample.py 
+'/home/admin1/ceccs18c29/cs232/31Jan20/S1Cres.txt' 
+['CHN18CS003', 'MA101(A+),', 'PH100(A+),', 'BE110(O),', 'BE10105(O),', 'BE103(A),', 'EE100(O),', 'PH110(A+),', 'EE110(A),']
+['CHN18CS004', 'MA101(B+),', 'PH100(A),', 'BE110(O),', 'BE10105(O),', 'BE103(B),', 'EE100(A+),', 'PH110(A+),', 'EE110(A),']
+['CHN18CS005', 'MA101(C),', 'PH100(C),', 'BE110(O),', 'BE10105(B),', 'BE103(B+),', 'EE100(B+),', 'PH110(A+),', 'EE110(A),']
+['CHN18CS007', 'MA101(B+),', 'PH100(B),', 'BE110(O),', 'BE10105(A+),', 'BE103(B),', 'EE100(B+),', 'PH110(A+),', 'EE110(A+),']
+['CHN18CS008', 'MA101(B),', 'PH100(C),', 'BE110(B+),', 'BE10105(A+),', 'BE103(B),', 'EE100(B),', 'PH110(A+),', 'EE110(A),']
+['CHN18CS009', 'MA101(A+),', 'PH100(O),', 'BE110(A+),', 'BE10105(B),', 'BE103(A),', 'EE100(A+),', 'PH110(A),', 'EE110(B+),']
+['CHN18CS010', 'MA101(O),', 'PH100(A+),', 'BE110(O),', 'BE10105(A),', 'BE103(B+),', 'EE100(A+),', 'PH110(A),', 'EE110(A),']
+['CHN18CS012', 'MA101(B),', 'PH100(B+),', 'BE110(A+),', 'BE10105(C),', 'BE103(B+),', 'EE100(B+),', 'PH110(A+),']
+['CHN18CS016', 'MA101(B+),', 'PH100(O),', 'BE110(O),', 'BE10105(B),', 'BE103(B),', 'EE100(A),', 'PH110(A+),', 'EE110(A+),']
+['CHN18CS017', 'MA101(B+),', 'PH100(B+),', 'BE110(A+),', 'BE10105(A+),', 'BE103(B+),', 'EE100(B+),', 'PH110(O),']
+['CHN18CS018', 'MA101(O),', 'PH100(O),', 'BE110(O),', 'BE10105(O),', 'BE103(B+),', 'EE100(A+),', 'PH110(A+),', 'EE110(B+),']
+['CHN18CS020', 'MA101(A),', 'PH100(A+),', 'BE110(O),', 'BE10105(B+),', 'BE103(B+),', 'EE100(O),', 'PH110(O),', 'EE110(A),']
+['CHN18CS021', 'MA101(B),', 'PH100(A+),', 'BE110(O),', 'BE10105(B+),', 'BE103(A),', 'EE100(B+),', 'PH110(A+),', 'EE110(A),']
+['CHN18CS023', 'MA101(C),', 'PH100(B),', 'BE110(A+),', 'BE10105(A+),', 'BE103(B),', 'EE100(C),', 'PH110(A+),', 'EE110(B+),']
+['CHN18CS025', 'MA101(B),', 'PH100(B+),', 'BE110(A+),', 'BE10105(B),', 'BE103(A),', 'EE100(B),', 'PH110(B+),', 'EE110(A),']
+['CHN18CS026', 'MA101(O),', 'PH100(B+),', 'BE110(B+),', 'BE10105(B+),', 'BE103(B),', 'EE100(A+),', 'PH110(O),', 'EE110(B+),']
+['CHN18CS029', 'MA101(A+),', 'PH100(A+),', 'BE110(O),', 'BE10105(B+),', 'BE103(A+),', 'EE100(O),', 'PH110(A+),', 'EE110(A),']
+['CHN18CS030', 'MA101(B+),', 'PH100(B),', 'BE110(O),', 'BE10105(C),', 'BE103(B),', 'EE100(B+),', 'PH110(A),', 'EE110(A),']
+['CHN18CS032', 'MA101(B),', 'PH100(A),', 'BE110(B+),', 'BE10105(B),', 'BE103(B),', 'EE100(B+),', 'PH110(A),', 'EE110(B+),']
+['CHN18CS033', 'MA101(O),', 'PH100(O),', 'BE110(O),', 'BE10105(B+),', 'BE103(B+),', 'EE100(O),', 'PH110(A+),', 'EE110(A),']
+['CHN18CS035', 'MA101(O),', 'PH100(A),', 'BE110(O),', 'BE10105(B+),', 'BE103(B+),', 'EE100(O),', 'PH110(O),', 'EE110(B+),']
+['CHN18CS036', 'MA101(B),', 'PH100(A+),', 'BE110(B+),', 'BE10105(B+),', 'BE103(A),', 'EE100(O),', 'PH110(A+),', 'EE110(A),']
+['CHN18CS037', 'MA101(A+),', 'PH100(B+),', 'BE110(O),', 'BE10105(C),', 'BE103(B),', 'EE100(A),', 'PH110(A+),', 'EE110(A),']
+['CHN18CS038', 'MA101(B+),', 'PH100(A+),', 'BE110(B+),', 'BE10105(B),', 'BE103(A),', 'EE100(A+),', 'PH110(A+),', 'EE110(A),']
+['CHN18CS039', 'MA101(A),', 'PH100(B),', 'BE110(O),', 'BE10105(C),', 'BE103(B),', 'EE100(B+),', 'PH110(A+),', 'EE110(B+),']
+['CHN18CS042', 'MA101(C),', 'PH100(B),', 'BE110(A),', 'BE10105(B),', 'BE103(B+),', 'EE100(B+),', 'PH110(A+),', 'EE110(A),']
+['CHN18CS043', 'MA101(B+),', 'PH100(B),', 'BE110(B+),', 'BE10105(B),', 'BE103(B),', 'EE100(B+),', 'PH110(A+),', 'EE110(A),']
+['CHN18CS049', 'MA101(A),', 'PH100(A+),', 'BE110(O),', 'BE10105(B+),', 'BE103(B),', 'EE100(B+),', 'PH110(A),', 'EE110(B+),']
+['CHN18CS053', 'MA101(B),', 'PH100(B),', 'BE110(O),', 'BE10105(C),', 'BE103(B),', 'EE100(B),', 'PH110(A+),', 'EE110(A),']
+['CHN18CS054', 'MA101(A+),', 'PH100(A+),', 'BE110(A+),', 'BE10105(B),', 'BE103(A),', 'EE100(O),', 'PH110(A+),', 'EE110(A+),']
+['CHN18CS056', 'MA101(B),', 'PH100(A),', 'BE110(O),', 'BE10105(C),', 'BE103(B+),', 'EE100(A+),', 'PH110(A+),', 'EE110(B+),']
+['CHN18CS057', 'MA101(B),', 'PH100(B+),', 'BE110(A),', 'BE10105(C),', 'BE103(B+),', 'EE100(B),', 'PH110(O),', 'EE110(B+),']
+['CHN18CS058', 'MA101(A+),', 'PH100(A),', 'BE110(A+),', 'BE10105(C),', 'BE103(B+),', 'EE100(O),', 'PH110(A),', 'EE110(A),']
+['CHN18CS059', 'MA101(A),', 'PH100(A+),', 'BE110(O),', 'BE10105(A),', 'BE103(A),', 'EE100(O),', 'PH110(O),', 'EE110(O),']
+['CHN18CS062', 'MA101(O),', 'PH100(A+),', 'BE110(O),', 'BE10105(B),', 'BE103(B),', 'EE100(O),', 'PH110(A+),', 'EE110(A),']
+['CHN18CS063', 'MA101(A+),', 'PH100(A),', 'BE110(A+),', 'BE10105(B),', 'BE103(B),', 'EE100(A),', 'PH110(A+),', 'EE110(B+),']
+['CHN18CS068', 'MA101(B),', 'PH100(B),', 'BE110(O),', 'BE10105(C),', 'BE103(B),', 'EE100(B),', 'PH110(A),', 'EE110(B+),']
+['CHN18CS069', 'MA101(B),', 'PH100(B+),', 'BE110(A+),', 'BE10105(C),', 'BE103(B),', 'EE100(A+),', 'PH110(A+),', 'EE110(A+),']
+['CHN18CS072', 'MA101(B+),', 'PH100(B+),', 'BE110(A+),', 'BE10105(A+),', 'BE103(B+),', 'EE100(A+),', 'PH110(A+),']
+['CHN18CS073', 'MA101(B+),', 'PH100(A+),', 'BE110(A),', 'BE10105(B+),', 'BE103(A),', 'EE100(O),', 'PH110(A),', 'EE110(A+),']
+['CHN18CS075', 'MA101(B),', 'PH100(B),', 'BE110(O),', 'BE10105(B+),', 'BE103(B),', 'EE100(A),', 'PH110(B+),', 'EE110(B),']
+['CHN18CS077', 'MA101(O),', 'PH100(O),', 'BE110(O),', 'BE10105(B+),', 'BE103(A),', 'EE100(A),', 'PH110(A),', 'EE110(B+),']
+['CHN18CS079', 'MA101(B+),', 'PH100(B),', 'BE110(A),', 'BE10105(B),', 'BE103(B),', 'EE100(B),', 'PH110(A),', 'EE110(B+),']
+['CHN18CS080', 'MA101(O),', 'PH100(O),', 'BE110(O),', 'BE10105(B+),', 'BE103(A+),', 'EE100(A),', 'PH110(O),', 'EE110(A),']
+['CHN18CS082', 'MA101(B),', 'PH100(C),', 'BE110(O),', 'BE10105(A),', 'BE103(B),', 'EE100(C),', 'PH110(A),', 'EE110(B+),']
+['CHN18CS084', 'MA101(B),', 'PH100(B),', 'BE110(A),', 'BE10105(B),', 'BE103(B),', 'EE100(C),', 'PH110(A+),', 'EE110(A),']
+['CHN18CS087', 'MA101(O),', 'PH100(O),', 'BE110(O),', 'BE10105(A+),', 'BE103(A),', 'EE100(O),', 'PH110(A+),', 'EE110(A+),']
+['CHN18CS091', 'MA101(O),', 'PH100(O),', 'BE110(A+),', 'BE10105(C),', 'BE103(O),', 'EE100(A),', 'PH110(A+),', 'EE110(A+),']
+['CHN18CS092', 'MA101(A),', 'PH100(A+),', 'BE110(A+),', 'BE10105(B+),', 'BE103(B+),', 'EE100(A),', 'PH110(O),', 'EE110(A),']
+['CHN18CS093', 'MA101(O),', 'PH100(O),', 'BE110(O),', 'BE10105(A+),', 'BE103(A+),', 'EE100(O),', 'PH110(O),', 'EE110(A),']
+['CHN18CS095', 'MA101(A+),', 'PH100(A),', 'BE110(A+),', 'BE10105(A+),', 'BE103(A+),', 'EE100(O),', 'PH110(A+),', 'EE110(A),']
+['CHN18CS096', 'MA101(B),', 'PH100(B),', 'BE110(B+),', 'BE10105(B),', 'BE103(B+),', 'EE100(B+),', 'PH110(A+),', 'EE110(B+),']
+['CHN18CS097', 'MA101(B),', 'PH100(B),', 'BE110(A+),', 'BE10105(C),', 'BE103(B),', 'EE100(B+),', 'PH110(O),', 'EE110(A),']
+['CHN18CS099', 'MA101(A+),', 'PH100(A+),', 'BE110(A+),', 'BE10105(B+),', 'BE103(A),', 'EE100(O),', 'PH110(A+),']
+['CHN18CS100', 'MA101(B+),', 'PH100(B+),', 'BE110(O),', 'BE10105(A),', 'BE103(A+),', 'EE100(A),', 'PH110(A+),', 'EE110(A),']
+['CHN18CS101', 'MA101(C),', 'PH100(B),', 'BE110(A),', 'BE10105(B),', 'BE103(B+),', 'EE100(B+),', 'PH110(A),', 'EE110(A),']
+['CHN18CS102', 'MA101(B),', 'PH100(A+),', 'BE110(A+),', 'BE10105(C),', 'BE103(A),', 'EE100(O),', 'PH110(A),', 'EE110(A),']
+['CHN18CS103', 'MA101(A+),', 'PH100(A+),', 'BE110(O),', 'BE10105(B+),', 'BE103(B+),', 'EE100(A+),', 'PH110(O),']
+['CHN18CS104', 'MA101(A),', 'PH100(B+),', 'BE110(O),', 'BE10105(O),', 'BE103(A),', 'EE100(O),', 'PH110(A+),', 'EE110(B+),']
+['CHN18CS105', 'MA101(B),', 'PH100(B+),', 'BE110(O),', 'BE10105(B),', 'BE103(B+),', 'EE100(B+),', 'PH110(A+),', 'EE110(A+),']
+['CHN18CS106', 'MA101(C),', 'PH100(C),', 'BE110(B),', 'BE10105(C),', 'BE103(C),', 'EE100(B),', 'PH110(A),', 'EE110(B+),']
+['CHN18CS111', 'MA101(B+),', 'PH100(B+),', 'BE110(B+),', 'BE10105(B+),', 'BE103(B+),', 'EE100(B+),', 'PH110(A+),']
+['CHN18CS112', 'MA101(A),', 'PH100(B+),', 'BE110(B+),', 'BE10105(C),', 'BE103(B),', 'EE100(B),', 'PH110(A),', 'EE110(A+),']
+['CHN18CS113', 'MA101(B+),', 'PH100(A),', 'BE110(O),', 'BE10105(B),', 'BE103(B),', 'EE100(A),', 'PH110(A+),', 'EE110(A),']
+['CHN18CS115', 'MA101(A+),', 'PH100(A),', 'BE110(O),', 'BE10105(C),', 'BE103(B+),', 'EE100(O),', 'PH110(A),', 'EE110(A),']
+['CHN18CS116', 'MA101(B+),', 'PH100(B+),', 'BE110(O),', 'BE10105(C),', 'BE103(B+),', 'EE100(B+),', 'PH110(O),', 'EE110(B+),']
+['CHN18CS118', 'MA101(C),', 'PH100(B),', 'BE110(O),', 'BE10105(B+),', 'BE103(B+),', 'EE100(B),', 'PH110(A),', 'EE110(B+),']
+['CHN18CS120', 'MA101(C),', 'PH100(C),', 'BE110(B),', 'BE10105(C),', 'BE103(C),', 'EE100(C),', 'PH110(A),', 'EE110(A),']
+['CHN18CS121', 'MA101(B),', 'PH100(A),', 'BE110(A),', 'BE10105(B),', 'BE103(B+),', 'EE100(B),', 'PH110(O),', 'EE110(B+),']
+['CHN18CS122', 'MA101(B+),', 'PH100(A),', 'BE110(O),', 'BE10105(B),', 'BE103(B+),', 'EE100(B),', 'PH110(O),', 'EE110(A),']
+['CHN18CS123', 'MA101(O),', 'PH100(B+),', 'BE110(O),', 'BE10105(A+),', 'BE103(C),', 'EE100(B),', 'PH110(O),', 'EE110(A+),']
+52
+{'CHN18CS003': None,
+ 'CHN18CS004': None,
+ 'CHN18CS005': None,
+ 'CHN18CS007': None,
+ 'CHN18CS008': None,
+ 'CHN18CS009': None,
+ 'CHN18CS010': None,
+ 'CHN18CS012': None,
+ 'CHN18CS016': None,
+ 'CHN18CS017': None,
+ 'CHN18CS018': None,
+ 'CHN18CS020': None,
+ 'CHN18CS021': None,
+ 'CHN18CS023': None,
+ 'CHN18CS025': None,
+ 'CHN18CS026': None,
+ 'CHN18CS029': None,
+ 'CHN18CS030': None,
+ 'CHN18CS032': None,
+ 'CHN18CS033': None,
+ 'CHN18CS035': None,
+ 'CHN18CS036': None,
+ 'CHN18CS037': None,
+ 'CHN18CS038': None,
+ 'CHN18CS039': None,
+ 'CHN18CS042': None,
+ 'CHN18CS043': None,
+ 'CHN18CS049': None,
+ 'CHN18CS053': None,
+ 'CHN18CS054': None,
+ 'CHN18CS056': None,
+ 'CHN18CS057': None,
+ 'CHN18CS058': None,
+ 'CHN18CS059': None,
+ 'CHN18CS062': None,
+ 'CHN18CS063': None,
+ 'CHN18CS068': None,
+ 'CHN18CS069': None,
+ 'CHN18CS072': None,
+ 'CHN18CS073': None,
+ 'CHN18CS075': None,
+ 'CHN18CS077': None,
+ 'CHN18CS079': None,
+ 'CHN18CS080': None,
+ 'CHN18CS082': None,
+ 'CHN18CS084': None,
+ 'CHN18CS087': None,
+ 'CHN18CS091': None,
+ 'CHN18CS092': None,
+ 'CHN18CS093': None,
+ 'CHN18CS095': None,
+ 'CHN18CS096': None,
+ 'CHN18CS097': None,
+ 'CHN18CS099': None,
+ 'CHN18CS100': None,
+ 'CHN18CS101': None,
+ 'CHN18CS102': None,
+ 'CHN18CS103': None,
+ 'CHN18CS104': None,
+ 'CHN18CS105': None,
+ 'CHN18CS106': None,
+ 'CHN18CS111': None,
+ 'CHN18CS112': None,
+ 'CHN18CS113': None,
+ 'CHN18CS115': None,
+ 'CHN18CS116': None,
+ 'CHN18CS118': None,
+ 'CHN18CS120': None,
+ 'CHN18CS121': None,
+ 'CHN18CS122': None,
+ 'CHN18CS123': None}
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232/31Jan20[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/31Jan20[00m$ python sample.py [3Pnano sample.pypython sample.py [3Pnano sample.py
+[?1049h[1;42r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[40;28H(B[0;7m[ Reading File ][3d(B[m[40;34H(B[0;7m 18 lines ][21d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3           File: sample.py                             [3;1H(B[0;1m[36mimport[39m(B[m pprint,re[4dfname = input()[5dfailed = 0[6dstuddic={}[8d(B[0;1m[36mdef[34m cgpacal[39m(B[m(grades):[9;9H(B[0;1m[36mprint[39m(B[m(grades)[12d(B[0;1m[36mwith[39m(B[m open(fname,(B[0;1m[32m"r+"[39m(B[m) (B[0;1m[36mas[39m(B[m f:[13;9H(B[0;1m[36mfor[39m(B[m i (B[0;1m[36min[39m(B[m f:[14;17H(B[0;1m[36mif[39m(B[m(re.search((B[0;1m[32m"(F)"[39m(B[m, i)):[15;25Hfailed+=1[16;17H(B[0;1m[36melse[39m(B[m:[17;25Hstuddic[i.split()[0]]=cgpacal(i.split()[:])[42m [19d(B[0;1m[36mprint[39m(B[m(failed)[20dpprint.pprint(studdic)[41d(B[0;7m^G(B[m Get Help   (B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut Text   (B[0;7m^J(B[m Justify[42d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Uncut Text (B[0;7m^T(B[m To Linter[3d[4d[5d[6d[7d[8d[9d[10d[11d[12d[13d[14d[15d[16d[17d[18d[19d[20d[21d[20;23H[1;62H(B[0;7mModified[20;22H(B[m       [40d[K[20;16H              [K[19;14H[A[40d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?           [41;1H Y(B[m Yes[K[42d(B[0;7m N(B[m No  [15G  (B[0;7m^C(B[m Cancel[K[40;62H(B[0;7mFile Name to Write: sample.py                               [41d^G(B[m Get Help   (B[0;7mM-D(B[m DOS Format(B[0;7mM-A(B[m Append    (B[0;7mM-B(B[m Backup File[42d(B[0;7m^C(B[m Cancel     (B[0;7mM-M(B[m Mac Format(B[0;7mM-P(B[m Prepend   (B[0;7m^T(B[m To Files[40;30H[?25l[39;49m(B[m[1K (B[0;7m[ Wrote 17 lines ](B[m[K[18d[40d[J[1;62H(B[0;7m        [42;71H(B[m[42;1H[?12l[?25h[?1049l[?1l>]0;admin1@cc-Sy: ~/ceccs18c29/cs232/31Jan20[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/31Jan20[00m$ nano sample.pypython sample.py 
+\
+Traceback (most recent call last):
+  File "sample.py", line 2, in <module>
+    fname = input()
+  File "<string>", line 1
+    \
+    ^
+SyntaxError: unexpected character after line continuation character
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232/31Jan20[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/31Jan20[00m$ python sample.py 
+'/home/admin1/ceccs18c29/cs232/31Jan20/S1Cres.txt' 
+['CHN18CS003', 'MA101(A+),', 'PH100(A+),', 'BE110(O),', 'BE10105(O),', 'BE103(A),', 'EE100(O),', 'PH110(A+),', 'EE110(A),']
+['CHN18CS004', 'MA101(B+),', 'PH100(A),', 'BE110(O),', 'BE10105(O),', 'BE103(B),', 'EE100(A+),', 'PH110(A+),', 'EE110(A),']
+['CHN18CS005', 'MA101(C),', 'PH100(C),', 'BE110(O),', 'BE10105(B),', 'BE103(B+),', 'EE100(B+),', 'PH110(A+),', 'EE110(A),']
+['CHN18CS007', 'MA101(B+),', 'PH100(B),', 'BE110(O),', 'BE10105(A+),', 'BE103(B),', 'EE100(B+),', 'PH110(A+),', 'EE110(A+),']
+['CHN18CS008', 'MA101(B),', 'PH100(C),', 'BE110(B+),', 'BE10105(A+),', 'BE103(B),', 'EE100(B),', 'PH110(A+),', 'EE110(A),']
+['CHN18CS009', 'MA101(A+),', 'PH100(O),', 'BE110(A+),', 'BE10105(B),', 'BE103(A),', 'EE100(A+),', 'PH110(A),', 'EE110(B+),']
+['CHN18CS010', 'MA101(O),', 'PH100(A+),', 'BE110(O),', 'BE10105(A),', 'BE103(B+),', 'EE100(A+),', 'PH110(A),', 'EE110(A),']
+['CHN18CS012', 'MA101(B),', 'PH100(B+),', 'BE110(A+),', 'BE10105(C),', 'BE103(B+),', 'EE100(B+),', 'PH110(A+),']
+['CHN18CS016', 'MA101(B+),', 'PH100(O),', 'BE110(O),', 'BE10105(B),', 'BE103(B),', 'EE100(A),', 'PH110(A+),', 'EE110(A+),']
+['CHN18CS017', 'MA101(B+),', 'PH100(B+),', 'BE110(A+),', 'BE10105(A+),', 'BE103(B+),', 'EE100(B+),', 'PH110(O),']
+['CHN18CS018', 'MA101(O),', 'PH100(O),', 'BE110(O),', 'BE10105(O),', 'BE103(B+),', 'EE100(A+),', 'PH110(A+),', 'EE110(B+),']
+['CHN18CS020', 'MA101(A),', 'PH100(A+),', 'BE110(O),', 'BE10105(B+),', 'BE103(B+),', 'EE100(O),', 'PH110(O),', 'EE110(A),']
+['CHN18CS021', 'MA101(B),', 'PH100(A+),', 'BE110(O),', 'BE10105(B+),', 'BE103(A),', 'EE100(B+),', 'PH110(A+),', 'EE110(A),']
+['CHN18CS023', 'MA101(C),', 'PH100(B),', 'BE110(A+),', 'BE10105(A+),', 'BE103(B),', 'EE100(C),', 'PH110(A+),', 'EE110(B+),']
+['CHN18CS025', 'MA101(B),', 'PH100(B+),', 'BE110(A+),', 'BE10105(B),', 'BE103(A),', 'EE100(B),', 'PH110(B+),', 'EE110(A),']
+['CHN18CS026', 'MA101(O),', 'PH100(B+),', 'BE110(B+),', 'BE10105(B+),', 'BE103(B),', 'EE100(A+),', 'PH110(O),', 'EE110(B+),']
+['CHN18CS029', 'MA101(A+),', 'PH100(A+),', 'BE110(O),', 'BE10105(B+),', 'BE103(A+),', 'EE100(O),', 'PH110(A+),', 'EE110(A),']
+['CHN18CS030', 'MA101(B+),', 'PH100(B),', 'BE110(O),', 'BE10105(C),', 'BE103(B),', 'EE100(B+),', 'PH110(A),', 'EE110(A),']
+['CHN18CS032', 'MA101(B),', 'PH100(A),', 'BE110(B+),', 'BE10105(B),', 'BE103(B),', 'EE100(B+),', 'PH110(A),', 'EE110(B+),']
+['CHN18CS033', 'MA101(O),', 'PH100(O),', 'BE110(O),', 'BE10105(B+),', 'BE103(B+),', 'EE100(O),', 'PH110(A+),', 'EE110(A),']
+['CHN18CS035', 'MA101(O),', 'PH100(A),', 'BE110(O),', 'BE10105(B+),', 'BE103(B+),', 'EE100(O),', 'PH110(O),', 'EE110(B+),']
+['CHN18CS036', 'MA101(B),', 'PH100(A+),', 'BE110(B+),', 'BE10105(B+),', 'BE103(A),', 'EE100(O),', 'PH110(A+),', 'EE110(A),']
+['CHN18CS037', 'MA101(A+),', 'PH100(B+),', 'BE110(O),', 'BE10105(C),', 'BE103(B),', 'EE100(A),', 'PH110(A+),', 'EE110(A),']
+['CHN18CS038', 'MA101(B+),', 'PH100(A+),', 'BE110(B+),', 'BE10105(B),', 'BE103(A),', 'EE100(A+),', 'PH110(A+),', 'EE110(A),']
+['CHN18CS039', 'MA101(A),', 'PH100(B),', 'BE110(O),', 'BE10105(C),', 'BE103(B),', 'EE100(B+),', 'PH110(A+),', 'EE110(B+),']
+['CHN18CS042', 'MA101(C),', 'PH100(B),', 'BE110(A),', 'BE10105(B),', 'BE103(B+),', 'EE100(B+),', 'PH110(A+),', 'EE110(A),']
+['CHN18CS043', 'MA101(B+),', 'PH100(B),', 'BE110(B+),', 'BE10105(B),', 'BE103(B),', 'EE100(B+),', 'PH110(A+),', 'EE110(A),']
+['CHN18CS049', 'MA101(A),', 'PH100(A+),', 'BE110(O),', 'BE10105(B+),', 'BE103(B),', 'EE100(B+),', 'PH110(A),', 'EE110(B+),']
+['CHN18CS053', 'MA101(B),', 'PH100(B),', 'BE110(O),', 'BE10105(C),', 'BE103(B),', 'EE100(B),', 'PH110(A+),', 'EE110(A),']
+['CHN18CS054', 'MA101(A+),', 'PH100(A+),', 'BE110(A+),', 'BE10105(B),', 'BE103(A),', 'EE100(O),', 'PH110(A+),', 'EE110(A+),']
+['CHN18CS056', 'MA101(B),', 'PH100(A),', 'BE110(O),', 'BE10105(C),', 'BE103(B+),', 'EE100(A+),', 'PH110(A+),', 'EE110(B+),']
+['CHN18CS057', 'MA101(B),', 'PH100(B+),', 'BE110(A),', 'BE10105(C),', 'BE103(B+),', 'EE100(B),', 'PH110(O),', 'EE110(B+),']
+['CHN18CS058', 'MA101(A+),', 'PH100(A),', 'BE110(A+),', 'BE10105(C),', 'BE103(B+),', 'EE100(O),', 'PH110(A),', 'EE110(A),']
+['CHN18CS059', 'MA101(A),', 'PH100(A+),', 'BE110(O),', 'BE10105(A),', 'BE103(A),', 'EE100(O),', 'PH110(O),', 'EE110(O),']
+['CHN18CS062', 'MA101(O),', 'PH100(A+),', 'BE110(O),', 'BE10105(B),', 'BE103(B),', 'EE100(O),', 'PH110(A+),', 'EE110(A),']
+['CHN18CS063', 'MA101(A+),', 'PH100(A),', 'BE110(A+),', 'BE10105(B),', 'BE103(B),', 'EE100(A),', 'PH110(A+),', 'EE110(B+),']
+['CHN18CS068', 'MA101(B),', 'PH100(B),', 'BE110(O),', 'BE10105(C),', 'BE103(B),', 'EE100(B),', 'PH110(A),', 'EE110(B+),']
+['CHN18CS069', 'MA101(B),', 'PH100(B+),', 'BE110(A+),', 'BE10105(C),', 'BE103(B),', 'EE100(A+),', 'PH110(A+),', 'EE110(A+),']
+['CHN18CS072', 'MA101(B+),', 'PH100(B+),', 'BE110(A+),', 'BE10105(A+),', 'BE103(B+),', 'EE100(A+),', 'PH110(A+),']
+['CHN18CS073', 'MA101(B+),', 'PH100(A+),', 'BE110(A),', 'BE10105(B+),', 'BE103(A),', 'EE100(O),', 'PH110(A),', 'EE110(A+),']
+['CHN18CS075', 'MA101(B),', 'PH100(B),', 'BE110(O),', 'BE10105(B+),', 'BE103(B),', 'EE100(A),', 'PH110(B+),', 'EE110(B),']
+['CHN18CS077', 'MA101(O),', 'PH100(O),', 'BE110(O),', 'BE10105(B+),', 'BE103(A),', 'EE100(A),', 'PH110(A),', 'EE110(B+),']
+['CHN18CS079', 'MA101(B+),', 'PH100(B),', 'BE110(A),', 'BE10105(B),', 'BE103(B),', 'EE100(B),', 'PH110(A),', 'EE110(B+),']
+['CHN18CS080', 'MA101(O),', 'PH100(O),', 'BE110(O),', 'BE10105(B+),', 'BE103(A+),', 'EE100(A),', 'PH110(O),', 'EE110(A),']
+['CHN18CS082', 'MA101(B),', 'PH100(C),', 'BE110(O),', 'BE10105(A),', 'BE103(B),', 'EE100(C),', 'PH110(A),', 'EE110(B+),']
+['CHN18CS084', 'MA101(B),', 'PH100(B),', 'BE110(A),', 'BE10105(B),', 'BE103(B),', 'EE100(C),', 'PH110(A+),', 'EE110(A),']
+['CHN18CS087', 'MA101(O),', 'PH100(O),', 'BE110(O),', 'BE10105(A+),', 'BE103(A),', 'EE100(O),', 'PH110(A+),', 'EE110(A+),']
+['CHN18CS091', 'MA101(O),', 'PH100(O),', 'BE110(A+),', 'BE10105(C),', 'BE103(O),', 'EE100(A),', 'PH110(A+),', 'EE110(A+),']
+['CHN18CS092', 'MA101(A),', 'PH100(A+),', 'BE110(A+),', 'BE10105(B+),', 'BE103(B+),', 'EE100(A),', 'PH110(O),', 'EE110(A),']
+['CHN18CS093', 'MA101(O),', 'PH100(O),', 'BE110(O),', 'BE10105(A+),', 'BE103(A+),', 'EE100(O),', 'PH110(O),', 'EE110(A),']
+['CHN18CS095', 'MA101(A+),', 'PH100(A),', 'BE110(A+),', 'BE10105(A+),', 'BE103(A+),', 'EE100(O),', 'PH110(A+),', 'EE110(A),']
+['CHN18CS096', 'MA101(B),', 'PH100(B),', 'BE110(B+),', 'BE10105(B),', 'BE103(B+),', 'EE100(B+),', 'PH110(A+),', 'EE110(B+),']
+['CHN18CS097', 'MA101(B),', 'PH100(B),', 'BE110(A+),', 'BE10105(C),', 'BE103(B),', 'EE100(B+),', 'PH110(O),', 'EE110(A),']
+['CHN18CS099', 'MA101(A+),', 'PH100(A+),', 'BE110(A+),', 'BE10105(B+),', 'BE103(A),', 'EE100(O),', 'PH110(A+),']
+['CHN18CS100', 'MA101(B+),', 'PH100(B+),', 'BE110(O),', 'BE10105(A),', 'BE103(A+),', 'EE100(A),', 'PH110(A+),', 'EE110(A),']
+['CHN18CS101', 'MA101(C),', 'PH100(B),', 'BE110(A),', 'BE10105(B),', 'BE103(B+),', 'EE100(B+),', 'PH110(A),', 'EE110(A),']
+['CHN18CS102', 'MA101(B),', 'PH100(A+),', 'BE110(A+),', 'BE10105(C),', 'BE103(A),', 'EE100(O),', 'PH110(A),', 'EE110(A),']
+['CHN18CS103', 'MA101(A+),', 'PH100(A+),', 'BE110(O),', 'BE10105(B+),', 'BE103(B+),', 'EE100(A+),', 'PH110(O),']
+['CHN18CS104', 'MA101(A),', 'PH100(B+),', 'BE110(O),', 'BE10105(O),', 'BE103(A),', 'EE100(O),', 'PH110(A+),', 'EE110(B+),']
+['CHN18CS105', 'MA101(B),', 'PH100(B+),', 'BE110(O),', 'BE10105(B),', 'BE103(B+),', 'EE100(B+),', 'PH110(A+),', 'EE110(A+),']
+['CHN18CS106', 'MA101(C),', 'PH100(C),', 'BE110(B),', 'BE10105(C),', 'BE103(C),', 'EE100(B),', 'PH110(A),', 'EE110(B+),']
+['CHN18CS111', 'MA101(B+),', 'PH100(B+),', 'BE110(B+),', 'BE10105(B+),', 'BE103(B+),', 'EE100(B+),', 'PH110(A+),']
+['CHN18CS112', 'MA101(A),', 'PH100(B+),', 'BE110(B+),', 'BE10105(C),', 'BE103(B),', 'EE100(B),', 'PH110(A),', 'EE110(A+),']
+['CHN18CS113', 'MA101(B+),', 'PH100(A),', 'BE110(O),', 'BE10105(B),', 'BE103(B),', 'EE100(A),', 'PH110(A+),', 'EE110(A),']
+['CHN18CS115', 'MA101(A+),', 'PH100(A),', 'BE110(O),', 'BE10105(C),', 'BE103(B+),', 'EE100(O),', 'PH110(A),', 'EE110(A),']
+['CHN18CS116', 'MA101(B+),', 'PH100(B+),', 'BE110(O),', 'BE10105(C),', 'BE103(B+),', 'EE100(B+),', 'PH110(O),', 'EE110(B+),']
+['CHN18CS118', 'MA101(C),', 'PH100(B),', 'BE110(O),', 'BE10105(B+),', 'BE103(B+),', 'EE100(B),', 'PH110(A),', 'EE110(B+),']
+['CHN18CS120', 'MA101(C),', 'PH100(C),', 'BE110(B),', 'BE10105(C),', 'BE103(C),', 'EE100(C),', 'PH110(A),', 'EE110(A),']
+['CHN18CS121', 'MA101(B),', 'PH100(A),', 'BE110(A),', 'BE10105(B),', 'BE103(B+),', 'EE100(B),', 'PH110(O),', 'EE110(B+),']
+['CHN18CS122', 'MA101(B+),', 'PH100(A),', 'BE110(O),', 'BE10105(B),', 'BE103(B+),', 'EE100(B),', 'PH110(O),', 'EE110(A),']
+['CHN18CS123', 'MA101(O),', 'PH100(B+),', 'BE110(O),', 'BE10105(A+),', 'BE103(C),', 'EE100(B),', 'PH110(O),', 'EE110(A+),']
+52
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232/31Jan20[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/31Jan20[00m$ python sample.py [3Pnano sample.py
+[?1049h[1;42r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[40;28H(B[0;7m[ Reading File ][3d(B[m[40;34H(B[0;7m 17 lines ][20d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3           File: sample.py                             [3;1H(B[0;1m[36mimport[39m(B[m pprint,re[4dfname = input()[5dfailed = 0[6dstuddic={}[8d(B[0;1m[36mdef[34m cgpacal[39m(B[m(grades):[9;9H(B[0;1m[36mprint[39m(B[m(grades)[12d(B[0;1m[36mwith[39m(B[m open(fname,(B[0;1m[32m"r+"[39m(B[m) (B[0;1m[36mas[39m(B[m f:[13;9H(B[0;1m[36mfor[39m(B[m i (B[0;1m[36min[39m(B[m f:[14;17H(B[0;1m[36mif[39m(B[m(re.search((B[0;1m[32m"(F)"[39m(B[m, i)):[15;25Hfailed+=1[16;17H(B[0;1m[36melse[39m(B[m:[17;25Hstuddic[i.split()[0]]=cgpacal(i.split()[:])[42m [19d(B[0;1m[36mprint[39m(B[m(failed)[41d(B[0;7m^G(B[m Get Help   (B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut Text   (B[0;7m^J(B[m Justify[42d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Uncut Text (B[0;7m^T(B[m To Linter[3d[4d[5d[6d[7d[8d[9d[10d[9;22H[10d[11d[12;22H[13d[14dre[15;17H[16;22H[17;17H[16;22H[15;17H[15;9H[A[A[A[13d[14d[40d[K[15d[16d[17d[18d[41d[J[42;71H[42;1H[?1049l[?1l>]0;admin1@cc-Sy: ~/ceccs18c29/cs232/31Jan20[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/31Jan20[00m$ ynano sample.pypython sample.py 
+'/home/admin1/ceccs18c29/cs232/31Jan20/S1Cres.txt' 
+['CHN18CS003', 'MA101(A+),', 'PH100(A+),', 'BE110(O),', 'BE10105(O),', 'BE103(A),', 'EE100(O),', 'PH110(A+),', 'EE110(A),']
+['CHN18CS004', 'MA101(B+),', 'PH100(A),', 'BE110(O),', 'BE10105(O),', 'BE103(B),', 'EE100(A+),', 'PH110(A+),', 'EE110(A),']
+['CHN18CS005', 'MA101(C),', 'PH100(C),', 'BE110(O),', 'BE10105(B),', 'BE103(B+),', 'EE100(B+),', 'PH110(A+),', 'EE110(A),']
+['CHN18CS007', 'MA101(B+),', 'PH100(B),', 'BE110(O),', 'BE10105(A+),', 'BE103(B),', 'EE100(B+),', 'PH110(A+),', 'EE110(A+),']
+['CHN18CS008', 'MA101(B),', 'PH100(C),', 'BE110(B+),', 'BE10105(A+),', 'BE103(B),', 'EE100(B),', 'PH110(A+),', 'EE110(A),']
+['CHN18CS009', 'MA101(A+),', 'PH100(O),', 'BE110(A+),', 'BE10105(B),', 'BE103(A),', 'EE100(A+),', 'PH110(A),', 'EE110(B+),']
+['CHN18CS010', 'MA101(O),', 'PH100(A+),', 'BE110(O),', 'BE10105(A),', 'BE103(B+),', 'EE100(A+),', 'PH110(A),', 'EE110(A),']
+['CHN18CS012', 'MA101(B),', 'PH100(B+),', 'BE110(A+),', 'BE10105(C),', 'BE103(B+),', 'EE100(B+),', 'PH110(A+),']
+['CHN18CS016', 'MA101(B+),', 'PH100(O),', 'BE110(O),', 'BE10105(B),', 'BE103(B),', 'EE100(A),', 'PH110(A+),', 'EE110(A+),']
+['CHN18CS017', 'MA101(B+),', 'PH100(B+),', 'BE110(A+),', 'BE10105(A+),', 'BE103(B+),', 'EE100(B+),', 'PH110(O),']
+['CHN18CS018', 'MA101(O),', 'PH100(O),', 'BE110(O),', 'BE10105(O),', 'BE103(B+),', 'EE100(A+),', 'PH110(A+),', 'EE110(B+),']
+['CHN18CS020', 'MA101(A),', 'PH100(A+),', 'BE110(O),', 'BE10105(B+),', 'BE103(B+),', 'EE100(O),', 'PH110(O),', 'EE110(A),']
+['CHN18CS021', 'MA101(B),', 'PH100(A+),', 'BE110(O),', 'BE10105(B+),', 'BE103(A),', 'EE100(B+),', 'PH110(A+),', 'EE110(A),']
+['CHN18CS023', 'MA101(C),', 'PH100(B),', 'BE110(A+),', 'BE10105(A+),', 'BE103(B),', 'EE100(C),', 'PH110(A+),', 'EE110(B+),']
+['CHN18CS025', 'MA101(B),', 'PH100(B+),', 'BE110(A+),', 'BE10105(B),', 'BE103(A),', 'EE100(B),', 'PH110(B+),', 'EE110(A),']
+['CHN18CS026', 'MA101(O),', 'PH100(B+),', 'BE110(B+),', 'BE10105(B+),', 'BE103(B),', 'EE100(A+),', 'PH110(O),', 'EE110(B+),']
+['CHN18CS029', 'MA101(A+),', 'PH100(A+),', 'BE110(O),', 'BE10105(B+),', 'BE103(A+),', 'EE100(O),', 'PH110(A+),', 'EE110(A),']
+['CHN18CS030', 'MA101(B+),', 'PH100(B),', 'BE110(O),', 'BE10105(C),', 'BE103(B),', 'EE100(B+),', 'PH110(A),', 'EE110(A),']
+['CHN18CS032', 'MA101(B),', 'PH100(A),', 'BE110(B+),', 'BE10105(B),', 'BE103(B),', 'EE100(B+),', 'PH110(A),', 'EE110(B+),']
+['CHN18CS033', 'MA101(O),', 'PH100(O),', 'BE110(O),', 'BE10105(B+),', 'BE103(B+),', 'EE100(O),', 'PH110(A+),', 'EE110(A),']
+['CHN18CS035', 'MA101(O),', 'PH100(A),', 'BE110(O),', 'BE10105(B+),', 'BE103(B+),', 'EE100(O),', 'PH110(O),', 'EE110(B+),']
+['CHN18CS036', 'MA101(B),', 'PH100(A+),', 'BE110(B+),', 'BE10105(B+),', 'BE103(A),', 'EE100(O),', 'PH110(A+),', 'EE110(A),']
+['CHN18CS037', 'MA101(A+),', 'PH100(B+),', 'BE110(O),', 'BE10105(C),', 'BE103(B),', 'EE100(A),', 'PH110(A+),', 'EE110(A),']
+['CHN18CS038', 'MA101(B+),', 'PH100(A+),', 'BE110(B+),', 'BE10105(B),', 'BE103(A),', 'EE100(A+),', 'PH110(A+),', 'EE110(A),']
+['CHN18CS039', 'MA101(A),', 'PH100(B),', 'BE110(O),', 'BE10105(C),', 'BE103(B),', 'EE100(B+),', 'PH110(A+),', 'EE110(B+),']
+['CHN18CS042', 'MA101(C),', 'PH100(B),', 'BE110(A),', 'BE10105(B),', 'BE103(B+),', 'EE100(B+),', 'PH110(A+),', 'EE110(A),']
+['CHN18CS043', 'MA101(B+),', 'PH100(B),', 'BE110(B+),', 'BE10105(B),', 'BE103(B),', 'EE100(B+),', 'PH110(A+),', 'EE110(A),']
+['CHN18CS049', 'MA101(A),', 'PH100(A+),', 'BE110(O),', 'BE10105(B+),', 'BE103(B),', 'EE100(B+),', 'PH110(A),', 'EE110(B+),']
+['CHN18CS053', 'MA101(B),', 'PH100(B),', 'BE110(O),', 'BE10105(C),', 'BE103(B),', 'EE100(B),', 'PH110(A+),', 'EE110(A),']
+['CHN18CS054', 'MA101(A+),', 'PH100(A+),', 'BE110(A+),', 'BE10105(B),', 'BE103(A),', 'EE100(O),', 'PH110(A+),', 'EE110(A+),']
+['CHN18CS056', 'MA101(B),', 'PH100(A),', 'BE110(O),', 'BE10105(C),', 'BE103(B+),', 'EE100(A+),', 'PH110(A+),', 'EE110(B+),']
+['CHN18CS057', 'MA101(B),', 'PH100(B+),', 'BE110(A),', 'BE10105(C),', 'BE103(B+),', 'EE100(B),', 'PH110(O),', 'EE110(B+),']
+['CHN18CS058', 'MA101(A+),', 'PH100(A),', 'BE110(A+),', 'BE10105(C),', 'BE103(B+),', 'EE100(O),', 'PH110(A),', 'EE110(A),']
+['CHN18CS059', 'MA101(A),', 'PH100(A+),', 'BE110(O),', 'BE10105(A),', 'BE103(A),', 'EE100(O),', 'PH110(O),', 'EE110(O),']
+['CHN18CS062', 'MA101(O),', 'PH100(A+),', 'BE110(O),', 'BE10105(B),', 'BE103(B),', 'EE100(O),', 'PH110(A+),', 'EE110(A),']
+['CHN18CS063', 'MA101(A+),', 'PH100(A),', 'BE110(A+),', 'BE10105(B),', 'BE103(B),', 'EE100(A),', 'PH110(A+),', 'EE110(B+),']
+['CHN18CS068', 'MA101(B),', 'PH100(B),', 'BE110(O),', 'BE10105(C),', 'BE103(B),', 'EE100(B),', 'PH110(A),', 'EE110(B+),']
+['CHN18CS069', 'MA101(B),', 'PH100(B+),', 'BE110(A+),', 'BE10105(C),', 'BE103(B),', 'EE100(A+),', 'PH110(A+),', 'EE110(A+),']
+['CHN18CS072', 'MA101(B+),', 'PH100(B+),', 'BE110(A+),', 'BE10105(A+),', 'BE103(B+),', 'EE100(A+),', 'PH110(A+),']
+['CHN18CS073', 'MA101(B+),', 'PH100(A+),', 'BE110(A),', 'BE10105(B+),', 'BE103(A),', 'EE100(O),', 'PH110(A),', 'EE110(A+),']
+['CHN18CS075', 'MA101(B),', 'PH100(B),', 'BE110(O),', 'BE10105(B+),', 'BE103(B),', 'EE100(A),', 'PH110(B+),', 'EE110(B),']
+['CHN18CS077', 'MA101(O),', 'PH100(O),', 'BE110(O),', 'BE10105(B+),', 'BE103(A),', 'EE100(A),', 'PH110(A),', 'EE110(B+),']
+['CHN18CS079', 'MA101(B+),', 'PH100(B),', 'BE110(A),', 'BE10105(B),', 'BE103(B),', 'EE100(B),', 'PH110(A),', 'EE110(B+),']
+['CHN18CS080', 'MA101(O),', 'PH100(O),', 'BE110(O),', 'BE10105(B+),', 'BE103(A+),', 'EE100(A),', 'PH110(O),', 'EE110(A),']
+['CHN18CS082', 'MA101(B),', 'PH100(C),', 'BE110(O),', 'BE10105(A),', 'BE103(B),', 'EE100(C),', 'PH110(A),', 'EE110(B+),']
+['CHN18CS084', 'MA101(B),', 'PH100(B),', 'BE110(A),', 'BE10105(B),', 'BE103(B),', 'EE100(C),', 'PH110(A+),', 'EE110(A),']
+['CHN18CS087', 'MA101(O),', 'PH100(O),', 'BE110(O),', 'BE10105(A+),', 'BE103(A),', 'EE100(O),', 'PH110(A+),', 'EE110(A+),']
+['CHN18CS091', 'MA101(O),', 'PH100(O),', 'BE110(A+),', 'BE10105(C),', 'BE103(O),', 'EE100(A),', 'PH110(A+),', 'EE110(A+),']
+['CHN18CS092', 'MA101(A),', 'PH100(A+),', 'BE110(A+),', 'BE10105(B+),', 'BE103(B+),', 'EE100(A),', 'PH110(O),', 'EE110(A),']
+['CHN18CS093', 'MA101(O),', 'PH100(O),', 'BE110(O),', 'BE10105(A+),', 'BE103(A+),', 'EE100(O),', 'PH110(O),', 'EE110(A),']
+['CHN18CS095', 'MA101(A+),', 'PH100(A),', 'BE110(A+),', 'BE10105(A+),', 'BE103(A+),', 'EE100(O),', 'PH110(A+),', 'EE110(A),']
+['CHN18CS096', 'MA101(B),', 'PH100(B),', 'BE110(B+),', 'BE10105(B),', 'BE103(B+),', 'EE100(B+),', 'PH110(A+),', 'EE110(B+),']
+['CHN18CS097', 'MA101(B),', 'PH100(B),', 'BE110(A+),', 'BE10105(C),', 'BE103(B),', 'EE100(B+),', 'PH110(O),', 'EE110(A),']
+['CHN18CS099', 'MA101(A+),', 'PH100(A+),', 'BE110(A+),', 'BE10105(B+),', 'BE103(A),', 'EE100(O),', 'PH110(A+),']
+['CHN18CS100', 'MA101(B+),', 'PH100(B+),', 'BE110(O),', 'BE10105(A),', 'BE103(A+),', 'EE100(A),', 'PH110(A+),', 'EE110(A),']
+['CHN18CS101', 'MA101(C),', 'PH100(B),', 'BE110(A),', 'BE10105(B),', 'BE103(B+),', 'EE100(B+),', 'PH110(A),', 'EE110(A),']
+['CHN18CS102', 'MA101(B),', 'PH100(A+),', 'BE110(A+),', 'BE10105(C),', 'BE103(A),', 'EE100(O),', 'PH110(A),', 'EE110(A),']
+['CHN18CS103', 'MA101(A+),', 'PH100(A+),', 'BE110(O),', 'BE10105(B+),', 'BE103(B+),', 'EE100(A+),', 'PH110(O),']
+['CHN18CS104', 'MA101(A),', 'PH100(B+),', 'BE110(O),', 'BE10105(O),', 'BE103(A),', 'EE100(O),', 'PH110(A+),', 'EE110(B+),']
+['CHN18CS105', 'MA101(B),', 'PH100(B+),', 'BE110(O),', 'BE10105(B),', 'BE103(B+),', 'EE100(B+),', 'PH110(A+),', 'EE110(A+),']
+['CHN18CS106', 'MA101(C),', 'PH100(C),', 'BE110(B),', 'BE10105(C),', 'BE103(C),', 'EE100(B),', 'PH110(A),', 'EE110(B+),']
+['CHN18CS111', 'MA101(B+),', 'PH100(B+),', 'BE110(B+),', 'BE10105(B+),', 'BE103(B+),', 'EE100(B+),', 'PH110(A+),']
+['CHN18CS112', 'MA101(A),', 'PH100(B+),', 'BE110(B+),', 'BE10105(C),', 'BE103(B),', 'EE100(B),', 'PH110(A),', 'EE110(A+),']
+['CHN18CS113', 'MA101(B+),', 'PH100(A),', 'BE110(O),', 'BE10105(B),', 'BE103(B),', 'EE100(A),', 'PH110(A+),', 'EE110(A),']
+['CHN18CS115', 'MA101(A+),', 'PH100(A),', 'BE110(O),', 'BE10105(C),', 'BE103(B+),', 'EE100(O),', 'PH110(A),', 'EE110(A),']
+['CHN18CS116', 'MA101(B+),', 'PH100(B+),', 'BE110(O),', 'BE10105(C),', 'BE103(B+),', 'EE100(B+),', 'PH110(O),', 'EE110(B+),']
+['CHN18CS118', 'MA101(C),', 'PH100(B),', 'BE110(O),', 'BE10105(B+),', 'BE103(B+),', 'EE100(B),', 'PH110(A),', 'EE110(B+),']
+['CHN18CS120', 'MA101(C),', 'PH100(C),', 'BE110(B),', 'BE10105(C),', 'BE103(C),', 'EE100(C),', 'PH110(A),', 'EE110(A),']
+['CHN18CS121', 'MA101(B),', 'PH100(A),', 'BE110(A),', 'BE10105(B),', 'BE103(B+),', 'EE100(B),', 'PH110(O),', 'EE110(B+),']
+['CHN18CS122', 'MA101(B+),', 'PH100(A),', 'BE110(O),', 'BE10105(B),', 'BE103(B+),', 'EE100(B),', 'PH110(O),', 'EE110(A),']
+['CHN18CS123', 'MA101(O),', 'PH100(B+),', 'BE110(O),', 'BE10105(A+),', 'BE103(C),', 'EE100(B),', 'PH110(O),', 'EE110(A+),']
+52
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232/31Jan20[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/31Jan20[00m$ python sample.py [3Pnano sample.pypython sample.py 
+^CTraceback (most recent call last):
+  File "sample.py", line 2, in <module>
+    fname = input()
+KeyboardInterrupt
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232/31Jan20[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/31Jan20[00m$ python sample.py [3Pnano sample.pypython sample.py [3Pnano sample.py
+[?1049h[1;42r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[40;28H(B[0;7m[ Reading File ][3d(B[m[40;34H(B[0;7m 17 lines ][20d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3           File: sample.py                             [3;1H(B[0;1m[36mimport[39m(B[m pprint,re[4dfname = input()[5dfailed = 0[6dstuddic={}[8d(B[0;1m[36mdef[34m cgpacal[39m(B[m(grades):[9;9H(B[0;1m[36mprint[39m(B[m(grades)[12d(B[0;1m[36mwith[39m(B[m open(fname,(B[0;1m[32m"r+"[39m(B[m) (B[0;1m[36mas[39m(B[m f:[13;9H(B[0;1m[36mfor[39m(B[m i (B[0;1m[36min[39m(B[m f:[14;17H(B[0;1m[36mif[39m(B[m(re.search((B[0;1m[32m"(F)"[39m(B[m, i)):[15;25Hfailed+=1[16;17H(B[0;1m[36melse[39m(B[m:[17;25Hstuddic[i.split()[0]]=cgpacal(i.split()[:])[42m [19d(B[0;1m[36mprint[39m(B[m(failed)[41d(B[0;7m^G(B[m Get Help   (B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut Text   (B[0;7m^J(B[m Justify[42d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Uncut Text (B[0;7m^T(B[m To Linter[3d[4d[5d[6d[7d[6;11H[7d[6;11H[7d[8;11H[9d[10d[11d[12;11H[13d[14d[15d[16d[17d[16;22H[17;17H[18d[19;14H[40d[K[19;12H[A[17;69H[[1;62H(B[0;7mModified[17;65H(B[m1:])[42m [49m(B[m[40d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?           [41;1H Y(B[m Yes[K[42d(B[0;7m N(B[m No  [15G  (B[0;7m^C(B[m Cancel[K[40;62H(B[0;7mFile Name to Write: sample.py                               [41d^G(B[m Get Help   (B[0;7mM-D(B[m DOS Format(B[0;7mM-A(B[m Append    (B[0;7mM-B(B[m Backup File[42d(B[0;7m^C(B[m Cancel     (B[0;7mM-M(B[m Mac Format(B[0;7mM-P(B[m Prepend   (B[0;7m^T(B[m To Files[40;30H[?25l[39;49m(B[m[1K (B[0;7m[ Wrote 17 lines ](B[m[K[17;66H[40d[J[1;62H(B[0;7m        [42;71H(B[m[42;1H[?12l[?25h[?1049l[?1l>]0;admin1@cc-Sy: ~/ceccs18c29/cs232/31Jan20[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/31Jan20[00m$ nano sample.pypython sample.py 
+'/home/admin1/ceccs18c29/cs232/31Jan20/S1Cres.txt' 
+['MA101(A+),', 'PH100(A+),', 'BE110(O),', 'BE10105(O),', 'BE103(A),', 'EE100(O),', 'PH110(A+),', 'EE110(A),']
+['MA101(B+),', 'PH100(A),', 'BE110(O),', 'BE10105(O),', 'BE103(B),', 'EE100(A+),', 'PH110(A+),', 'EE110(A),']
+['MA101(C),', 'PH100(C),', 'BE110(O),', 'BE10105(B),', 'BE103(B+),', 'EE100(B+),', 'PH110(A+),', 'EE110(A),']
+['MA101(B+),', 'PH100(B),', 'BE110(O),', 'BE10105(A+),', 'BE103(B),', 'EE100(B+),', 'PH110(A+),', 'EE110(A+),']
+['MA101(B),', 'PH100(C),', 'BE110(B+),', 'BE10105(A+),', 'BE103(B),', 'EE100(B),', 'PH110(A+),', 'EE110(A),']
+['MA101(A+),', 'PH100(O),', 'BE110(A+),', 'BE10105(B),', 'BE103(A),', 'EE100(A+),', 'PH110(A),', 'EE110(B+),']
+['MA101(O),', 'PH100(A+),', 'BE110(O),', 'BE10105(A),', 'BE103(B+),', 'EE100(A+),', 'PH110(A),', 'EE110(A),']
+['MA101(B),', 'PH100(B+),', 'BE110(A+),', 'BE10105(C),', 'BE103(B+),', 'EE100(B+),', 'PH110(A+),']
+['MA101(B+),', 'PH100(O),', 'BE110(O),', 'BE10105(B),', 'BE103(B),', 'EE100(A),', 'PH110(A+),', 'EE110(A+),']
+['MA101(B+),', 'PH100(B+),', 'BE110(A+),', 'BE10105(A+),', 'BE103(B+),', 'EE100(B+),', 'PH110(O),']
+['MA101(O),', 'PH100(O),', 'BE110(O),', 'BE10105(O),', 'BE103(B+),', 'EE100(A+),', 'PH110(A+),', 'EE110(B+),']
+['MA101(A),', 'PH100(A+),', 'BE110(O),', 'BE10105(B+),', 'BE103(B+),', 'EE100(O),', 'PH110(O),', 'EE110(A),']
+['MA101(B),', 'PH100(A+),', 'BE110(O),', 'BE10105(B+),', 'BE103(A),', 'EE100(B+),', 'PH110(A+),', 'EE110(A),']
+['MA101(C),', 'PH100(B),', 'BE110(A+),', 'BE10105(A+),', 'BE103(B),', 'EE100(C),', 'PH110(A+),', 'EE110(B+),']
+['MA101(B),', 'PH100(B+),', 'BE110(A+),', 'BE10105(B),', 'BE103(A),', 'EE100(B),', 'PH110(B+),', 'EE110(A),']
+['MA101(O),', 'PH100(B+),', 'BE110(B+),', 'BE10105(B+),', 'BE103(B),', 'EE100(A+),', 'PH110(O),', 'EE110(B+),']
+['MA101(A+),', 'PH100(A+),', 'BE110(O),', 'BE10105(B+),', 'BE103(A+),', 'EE100(O),', 'PH110(A+),', 'EE110(A),']
+['MA101(B+),', 'PH100(B),', 'BE110(O),', 'BE10105(C),', 'BE103(B),', 'EE100(B+),', 'PH110(A),', 'EE110(A),']
+['MA101(B),', 'PH100(A),', 'BE110(B+),', 'BE10105(B),', 'BE103(B),', 'EE100(B+),', 'PH110(A),', 'EE110(B+),']
+['MA101(O),', 'PH100(O),', 'BE110(O),', 'BE10105(B+),', 'BE103(B+),', 'EE100(O),', 'PH110(A+),', 'EE110(A),']
+['MA101(O),', 'PH100(A),', 'BE110(O),', 'BE10105(B+),', 'BE103(B+),', 'EE100(O),', 'PH110(O),', 'EE110(B+),']
+['MA101(B),', 'PH100(A+),', 'BE110(B+),', 'BE10105(B+),', 'BE103(A),', 'EE100(O),', 'PH110(A+),', 'EE110(A),']
+['MA101(A+),', 'PH100(B+),', 'BE110(O),', 'BE10105(C),', 'BE103(B),', 'EE100(A),', 'PH110(A+),', 'EE110(A),']
+['MA101(B+),', 'PH100(A+),', 'BE110(B+),', 'BE10105(B),', 'BE103(A),', 'EE100(A+),', 'PH110(A+),', 'EE110(A),']
+['MA101(A),', 'PH100(B),', 'BE110(O),', 'BE10105(C),', 'BE103(B),', 'EE100(B+),', 'PH110(A+),', 'EE110(B+),']
+['MA101(C),', 'PH100(B),', 'BE110(A),', 'BE10105(B),', 'BE103(B+),', 'EE100(B+),', 'PH110(A+),', 'EE110(A),']
+['MA101(B+),', 'PH100(B),', 'BE110(B+),', 'BE10105(B),', 'BE103(B),', 'EE100(B+),', 'PH110(A+),', 'EE110(A),']
+['MA101(A),', 'PH100(A+),', 'BE110(O),', 'BE10105(B+),', 'BE103(B),', 'EE100(B+),', 'PH110(A),', 'EE110(B+),']
+['MA101(B),', 'PH100(B),', 'BE110(O),', 'BE10105(C),', 'BE103(B),', 'EE100(B),', 'PH110(A+),', 'EE110(A),']
+['MA101(A+),', 'PH100(A+),', 'BE110(A+),', 'BE10105(B),', 'BE103(A),', 'EE100(O),', 'PH110(A+),', 'EE110(A+),']
+['MA101(B),', 'PH100(A),', 'BE110(O),', 'BE10105(C),', 'BE103(B+),', 'EE100(A+),', 'PH110(A+),', 'EE110(B+),']
+['MA101(B),', 'PH100(B+),', 'BE110(A),', 'BE10105(C),', 'BE103(B+),', 'EE100(B),', 'PH110(O),', 'EE110(B+),']
+['MA101(A+),', 'PH100(A),', 'BE110(A+),', 'BE10105(C),', 'BE103(B+),', 'EE100(O),', 'PH110(A),', 'EE110(A),']
+['MA101(A),', 'PH100(A+),', 'BE110(O),', 'BE10105(A),', 'BE103(A),', 'EE100(O),', 'PH110(O),', 'EE110(O),']
+['MA101(O),', 'PH100(A+),', 'BE110(O),', 'BE10105(B),', 'BE103(B),', 'EE100(O),', 'PH110(A+),', 'EE110(A),']
+['MA101(A+),', 'PH100(A),', 'BE110(A+),', 'BE10105(B),', 'BE103(B),', 'EE100(A),', 'PH110(A+),', 'EE110(B+),']
+['MA101(B),', 'PH100(B),', 'BE110(O),', 'BE10105(C),', 'BE103(B),', 'EE100(B),', 'PH110(A),', 'EE110(B+),']
+['MA101(B),', 'PH100(B+),', 'BE110(A+),', 'BE10105(C),', 'BE103(B),', 'EE100(A+),', 'PH110(A+),', 'EE110(A+),']
+['MA101(B+),', 'PH100(B+),', 'BE110(A+),', 'BE10105(A+),', 'BE103(B+),', 'EE100(A+),', 'PH110(A+),']
+['MA101(B+),', 'PH100(A+),', 'BE110(A),', 'BE10105(B+),', 'BE103(A),', 'EE100(O),', 'PH110(A),', 'EE110(A+),']
+['MA101(B),', 'PH100(B),', 'BE110(O),', 'BE10105(B+),', 'BE103(B),', 'EE100(A),', 'PH110(B+),', 'EE110(B),']
+['MA101(O),', 'PH100(O),', 'BE110(O),', 'BE10105(B+),', 'BE103(A),', 'EE100(A),', 'PH110(A),', 'EE110(B+),']
+['MA101(B+),', 'PH100(B),', 'BE110(A),', 'BE10105(B),', 'BE103(B),', 'EE100(B),', 'PH110(A),', 'EE110(B+),']
+['MA101(O),', 'PH100(O),', 'BE110(O),', 'BE10105(B+),', 'BE103(A+),', 'EE100(A),', 'PH110(O),', 'EE110(A),']
+['MA101(B),', 'PH100(C),', 'BE110(O),', 'BE10105(A),', 'BE103(B),', 'EE100(C),', 'PH110(A),', 'EE110(B+),']
+['MA101(B),', 'PH100(B),', 'BE110(A),', 'BE10105(B),', 'BE103(B),', 'EE100(C),', 'PH110(A+),', 'EE110(A),']
+['MA101(O),', 'PH100(O),', 'BE110(O),', 'BE10105(A+),', 'BE103(A),', 'EE100(O),', 'PH110(A+),', 'EE110(A+),']
+['MA101(O),', 'PH100(O),', 'BE110(A+),', 'BE10105(C),', 'BE103(O),', 'EE100(A),', 'PH110(A+),', 'EE110(A+),']
+['MA101(A),', 'PH100(A+),', 'BE110(A+),', 'BE10105(B+),', 'BE103(B+),', 'EE100(A),', 'PH110(O),', 'EE110(A),']
+['MA101(O),', 'PH100(O),', 'BE110(O),', 'BE10105(A+),', 'BE103(A+),', 'EE100(O),', 'PH110(O),', 'EE110(A),']
+['MA101(A+),', 'PH100(A),', 'BE110(A+),', 'BE10105(A+),', 'BE103(A+),', 'EE100(O),', 'PH110(A+),', 'EE110(A),']
+['MA101(B),', 'PH100(B),', 'BE110(B+),', 'BE10105(B),', 'BE103(B+),', 'EE100(B+),', 'PH110(A+),', 'EE110(B+),']
+['MA101(B),', 'PH100(B),', 'BE110(A+),', 'BE10105(C),', 'BE103(B),', 'EE100(B+),', 'PH110(O),', 'EE110(A),']
+['MA101(A+),', 'PH100(A+),', 'BE110(A+),', 'BE10105(B+),', 'BE103(A),', 'EE100(O),', 'PH110(A+),']
+['MA101(B+),', 'PH100(B+),', 'BE110(O),', 'BE10105(A),', 'BE103(A+),', 'EE100(A),', 'PH110(A+),', 'EE110(A),']
+['MA101(C),', 'PH100(B),', 'BE110(A),', 'BE10105(B),', 'BE103(B+),', 'EE100(B+),', 'PH110(A),', 'EE110(A),']
+['MA101(B),', 'PH100(A+),', 'BE110(A+),', 'BE10105(C),', 'BE103(A),', 'EE100(O),', 'PH110(A),', 'EE110(A),']
+['MA101(A+),', 'PH100(A+),', 'BE110(O),', 'BE10105(B+),', 'BE103(B+),', 'EE100(A+),', 'PH110(O),']
+['MA101(A),', 'PH100(B+),', 'BE110(O),', 'BE10105(O),', 'BE103(A),', 'EE100(O),', 'PH110(A+),', 'EE110(B+),']
+['MA101(B),', 'PH100(B+),', 'BE110(O),', 'BE10105(B),', 'BE103(B+),', 'EE100(B+),', 'PH110(A+),', 'EE110(A+),']
+['MA101(C),', 'PH100(C),', 'BE110(B),', 'BE10105(C),', 'BE103(C),', 'EE100(B),', 'PH110(A),', 'EE110(B+),']
+['MA101(B+),', 'PH100(B+),', 'BE110(B+),', 'BE10105(B+),', 'BE103(B+),', 'EE100(B+),', 'PH110(A+),']
+['MA101(A),', 'PH100(B+),', 'BE110(B+),', 'BE10105(C),', 'BE103(B),', 'EE100(B),', 'PH110(A),', 'EE110(A+),']
+['MA101(B+),', 'PH100(A),', 'BE110(O),', 'BE10105(B),', 'BE103(B),', 'EE100(A),', 'PH110(A+),', 'EE110(A),']
+['MA101(A+),', 'PH100(A),', 'BE110(O),', 'BE10105(C),', 'BE103(B+),', 'EE100(O),', 'PH110(A),', 'EE110(A),']
+['MA101(B+),', 'PH100(B+),', 'BE110(O),', 'BE10105(C),', 'BE103(B+),', 'EE100(B+),', 'PH110(O),', 'EE110(B+),']
+['MA101(C),', 'PH100(B),', 'BE110(O),', 'BE10105(B+),', 'BE103(B+),', 'EE100(B),', 'PH110(A),', 'EE110(B+),']
+['MA101(C),', 'PH100(C),', 'BE110(B),', 'BE10105(C),', 'BE103(C),', 'EE100(C),', 'PH110(A),', 'EE110(A),']
+['MA101(B),', 'PH100(A),', 'BE110(A),', 'BE10105(B),', 'BE103(B+),', 'EE100(B),', 'PH110(O),', 'EE110(B+),']
+['MA101(B+),', 'PH100(A),', 'BE110(O),', 'BE10105(B),', 'BE103(B+),', 'EE100(B),', 'PH110(O),', 'EE110(A),']
+['MA101(O),', 'PH100(B+),', 'BE110(O),', 'BE10105(A+),', 'BE103(C),', 'EE100(B),', 'PH110(O),', 'EE110(A+),']
+52
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232/31Jan20[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/31Jan20[00m$ clear
+[3;J[H[2J]0;admin1@cc-Sy: ~/ceccs18c29/cs232/31Jan20[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/31Jan20[00m$ clearpython sample.py 
+^CTraceback (most recent call last):
+  File "sample.py", line 2, in <module>
+    fname = input()
+KeyboardInterrupt
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232/31Jan20[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/31Jan20[00m$ python sample.py clear[Kpython sample.py [3Pnano sample.py
+[?1049h[1;42r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[40;28H(B[0;7m[ Reading File ][3d(B[m[40;34H(B[0;7m 17 lines ][20d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3           File: sample.py                             [3;1H(B[0;1m[36mimport[39m(B[m pprint,re[4dfname = input()[5dfailed = 0[6dstuddic={}[8d(B[0;1m[36mdef[34m cgpacal[39m(B[m(grades):[9;9H(B[0;1m[36mprint[39m(B[m(grades)[12d(B[0;1m[36mwith[39m(B[m open(fname,(B[0;1m[32m"r+"[39m(B[m) (B[0;1m[36mas[39m(B[m f:[13;9H(B[0;1m[36mfor[39m(B[m i (B[0;1m[36min[39m(B[m f:[14;17H(B[0;1m[36mif[39m(B[m(re.search((B[0;1m[32m"(F)"[39m(B[m, i)):[15;25Hfailed+=1[16;17H(B[0;1m[36melse[39m(B[m:[17;25Hstuddic[i.split()[0]]=cgpacal(i.split()[1:])[42m [19d(B[0;1m[36mprint[39m(B[m(failed)[41d(B[0;7m^G(B[m Get Help   (B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut Text   (B[0;7m^J(B[m Justify[42d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Uncut Text (B[0;7m^T(B[m To Linter[3d[4d[5d[6d[7d[8d[9d[10d[11d[12d[13d[12;28H[13;20H[14;28H[15d[16;22H[17;28H[18d[19;14H[A[17;70H[16;22H[A[16;21H[40d[K[17;17H[18d[17;17H[16;21H[A[14;21H[A[A[C[A[A[11d[A[9;22Hgrades[1;62H(B[0;7mModified[9;21H(B[m.)c)o)u)n)t)es.count)              [9Gprin[K   [42m[1K [49m(B[m [1K fo(B[0;1m[36mfor[39m(B[m[42m [49m(B[m i[42m [49m(B[m i(B[0;1m[36min[39m(B[m[42m [49m(B[m grades:7[10;40r8[10dM[1;42r[10;1H[8G[42m[1K [49m(B[m[16G[42m[1K [49m(B[m[1K i.count("(0)(B[0;1m[32m"(0)"[39m(B[m)[10;9H[10;9H[10;17Hi[10;9H[10;17Hpi.count((B[0;1m[32m"(0)"[39m(B[m)[10;18Hri.count((B[0;1m[32m"(0)"[39m(B[m)[10;19Hii.count((B[0;1m[32m"(0)"[39m(B[m)[10;20Hni.count((B[0;1m[32m"(0)"[39m(B[m)[10;21Hti.count((B[0;1m[32m"(0)"[39m(B[m)[10;22H[17G(B[0;1m[36mprint[39m(B[m(i.count((B[0;1m[32m"(0)"[39m(B[m)[10;23Hi.count([C[C[C[C[C))[40d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?           [41;1H Y(B[m Yes[K[42d(B[0;7m N(B[m No  [15G  (B[0;7m^C(B[m Cancel[K[40;62H(B[0;7mFile Name to Write: sample.py                               [41d^G(B[m Get Help   (B[0;7mM-D(B[m DOS Format(B[0;7mM-A(B[m Append    (B[0;7mM-B(B[m Backup File[42d(B[0;7m^C(B[m Cancel     (B[0;7mM-M(B[m Mac Format(B[0;7mM-P(B[m Prepend   (B[0;7m^T(B[m To Files[40;30H[?25l[39;49m(B[m[1K (B[0;7m[ Wrote 18 lines ](B[m[K[10;38H[40d[J[1;62H(B[0;7m        [42;71H(B[m[42;1H[?12l[?25h[?1049l[?1l>]0;admin1@cc-Sy: ~/ceccs18c29/cs232/31Jan20[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/31Jan20[00m$ nano sample.pypython sample.py 
+'/home/admin1/ceccs18c29/cs232/31Jan20/S1Cres.txt' 
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+52
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232/31Jan20[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/31Jan20[00m$ python sample.py [3Pnano sample.py
+[?1049h[1;42r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[40;28H(B[0;7m[ Reading File ][3d(B[m[40;34H(B[0;7m 18 lines ][21d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3           File: sample.py                             [3;1H(B[0;1m[36mimport[39m(B[m pprint,re[4dfname = input()[5dfailed = 0[6dstuddic={}[8d(B[0;1m[36mdef[34m cgpacal[39m(B[m(grades):[9;9H(B[0;1m[36mfor[39m(B[m i (B[0;1m[36min[39m(B[m grades:[10;17H(B[0;1m[36mprint[39m(B[m(i.count((B[0;1m[32m"(0)"[39m(B[m))[13d(B[0;1m[36mwith[39m(B[m open(fname,(B[0;1m[32m"r+"[39m(B[m) (B[0;1m[36mas[39m(B[m f:[14;9H(B[0;1m[36mfor[39m(B[m i (B[0;1m[36min[39m(B[m f:[15;17H(B[0;1m[36mif[39m(B[m(re.search((B[0;1m[32m"(F)"[39m(B[m, i)):[16;25Hfailed+=1[17;17H(B[0;1m[36melse[39m(B[m:[18;25Hstuddic[i.split()[0]]=cgpacal(i.split()[1:])[42m [20d(B[0;1m[36mprint[39m(B[m(failed)[41d(B[0;7m^G(B[m Get Help   (B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut Text   (B[0;7m^J(B[m Justify[42d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Uncut Text (B[0;7m^T(B[m To Linter[3d[4d[5d[6d[7d[8d[9d[10d[11d[12d[13d[14d[15d[16d[17d[A[A[A[A[A[A[A[9;25H[10dco[40d[K[10;28Hnt([C[C[C[C[C[1;62H(B[0;7mModified[10;33H(B[0;1m[32m)"[39m(B[m))[K(B[0;1m[32mo)"[39m(B[m))(B[0;1m[32m)"[39m(B[m))[K(B[0;1m[32mO)"[39m(B[m))[40d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?           [41;1H Y(B[m Yes[K[42d(B[0;7m N(B[m No  [15G  (B[0;7m^C(B[m Cancel[K[40;62H(B[0;7mFile Name to Write: sample.py                               [41d^G(B[m Get Help   (B[0;7mM-D(B[m DOS Format(B[0;7mM-A(B[m Append    (B[0;7mM-B(B[m Backup File[42d(B[0;7m^C(B[m Cancel     (B[0;7mM-M(B[m Mac Format(B[0;7mM-P(B[m Prepend   (B[0;7m^T(B[m To Files[40;30H[?25l[39;49m(B[m[1K (B[0;7m[ Wrote 18 lines ](B[m[K[10;34H[40d[J[1;62H(B[0;7m        [42;71H(B[m[42;1H[?12l[?25h[?1049l[?1l>]0;admin1@cc-Sy: ~/ceccs18c29/cs232/31Jan20[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/31Jan20[00m$ nano sample.pypython sample.py 
+'/home/admin1/ceccs18c29/cs232/31Jan20/S1Cres.txt' 
+0
+0
+1
+1
+0
+1
+0
+0
+0
+0
+1
+1
+0
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+0
+0
+1
+0
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+1
+1
+1
+1
+0
+0
+0
+0
+0
+0
+1
+0
+0
+1
+1
+0
+0
+0
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+0
+1
+0
+0
+0
+1
+0
+0
+1
+0
+0
+0
+0
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+1
+1
+0
+0
+1
+0
+0
+1
+0
+1
+0
+0
+1
+1
+0
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+1
+0
+0
+1
+1
+1
+1
+0
+1
+0
+0
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+1
+0
+0
+0
+0
+0
+1
+1
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+1
+1
+0
+0
+0
+1
+0
+0
+0
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+1
+1
+0
+0
+1
+0
+0
+1
+1
+0
+0
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+0
+1
+1
+1
+0
+0
+1
+1
+0
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+0
+0
+1
+0
+0
+0
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+1
+0
+0
+0
+1
+0
+0
+1
+1
+0
+1
+0
+0
+0
+0
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+1
+0
+0
+0
+0
+1
+0
+0
+0
+1
+0
+0
+0
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+0
+1
+0
+0
+0
+1
+0
+1
+0
+1
+0
+0
+0
+1
+0
+52
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232/31Jan20[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/31Jan20[00m$ python sample.py [3Pnano sample.py
+[?1049h[1;42r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[40;28H(B[0;7m[ Reading File ][3d(B[m[40;34H(B[0;7m 18 lines ][21d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3           File: sample.py                             [3;1H(B[0;1m[36mimport[39m(B[m pprint,re[4dfname = input()[5dfailed = 0[6dstuddic={}[8d(B[0;1m[36mdef[34m cgpacal[39m(B[m(grades):[9;9H(B[0;1m[36mfor[39m(B[m i (B[0;1m[36min[39m(B[m grades:[10;17H(B[0;1m[36mprint[39m(B[m(i.count((B[0;1m[32m"(O)"[39m(B[m))[13d(B[0;1m[36mwith[39m(B[m open(fname,(B[0;1m[32m"r+"[39m(B[m) (B[0;1m[36mas[39m(B[m f:[14;9H(B[0;1m[36mfor[39m(B[m i (B[0;1m[36min[39m(B[m f:[15;17H(B[0;1m[36mif[39m(B[m(re.search((B[0;1m[32m"(F)"[39m(B[m, i)):[16;25Hfailed+=1[17;17H(B[0;1m[36melse[39m(B[m:[18;25Hstuddic[i.split()[0]]=cgpacal(i.split()[1:])[42m [20d(B[0;1m[36mprint[39m(B[m(failed)[41d(B[0;7m^G(B[m Get Help   (B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut Text   (B[0;7m^J(B[m Justify[42d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Uncut Text (B[0;7m^T(B[m To Linter[3d[4d[5d[6d[7d[8d[9d[10d[10;9H[10;17H[C[C[C[C[C(i[A[A7[9;39r8[9dM[1;42r[1;62H(B[0;7mModified[9d(B[m[8G[42m[1K [49m(B[m[1K o=- 0[40d[K[10;12H[11;9H[11;17H[C[C[C[C[C(i.countii.count([C[1P[1P[1P[1P[1P[1P[1P[1P[1P[17Gprin[1P[1P[1P[1P[1Pi(B[0;1m[32m"(O)"[39m(B[m))[18G(B[0;1m[36mif[32m"(O)"[39m(B[m))[19G((B[0;1m[32m"(O)"[39m(B[m))[20G[C[C[C[C[C)  )i)(B[0;1m[36min[39m(B[m) )i)i):7[12;40r8[12dM[1;42r[12;1H[8G[42m[1K [49m(B[m[16G[42m[1K [49m(B[m[24G[42m[1K [49m(B[m[1K o++[13d[14d[15;28H[16;20H[17;28H[18d[19;22H[20;28H[21d7[21;40r8M[1;42r[22;1Hprin(B[0;1m[36mprint[39m(B[m(studdic)pprint(studdic)pppprint(studdic)pprprint(studdic)ppriprint(studdic)[5Gnprint(studdic)[6Gtprint(studdic)[7G.(B[0;1m[36mprint[39m(B[m(studdic)[8Gpprint(studdic)[22;9H[A[20;70H[19;22H[18;34H[19;22H[20;70H[19;22H[18;34H[17;41H[16;20H[15;28H[A[A[12;28H =1[40d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?           [41;1H Y(B[m Yes[K[42d(B[0;7m N(B[m No  [15G  (B[0;7m^C(B[m Cancel[K[40;62H(B[0;7mFile Name to Write: sample.py                               [41d^G(B[m Get Help   (B[0;7mM-D(B[m DOS Format(B[0;7mM-A(B[m Append    (B[0;7mM-B(B[m Backup File[42d(B[0;7m^C(B[m Cancel     (B[0;7mM-M(B[m Mac Format(B[0;7mM-P(B[m Prepend   (B[0;7m^T(B[m To Files[40;30H[?25l[39;49m(B[m[1K (B[0;7m[ Wrote 21 lines ](B[m[K[12;29H[40d[J[1;62H(B[0;7m        [42;71H(B[m[42;1H[?12l[?25h[?1049l[?1l>]0;admin1@cc-Sy: ~/ceccs18c29/cs232/31Jan20[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/31Jan20[00m$ nano sample.pypython sample.py 
+'/home/admin1/ceccs18c29/cs232/31Jan20/S1Cres.txt' 
+{'CHN18CS003': None,
+ 'CHN18CS004': None,
+ 'CHN18CS005': None,
+ 'CHN18CS007': None,
+ 'CHN18CS008': None,
+ 'CHN18CS009': None,
+ 'CHN18CS010': None,
+ 'CHN18CS012': None,
+ 'CHN18CS016': None,
+ 'CHN18CS017': None,
+ 'CHN18CS018': None,
+ 'CHN18CS020': None,
+ 'CHN18CS021': None,
+ 'CHN18CS023': None,
+ 'CHN18CS025': None,
+ 'CHN18CS026': None,
+ 'CHN18CS029': None,
+ 'CHN18CS030': None,
+ 'CHN18CS032': None,
+ 'CHN18CS033': None,
+ 'CHN18CS035': None,
+ 'CHN18CS036': None,
+ 'CHN18CS037': None,
+ 'CHN18CS038': None,
+ 'CHN18CS039': None,
+ 'CHN18CS042': None,
+ 'CHN18CS043': None,
+ 'CHN18CS049': None,
+ 'CHN18CS053': None,
+ 'CHN18CS054': None,
+ 'CHN18CS056': None,
+ 'CHN18CS057': None,
+ 'CHN18CS058': None,
+ 'CHN18CS059': None,
+ 'CHN18CS062': None,
+ 'CHN18CS063': None,
+ 'CHN18CS068': None,
+ 'CHN18CS069': None,
+ 'CHN18CS072': None,
+ 'CHN18CS073': None,
+ 'CHN18CS075': None,
+ 'CHN18CS077': None,
+ 'CHN18CS079': None,
+ 'CHN18CS080': None,
+ 'CHN18CS082': None,
+ 'CHN18CS084': None,
+ 'CHN18CS087': None,
+ 'CHN18CS091': None,
+ 'CHN18CS092': None,
+ 'CHN18CS093': None,
+ 'CHN18CS095': None,
+ 'CHN18CS096': None,
+ 'CHN18CS097': None,
+ 'CHN18CS099': None,
+ 'CHN18CS100': None,
+ 'CHN18CS101': None,
+ 'CHN18CS102': None,
+ 'CHN18CS103': None,
+ 'CHN18CS104': None,
+ 'CHN18CS105': None,
+ 'CHN18CS106': None,
+ 'CHN18CS111': None,
+ 'CHN18CS112': None,
+ 'CHN18CS113': None,
+ 'CHN18CS115': None,
+ 'CHN18CS116': None,
+ 'CHN18CS118': None,
+ 'CHN18CS120': None,
+ 'CHN18CS121': None,
+ 'CHN18CS122': None,
+ 'CHN18CS123': None}
+52
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232/31Jan20[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/31Jan20[00m$ python sample.py 
+^[[A^CTraceback (most recent call last):
+  File "sample.py", line 2, in <module>
+    fname = input()
+KeyboardInterrupt
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232/31Jan20[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/31Jan20[00m$ python sample.py [3Pnano sample.py
+[?1049h[1;42r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[40;28H(B[0;7m[ Reading File ][3d(B[m[40;34H(B[0;7m 21 lines ][24d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3           File: sample.py                             [3;1H(B[0;1m[36mimport[39m(B[m pprint,re[4dfname = input()[5dfailed = 0[6dstuddic={}[8d(B[0;1m[36mdef[34m cgpacal[39m(B[m(grades):[9;9Ho=0[10;9H(B[0;1m[36mfor[39m(B[m i (B[0;1m[36min[39m(B[m grades:[11;17H(B[0;1m[36mif[39m(B[m((B[0;1m[32m"(O)"[39m(B[m (B[0;1m[36min[39m(B[m i):[12;25Ho+=1[15d(B[0;1m[36mwith[39m(B[m open(fname,(B[0;1m[32m"r+"[39m(B[m) (B[0;1m[36mas[39m(B[m f:[16;9H(B[0;1m[36mfor[39m(B[m i (B[0;1m[36min[39m(B[m f:[17;17H(B[0;1m[36mif[39m(B[m(re.search((B[0;1m[32m"(F)"[39m(B[m, i)):[18;25Hfailed+=1[19;17H(B[0;1m[36melse[39m(B[m:[20;25Hstuddic[i.split()[0]]=cgpacal(i.split()[1:])[42m [22d[49m(B[mpprint.pprint(studdic)[23d(B[0;1m[36mprint[39m(B[m(failed)[41d(B[0;7m^G(B[m Get Help   (B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut Text   (B[0;7m^J(B[m Justify[42d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Uncut Text (B[0;7m^T(B[m To Linter[3d[4d[5d[6d[7d[8d[9d[10d[11d[12d[13d[12;29H7[13;39r8[13dM[1;42r[1;62H(B[0;7mModified[13d(B[m[8G[42m[1K [49m(B[m[1K retur[9G(B[0;1m[36mreturn[39m(B[m[42m [49m(B[m o[40d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?           [41;1H Y(B[m Yes[K[42d(B[0;7m N(B[m No  [15G  (B[0;7m^C(B[m Cancel[K[40;62H(B[0;7mFile Name to Write: sample.py                               [41d^G(B[m Get Help   (B[0;7mM-D(B[m DOS Format(B[0;7mM-A(B[m Append    (B[0;7mM-B(B[m Backup File[42d(B[0;7m^C(B[m Cancel     (B[0;7mM-M(B[m Mac Format(B[0;7mM-P(B[m Prepend   (B[0;7m^T(B[m To Files[40;30H[?25l[39;49m(B[m[1K (B[0;7m[ Wrote 22 lines ](B[m[K[13;17H[40d[J[1;62H(B[0;7m        [42;71H(B[m[42;1H[?12l[?25h[?1049l[?1l>]0;admin1@cc-Sy: ~/ceccs18c29/cs232/31Jan20[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/31Jan20[00m$ nano sample.pypython sample.py 
+^[[A^[[B^[[B\             '/home/admin1/ceccs18c29/cs232/31Jan20/S1Cres.txt' 
+{'CHN18CS003': 3,
+ 'CHN18CS004': 2,
+ 'CHN18CS005': 1,
+ 'CHN18CS007': 1,
+ 'CHN18CS008': 0,
+ 'CHN18CS009': 1,
+ 'CHN18CS010': 2,
+ 'CHN18CS012': 0,
+ 'CHN18CS016': 2,
+ 'CHN18CS017': 1,
+ 'CHN18CS018': 4,
+ 'CHN18CS020': 3,
+ 'CHN18CS021': 1,
+ 'CHN18CS023': 0,
+ 'CHN18CS025': 0,
+ 'CHN18CS026': 2,
+ 'CHN18CS029': 2,
+ 'CHN18CS030': 1,
+ 'CHN18CS032': 0,
+ 'CHN18CS033': 4,
+ 'CHN18CS035': 4,
+ 'CHN18CS036': 1,
+ 'CHN18CS037': 1,
+ 'CHN18CS038': 0,
+ 'CHN18CS039': 1,
+ 'CHN18CS042': 0,
+ 'CHN18CS043': 0,
+ 'CHN18CS049': 1,
+ 'CHN18CS053': 1,
+ 'CHN18CS054': 1,
+ 'CHN18CS056': 1,
+ 'CHN18CS057': 1,
+ 'CHN18CS058': 1,
+ 'CHN18CS059': 4,
+ 'CHN18CS062': 3,
+ 'CHN18CS063': 0,
+ 'CHN18CS068': 1,
+ 'CHN18CS069': 0,
+ 'CHN18CS072': 0,
+ 'CHN18CS073': 1,
+ 'CHN18CS075': 1,
+ 'CHN18CS077': 3,
+ 'CHN18CS079': 0,
+ 'CHN18CS080': 4,
+ 'CHN18CS082': 1,
+ 'CHN18CS084': 0,
+ 'CHN18CS087': 4,
+ 'CHN18CS091': 3,
+ 'CHN18CS092': 1,
+ 'CHN18CS093': 5,
+ 'CHN18CS095': 1,
+ 'CHN18CS096': 0,
+ 'CHN18CS097': 1,
+ 'CHN18CS099': 1,
+ 'CHN18CS100': 1,
+ 'CHN18CS101': 0,
+ 'CHN18CS102': 1,
+ 'CHN18CS103': 2,
+ 'CHN18CS104': 3,
+ 'CHN18CS105': 1,
+ 'CHN18CS106': 0,
+ 'CHN18CS111': 0,
+ 'CHN18CS112': 0,
+ 'CHN18CS113': 1,
+ 'CHN18CS115': 2,
+ 'CHN18CS116': 2,
+ 'CHN18CS118': 1,
+ 'CHN18CS120': 0,
+ 'CHN18CS121': 1,
+ 'CHN18CS122': 2,
+ 'CHN18CS123': 3}
+52
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232/31Jan20[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/31Jan20[00m$ python sample.py 
+^X^CTraceback (most recent call last):
+  File "sample.py", line 2, in <module>
+    fname = input()
+KeyboardInterrupt
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232/31Jan20[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/31Jan20[00m$ python sample.py [3Pnano sample.py
+[?1049h[1;42r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[40;28H(B[0;7m[ Reading File ][3d(B[m[40;34H(B[0;7m 22 lines ][25d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3           File: sample.py                             [3;1H(B[0;1m[36mimport[39m(B[m pprint,re[4dfname = input()[5dfailed = 0[6dstuddic={}[8d(B[0;1m[36mdef[34m cgpacal[39m(B[m(grades):[9;9Ho=0[10;9H(B[0;1m[36mfor[39m(B[m i (B[0;1m[36min[39m(B[m grades:[11;17H(B[0;1m[36mif[39m(B[m((B[0;1m[32m"(O)"[39m(B[m (B[0;1m[36min[39m(B[m i):[12;25Ho+=1[13;9H(B[0;1m[36mreturn[39m(B[m o[16d(B[0;1m[36mwith[39m(B[m open(fname,(B[0;1m[32m"r+"[39m(B[m) (B[0;1m[36mas[39m(B[m f:[17;9H(B[0;1m[36mfor[39m(B[m i (B[0;1m[36min[39m(B[m f:[18;17H(B[0;1m[36mif[39m(B[m(re.search((B[0;1m[32m"(F)"[39m(B[m, i)):[19;25Hfailed+=1[20;17H(B[0;1m[36melse[39m(B[m:[21;25Hstuddic[i.split()[0]]=cgpacal(i.split()[1:])[42m [23d[49m(B[mpprint.pprint(studdic)[24d(B[0;1m[36mprint[39m(B[m(failed)[41d(B[0;7m^G(B[m Get Help   (B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut Text   (B[0;7m^J(B[m Justify[42d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Uncut Text (B[0;7m^T(B[m To Linter[3d[4d[5d[6d[7d[8d[9d[8;21H[9;12H[10d[11d[12d[13;10H[C[C[C[A[12;9H[A[40d[K[12d[13d[12;29H[13d[14d[13;17H[14d[15d[A[15d[16d[17d[18d[19d[20d[A[18;41H[17;20H[A[A[16d[C[17d[18d[19d[20d[21d[22d[23dpprint.pprint(studdic)[24d[C[C[C[C[A[A[A[A[A[A[19d[20d[21d[22d[23;5H[24d[25d[24;5H[A[A[A[21;9H[21;17H[21;25Hstuddic[i.s[22d[23;23H.p[1;62H(B[0;7mModified[23;8H(B[0;1m[36mprint[39m(B[m[1P[8Gprint[1P[7G[1P[1P[1P[1P[1Pp(B[0;1m[36mprint[39m(B[m[1P[40d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?           [41;1H Y(B[m Yes[K[42d(B[0;7m N(B[m No  [15G  (B[0;7m^C(B[m Cancel[K[40;62H(B[0;7mFile Name to Write: sample.py                               [41d^G(B[m Get Help   (B[0;7mM-D(B[m DOS Format(B[0;7mM-A(B[m Append    (B[0;7mM-B(B[m Backup File[42d(B[0;7m^C(B[m Cancel     (B[0;7mM-M(B[m Mac Format(B[0;7mM-P(B[m Prepend   (B[0;7m^T(B[m To Files[40;30H[?25l[39;49m(B[m[1K (B[0;7m[ Wrote 22 lines ](B[m[K[23d[40d[J[1;62H(B[0;7m        [42;71H(B[m[42;1H[?12l[?25h[?1049l[?1l>]0;admin1@cc-Sy: ~/ceccs18c29/cs232/31Jan20[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/31Jan20[00m$ nano sample.pypython sample.py 
+'/home/admin1/ceccs18c29/cs232/31Jan20/S1Cres.txt' 
+{'CHN18CS120': 0, 'CHN18CS007': 1, 'CHN18CS004': 2, 'CHN18CS005': 1, 'CHN18CS068': 1, 'CHN18CS003': 3, 'CHN18CS123': 3, 'CHN18CS072': 0, 'CHN18CS042': 0, 'CHN18CS043': 0, 'CHN18CS008': 0, 'CHN18CS009': 1, 'CHN18CS073': 1, 'CHN18CS049': 1, 'CHN18CS079': 0, 'CHN18CS121': 1, 'CHN18CS069': 0, 'CHN18CS099': 1, 'CHN18CS115': 2, 'CHN18CS122': 2, 'CHN18CS095': 1, 'CHN18CS097': 1, 'CHN18CS096': 0, 'CHN18CS091': 3, 'CHN18CS111': 0, 'CHN18CS093': 5, 'CHN18CS092': 1, 'CHN18CS118': 1, 'CHN18CS039': 1, 'CHN18CS038': 0, 'CHN18CS037': 1, 'CHN18CS036': 1, 'CHN18CS035': 4, 'CHN18CS113': 1, 'CHN18CS033': 4, 'CHN18CS032': 0, 'CHN18CS116': 2, 'CHN18CS030': 1, 'CHN18CS059': 4, 'CHN18CS058': 1, 'CHN18CS017': 1, 'CHN18CS016': 2, 'CHN18CS077': 3, 'CHN18CS010': 2, 'CHN18CS075': 1, 'CHN18CS012': 0, 'CHN18CS053': 1, 'CHN18CS018': 4, 'CHN18CS057': 1, 'CHN18CS054': 1, 'CHN18CS062': 3, 'CHN18CS106': 0, 'CHN18CS063': 0, 'CHN18CS056': 1, 'CHN18CS112': 0, 'CHN18CS104': 3, 'CHN18CS087': 4, 'CHN18CS084': 0, 'CHN18CS082': 1, 'CHN18CS080': 4, 'CHN18CS102': 1, 'CHN18CS029': 2, 'CHN18CS101': 0, 'CHN18CS020': 3, 'CHN18CS021': 1, 'CHN18CS105': 1, 'CHN18CS023': 0, 'CHN18CS103': 2, 'CHN18CS025': 0, 'CHN18CS026': 2, 'CHN18CS100': 1}
+52
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232/31Jan20[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/31Jan20[00m$ python sample.py [3Pnano sample.py
+[?1049h[1;42r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[40;28H(B[0;7m[ Reading File ][3d(B[m[40;34H(B[0;7m 22 lines ][25d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3           File: sample.py                             [3;1H(B[0;1m[36mimport[39m(B[m pprint,re[4dfname = input()[5dfailed = 0[6dstuddic={}[8d(B[0;1m[36mdef[34m cgpacal[39m(B[m(grades):[9;9Ho=0[10;9H(B[0;1m[36mfor[39m(B[m i (B[0;1m[36min[39m(B[m grades:[11;17H(B[0;1m[36mif[39m(B[m((B[0;1m[32m"(O)"[39m(B[m (B[0;1m[36min[39m(B[m i):[12;25Ho+=1[13;9H(B[0;1m[36mreturn[39m(B[m o[16d(B[0;1m[36mwith[39m(B[m open(fname,(B[0;1m[32m"r+"[39m(B[m) (B[0;1m[36mas[39m(B[m f:[17;9H(B[0;1m[36mfor[39m(B[m i (B[0;1m[36min[39m(B[m f:[18;17H(B[0;1m[36mif[39m(B[m(re.search((B[0;1m[32m"(F)"[39m(B[m, i)):[19;25Hfailed+=1[20;17H(B[0;1m[36melse[39m(B[m:[21;25Hstuddic[i.split()[0]]=cgpacal(i.split()[1:])[42m [23d(B[0;1m[36mprint[39m(B[m(studdic)[24d(B[0;1m[36mprint[39m(B[m(failed)[41d(B[0;7m^G(B[m Get Help   (B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut Text   (B[0;7m^J(B[m Justify[42d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Uncut Text (B[0;7m^T(B[m To Linter[3d[4d[5d[6dss[7d[6;11H[7d[8d[C[C[C[9d[10d[40d[K[11d[12d[11;32H[12;29H7[13;40r8[13dM[1;42r[1;62H(B[0;7mModified[13d(B[m[8G[42m[1K [49m(B[m[16G[42m[1K [49m(B[m[1K eli(B[0;1m[36melif[39m(B[m("(A+)[22G(B[0;1m[32m"(A+)"[39m(B[m[42m [49m(B[m i(B[0;1m[36min[39m(B[m[42m [49m(B[m i):7[14;40r8[14dM[1;42r[14;1H[8G[42m[1K [49m(B[m[16G[42m[1K [49m(B[m[24G[42m[1K [49m(B[m[1K marks+=9ks+=9[K+=9[K+=9[K+=9[K+=9[Kp+=9o+=9i+=9m+=9t+=9+=9[K+=9[Kn+=9t+=9[A[A[A[12d+=1[Kp+=1o+=1i+=1n+=1r+=1+=1[Kt+=1[13d[A+=10[13d[14d[A)[14d7[15;40r8[15dM[1;42r[15;1H[8G[42m[1K [49m(B[m[16G[42m[1K [49m(B[m[13;40r[13;1H[2T[1;42r[13;17H(B[0;1m[36melif[39m(B[m((B[0;1m[32m"(A+)"[39m(B[m (B[0;1m[36min[39m(B[m i):[14;25Hpoint+=9[17d[K[8G[42m[1K [49m(B[m[16G[42m[1K [49m(B[m[13;40r[13;1H[2T[1;42r[13;17H(B[0;1m[36melif[39m(B[m((B[0;1m[32m"(A+)"[39m(B[m (B[0;1m[36min[39m(B[m i):[14;25Hpoint+=9[19d[K[8G[42m[1K [49m(B[m[16G[42m[1K [49m(B[m[13;40r[13;1H[2T[1;42r[13;17H(B[0;1m[36melif[39m(B[m((B[0;1m[32m"(A+)"[39m(B[m (B[0;1m[36min[39m(B[m i):[14;25Hpoint+=9[21d[K[8G[42m[1K [49m(B[m[16G[42m[1K [49m(B[m[13;40r[13;1H[2T[1;42r[13;17H(B[0;1m[36melif[39m(B[m((B[0;1m[32m"(A+)"[39m(B[m (B[0;1m[36min[39m(B[m i):[14;25Hpoint+=9[23d[K[8G[42m[1K [49m(B[m[16G[42m[1K [49m(B[m[13;40r[13;1H[2T[1;42r[13;17H(B[0;1m[36melif[39m(B[m((B[0;1m[32m"(A+)"[39m(B[m (B[0;1m[36min[39m(B[m i):[14;25Hpoint+=9[25d[K[A[A[23;9H[23;17H[C[C[C[C([C[C[C[A[A[A[A[A[A[A[A[Ap[15d[1P[16dp[17d[1P(B[0;1m[32mB+)"[39m(B[m (B[0;1m[36min[39m(B[m i):[17;25H[18d[19d[1P(B[0;1m[32mC+)"[39m(B[m (B[0;1m[36min[39m(B[m i):[19;25H[C[1P[20d[21d[C[1P[C[1P(B[0;1m[32mD)"[39m(B[m (B[0;1m[36min[39m(B[m i):[21;25H(B[0;1m[32mS)"[39m(B[m (B[0;1m[36min[39m(B[m i):[21;26H[1P[22d[23d[24d[25d[25;40r[40;1H
+[1;42r[24;33H       [42m[1K [49m(B[m                        [K[24;40r[40;1H
+[1;42r[23;35H  [42m [49m(B[m[K i[K[42m [49m(B[m[K [22G"(A+)[K      eli[K  [42m[1K [49m(B[m [23;9H[K[K[23;40r[40;1H
+[1;42r[22;33H[23;17H[42m [49m(B[m[K MARKS    [42m [49m(B[m[K[A         point+=9 5[A[A [21d[A[A[20dint+=5[A[A 6[A[A[17d[18d[19d[C[1P(B[0;1m[32mB)"[39m(B[m (B[0;1m[36min[39m(B[m i):[19;25H[20d[21d[C[C [C[C i[A5 6[21d  (B[0;1m[36min[39m(B[m i):[28Go (B[0;1m[36min[39m(B[m i):[29G(B[0;1m[36mor[39m(B[m (B[0;1m[36min[39m(B[m i):[30G  (B[0;1m[36min[39m(B[m i):[31G" (B[0;1m[36min[39m(B[m i):[32G"" (B[0;1m[36min[39m(B[m i):[33G(B[0;1m[32m"("[39m(B[m (B[0;1m[36min[39m(B[m i):[21;33H(B[0;1m[32m)"[39m(B[m (B[0;1m[36min[39m(B[m i):[21;34H(B[0;1m[32mC)"[39m(B[m (B[0;1m[36min[39m(B[m i):[21;34H[C[C[22;33H[23;16H points/len(grades)[40d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?           [41;1H Y(B[m Yes[K[42d(B[0;7m N(B[m No  [15G  (B[0;7m^C(B[m Cancel[K[40;62H(B[0;7mFile Name to Write: sample.py                               [41d^G(B[m Get Help   (B[0;7mM-D(B[m DOS Format(B[0;7mM-A(B[m Append    (B[0;7mM-B(B[m Backup File[42d(B[0;7m^C(B[m Cancel     (B[0;7mM-M(B[m Mac Format(B[0;7mM-P(B[m Prepend   (B[0;7m^T(B[m To Files[40;30H[?25l[39;49m(B[m[1K (B[0;7m[ Wrote 32 lines ](B[m[K[23;34H[40d[J[1;62H(B[0;7m        [42;71H(B[m[42;1H[?12l[?25h[?1049l[?1l>]0;admin1@cc-Sy: ~/ceccs18c29/cs232/31Jan20[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/31Jan20[00m$ nano sample.pypython sample.py 
+'/home/admin1/ceccs18c29/cs232/31Jan20/S1Cres.txt' 
+Traceback (most recent call last):
+  File "sample.py", line 29, in <module>
+    studdic[i.split()[0]]=cgpacal(i.split()[1:]) 
+  File "sample.py", line 12, in cgpacal
+    point+=9
+UnboundLocalError: local variable 'point' referenced before assignment
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232/31Jan20[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/31Jan20[00m$ python sample.py [3Pnano sample.py
+[?1049h[1;42r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[40;28H(B[0;7m[ Reading File ][3d(B[m[40;34H(B[0;7m 32 lines ][35d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3           File: sample.py                             [3;1H(B[0;1m[36mimport[39m(B[m pprint,re[4dfname = input()[5dfailed = 0[6dstuddic={}[8d(B[0;1m[36mdef[34m cgpacal[39m(B[m(grades):[9;9Ho=0[10;9H(B[0;1m[36mfor[39m(B[m i (B[0;1m[36min[39m(B[m grades:[11;17H(B[0;1m[36mif[39m(B[m((B[0;1m[32m"(O)"[39m(B[m (B[0;1m[36min[39m(B[m i):[12;25Hpoint+=10[13;17H(B[0;1m[36melif[39m(B[m((B[0;1m[32m"(A+)"[39m(B[m (B[0;1m[36min[39m(B[m i):[14;25Hpoint+=9[15;17H(B[0;1m[36melif[39m(B[m((B[0;1m[32m"(A)"[39m(B[m (B[0;1m[36min[39m(B[m i):[16;25Hpoint+=9[17;17H(B[0;1m[36melif[39m(B[m((B[0;1m[32m"(B+)"[39m(B[m (B[0;1m[36min[39m(B[m i):[18;25Hpoint+=6[19;17H(B[0;1m[36melif[39m(B[m((B[0;1m[32m"(B)"[39m(B[m (B[0;1m[36min[39m(B[m i):[20;25Hpoint+=6[21;17H(B[0;1m[36melif[39m(B[m((B[0;1m[32m"(D)"[39m(B[m (B[0;1m[36mor[39m(B[m (B[0;1m[32m"(C)"[39m(B[m (B[0;1m[36min[39m(B[m i):[22;25Hpoint+=5[23;9H(B[0;1m[36mreturn[39m(B[m points/len(grades)[26d(B[0;1m[36mwith[39m(B[m open(fname,(B[0;1m[32m"r+"[39m(B[m) (B[0;1m[36mas[39m(B[m f:[27;9H(B[0;1m[36mfor[39m(B[m i (B[0;1m[36min[39m(B[m f:[28;17H(B[0;1m[36mif[39m(B[m(re.search((B[0;1m[32m"(F)"[39m(B[m, i)):[29;25Hfailed+=1[30;17H(B[0;1m[36melse[39m(B[m:[31;25Hstuddic[i.split()[0]]=cgpacal(i.split()[1:])[42m [33d(B[0;1m[36mprint[39m(B[m(studdic)[34d(B[0;1m[36mprint[39m(B[m(failed)[41d(B[0;7m^G(B[m Get Help   (B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut Text   (B[0;7m^J(B[m Justify[42d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Uncut Text (B[0;7m^T(B[m To Linter[3d[4d[5d[6d[7d[8d[9d[8;21H[9d[1;62H(B[0;7mModified[9;9H(B[m=0[Kp=0o=0i=0n=0t=0[40d[K[10;14H[11;9H[12d[13d[14d[15d[16;14H[17;9H[16;14H[15;9H[A[A[A[13d[14d[15d[16;14H[17;9H[18;14H[19;9H[20;14H[21;9H[22;14H[23d[24d[25d[A[23;34H[1P[40d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?           [41;1H Y(B[m Yes[K[42d(B[0;7m N(B[m No  [15G  (B[0;7m^C(B[m Cancel[K[40;62H(B[0;7mFile Name to Write: sample.py                               [41d^G(B[m Get Help   (B[0;7mM-D(B[m DOS Format(B[0;7mM-A(B[m Append    (B[0;7mM-B(B[m Backup File[42d(B[0;7m^C(B[m Cancel     (B[0;7mM-M(B[m Mac Format(B[0;7mM-P(B[m Prepend   (B[0;7m^T(B[m To Files[40;30H[?25l[39;49m(B[m[1K (B[0;7m[ Wrote 32 lines ](B[m[K[23;21H[40d[J[1;62H(B[0;7m        [42;71H(B[m[42;1H[?12l[?25h[?1049l[?1l>]0;admin1@cc-Sy: ~/ceccs18c29/cs232/31Jan20[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/31Jan20[00m$ nano sample.pypython sample.py 
+'/home/admin1/ceccs18c29/cs232/31Jan20/S1Cres.txt' 
+{'CHN18CS120': 6, 'CHN18CS007': 7, 'CHN18CS004': 8, 'CHN18CS005': 7, 'CHN18CS068': 6, 'CHN18CS003': 9, 'CHN18CS123': 8, 'CHN18CS072': 7, 'CHN18CS042': 7, 'CHN18CS043': 6, 'CHN18CS008': 7, 'CHN18CS009': 8, 'CHN18CS073': 8, 'CHN18CS049': 7, 'CHN18CS079': 6, 'CHN18CS121': 7, 'CHN18CS069': 7, 'CHN18CS099': 8, 'CHN18CS115': 8, 'CHN18CS122': 7, 'CHN18CS095': 9, 'CHN18CS097': 7, 'CHN18CS096': 6, 'CHN18CS091': 8, 'CHN18CS111': 6, 'CHN18CS093': 9, 'CHN18CS092': 8, 'CHN18CS118': 6, 'CHN18CS039': 7, 'CHN18CS038': 7, 'CHN18CS037': 7, 'CHN18CS036': 8, 'CHN18CS035': 8, 'CHN18CS113': 8, 'CHN18CS033': 8, 'CHN18CS032': 6, 'CHN18CS116': 6, 'CHN18CS030': 7, 'CHN18CS059': 9, 'CHN18CS058': 8, 'CHN18CS017': 7, 'CHN18CS016': 8, 'CHN18CS077': 8, 'CHN18CS010': 8, 'CHN18CS075': 6, 'CHN18CS012': 6, 'CHN18CS053': 7, 'CHN18CS018': 8, 'CHN18CS057': 6, 'CHN18CS054': 8, 'CHN18CS062': 8, 'CHN18CS106': 5, 'CHN18CS063': 7, 'CHN18CS056': 7, 'CHN18CS112': 7, 'CHN18CS104': 8, 'CHN18CS087': 9, 'CHN18CS084': 7, 'CHN18CS082': 7, 'CHN18CS080': 9, 'CHN18CS102': 8, 'CHN18CS029': 8, 'CHN18CS101': 7, 'CHN18CS020': 8, 'CHN18CS021': 8, 'CHN18CS105': 7, 'CHN18CS023': 6, 'CHN18CS103': 8, 'CHN18CS025': 7, 'CHN18CS026': 7, 'CHN18CS100': 8}
+52
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232/31Jan20[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/31Jan20[00m$ clear
+[3;J[H[2J]0;admin1@cc-Sy: ~/ceccs18c29/cs232/31Jan20[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/31Jan20[00m$ clearpython sample.py [3Pnano sample.py
+[?1049h[1;42r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[40;28H(B[0;7m[ Reading File ][3d(B[m[40;34H(B[0;7m 32 lines ][35d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3           File: sample.py                             [3;1H(B[0;1m[36mimport[39m(B[m pprint,re[4dfname = input()[5dfailed = 0[6dstuddic={}[8d(B[0;1m[36mdef[34m cgpacal[39m(B[m(grades):[9;9Hpoint=0[10;9H(B[0;1m[36mfor[39m(B[m i (B[0;1m[36min[39m(B[m grades:[11;17H(B[0;1m[36mif[39m(B[m((B[0;1m[32m"(O)"[39m(B[m (B[0;1m[36min[39m(B[m i):[12;25Hpoint+=10[13;17H(B[0;1m[36melif[39m(B[m((B[0;1m[32m"(A+)"[39m(B[m (B[0;1m[36min[39m(B[m i):[14;25Hpoint+=9[15;17H(B[0;1m[36melif[39m(B[m((B[0;1m[32m"(A)"[39m(B[m (B[0;1m[36min[39m(B[m i):[16;25Hpoint+=9[17;17H(B[0;1m[36melif[39m(B[m((B[0;1m[32m"(B+)"[39m(B[m (B[0;1m[36min[39m(B[m i):[18;25Hpoint+=6[19;17H(B[0;1m[36melif[39m(B[m((B[0;1m[32m"(B)"[39m(B[m (B[0;1m[36min[39m(B[m i):[20;25Hpoint+=6[21;17H(B[0;1m[36melif[39m(B[m((B[0;1m[32m"(D)"[39m(B[m (B[0;1m[36mor[39m(B[m (B[0;1m[32m"(C)"[39m(B[m (B[0;1m[36min[39m(B[m i):[22;25Hpoint+=5[23;9H(B[0;1m[36mreturn[39m(B[m point/len(grades)[26d(B[0;1m[36mwith[39m(B[m open(fname,(B[0;1m[32m"r+"[39m(B[m) (B[0;1m[36mas[39m(B[m f:[27;9H(B[0;1m[36mfor[39m(B[m i (B[0;1m[36min[39m(B[m f:[28;17H(B[0;1m[36mif[39m(B[m(re.search((B[0;1m[32m"(F)"[39m(B[m, i)):[29;25Hfailed+=1[30;17H(B[0;1m[36melse[39m(B[m:[31;25Hstuddic[i.split()[0]]=cgpacal(i.split()[1:])[42m [33d(B[0;1m[36mprint[39m(B[m(studdic)[34d(B[0;1m[36mprint[39m(B[m(failed)[41d(B[0;7m^G(B[m Get Help   (B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut Text   (B[0;7m^J(B[m Justify[42d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Uncut Text (B[0;7m^T(B[m To Linter[3d[4d[5d[6d[7d[8d[9d[10d[11d[12d[13d[14d[15d[16d[17d[18d[19d[20d[21d[22d[23d[24d[25d[26d[27d[28d[40d[K[29d[30d[31d[32d[33d[34d[A[1;62H(B[0;7mModified[33d(B[mpprint(studdic)pppprint(studdic)pprprint(studdic)ppriprint(studdic)[5Gnprint(studdic)[6Gtprint(studdic)[7G.(B[0;1m[36mprint[39m(B[m(studdic)[8Gpprint(studdic)[33;9H[40d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?           [41;1H Y(B[m Yes[K[42d(B[0;7m N(B[m No  [15G  (B[0;7m^C(B[m Cancel[K[40;62H(B[0;7mFile Name to Write: sample.py                               [41d^G(B[m Get Help   (B[0;7mM-D(B[m DOS Format(B[0;7mM-A(B[m Append    (B[0;7mM-B(B[m Backup File[42d(B[0;7m^C(B[m Cancel     (B[0;7mM-M(B[m Mac Format(B[0;7mM-P(B[m Prepend   (B[0;7m^T(B[m To Files[40;30H[?25l[39;49m(B[m[1K (B[0;7m[ Wrote 32 lines ](B[m[K[33;9H[40d[J[1;62H(B[0;7m        [42;71H(B[m[42;1H[?12l[?25h[?1049l[?1l>]0;admin1@cc-Sy: ~/ceccs18c29/cs232/31Jan20[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/31Jan20[00m$ nano sample.py[9Pclear
+[3;J[H[2J]0;admin1@cc-Sy: ~/ceccs18c29/cs232/31Jan20[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/31Jan20[00m$ clearnano sample.py[9Pclearpython sample.py 
+'/home/admin1/ceccs18c29/cs232/31Jan20/S1Cres.txt' . 
+{'CHN18CS003': 9,
+ 'CHN18CS004': 8,
+ 'CHN18CS005': 7,
+ 'CHN18CS007': 7,
+ 'CHN18CS008': 7,
+ 'CHN18CS009': 8,
+ 'CHN18CS010': 8,
+ 'CHN18CS012': 6,
+ 'CHN18CS016': 8,
+ 'CHN18CS017': 7,
+ 'CHN18CS018': 8,
+ 'CHN18CS020': 8,
+ 'CHN18CS021': 8,
+ 'CHN18CS023': 6,
+ 'CHN18CS025': 7,
+ 'CHN18CS026': 7,
+ 'CHN18CS029': 8,
+ 'CHN18CS030': 7,
+ 'CHN18CS032': 6,
+ 'CHN18CS033': 8,
+ 'CHN18CS035': 8,
+ 'CHN18CS036': 8,
+ 'CHN18CS037': 7,
+ 'CHN18CS038': 7,
+ 'CHN18CS039': 7,
+ 'CHN18CS042': 7,
+ 'CHN18CS043': 6,
+ 'CHN18CS049': 7,
+ 'CHN18CS053': 7,
+ 'CHN18CS054': 8,
+ 'CHN18CS056': 7,
+ 'CHN18CS057': 6,
+ 'CHN18CS058': 8,
+ 'CHN18CS059': 9,
+ 'CHN18CS062': 8,
+ 'CHN18CS063': 7,
+ 'CHN18CS068': 6,
+ 'CHN18CS069': 7,
+ 'CHN18CS072': 7,
+ 'CHN18CS073': 8,
+ 'CHN18CS075': 6,
+ 'CHN18CS077': 8,
+ 'CHN18CS079': 6,
+ 'CHN18CS080': 9,
+ 'CHN18CS082': 7,
+ 'CHN18CS084': 7,
+ 'CHN18CS087': 9,
+ 'CHN18CS091': 8,
+ 'CHN18CS092': 8,
+ 'CHN18CS093': 9,
+ 'CHN18CS095': 9,
+ 'CHN18CS096': 6,
+ 'CHN18CS097': 7,
+ 'CHN18CS099': 8,
+ 'CHN18CS100': 8,
+ 'CHN18CS101': 7,
+ 'CHN18CS102': 8,
+ 'CHN18CS103': 8,
+ 'CHN18CS104': 8,
+ 'CHN18CS105': 7,
+ 'CHN18CS106': 5,
+ 'CHN18CS111': 6,
+ 'CHN18CS112': 7,
+ 'CHN18CS113': 8,
+ 'CHN18CS115': 8,
+ 'CHN18CS116': 6,
+ 'CHN18CS118': 6,
+ 'CHN18CS120': 6,
+ 'CHN18CS121': 7,
+ 'CHN18CS122': 7,
+ 'CHN18CS123': 8}
+52
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232/31Jan20[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/31Jan20[00m$ python sample.py clear[Kpython sample.py clear[Knano sample.py[9Pclearnano sample.py
+[?1049h[1;42r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[40;28H(B[0;7m[ Reading File ][3d(B[m[40;34H(B[0;7m 32 lines ][35d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3           File: sample.py                             [3;1H(B[0;1m[36mimport[39m(B[m pprint,re[4dfname = input()[5dfailed = 0[6dstuddic={}[8d(B[0;1m[36mdef[34m cgpacal[39m(B[m(grades):[9;9Hpoint=0[10;9H(B[0;1m[36mfor[39m(B[m i (B[0;1m[36min[39m(B[m grades:[11;17H(B[0;1m[36mif[39m(B[m((B[0;1m[32m"(O)"[39m(B[m (B[0;1m[36min[39m(B[m i):[12;25Hpoint+=10[13;17H(B[0;1m[36melif[39m(B[m((B[0;1m[32m"(A+)"[39m(B[m (B[0;1m[36min[39m(B[m i):[14;25Hpoint+=9[15;17H(B[0;1m[36melif[39m(B[m((B[0;1m[32m"(A)"[39m(B[m (B[0;1m[36min[39m(B[m i):[16;25Hpoint+=9[17;17H(B[0;1m[36melif[39m(B[m((B[0;1m[32m"(B+)"[39m(B[m (B[0;1m[36min[39m(B[m i):[18;25Hpoint+=6[19;17H(B[0;1m[36melif[39m(B[m((B[0;1m[32m"(B)"[39m(B[m (B[0;1m[36min[39m(B[m i):[20;25Hpoint+=6[21;17H(B[0;1m[36melif[39m(B[m((B[0;1m[32m"(D)"[39m(B[m (B[0;1m[36mor[39m(B[m (B[0;1m[32m"(C)"[39m(B[m (B[0;1m[36min[39m(B[m i):[22;25Hpoint+=5[23;9H(B[0;1m[36mreturn[39m(B[m point/len(grades)[26d(B[0;1m[36mwith[39m(B[m open(fname,(B[0;1m[32m"r+"[39m(B[m) (B[0;1m[36mas[39m(B[m f:[27;9H(B[0;1m[36mfor[39m(B[m i (B[0;1m[36min[39m(B[m f:[28;17H(B[0;1m[36mif[39m(B[m(re.search((B[0;1m[32m"(F)"[39m(B[m, i)):[29;25Hfailed+=1[30;17H(B[0;1m[36melse[39m(B[m:[31;25Hstuddic[i.split()[0]]=cgpacal(i.split()[1:])[42m [33d[49m(B[mpprint.pprint(studdic)[34d(B[0;1m[36mprint[39m(B[m(failed)[41d(B[0;7m^G(B[m Get Help   (B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut Text   (B[0;7m^J(B[m Justify[42d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Uncut Text (B[0;7m^T(B[m To Linter[3d[4d[5d[6d[7d[8d[9d[10d[11d[12d[13d[14d[15d[16d[17d[18d[19d[20d[21d[22d[23d[24d[40d[K[23;33H[A7[23;40r8[23dM[1;42r[1;62H(B[0;7mModified[23d(B[m[8G[42m[1K [49m(B[m[16G[42m[1K [49m(B[m[23;9H[K[1K prin(B[0;1m[36mprint[39m(B[m(pointy )[40d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?           [41;1H Y(B[m Yes[K[42d(B[0;7m N(B[m No  [15G  (B[0;7m^C(B[m Cancel[K[40;62H(B[0;7mFile Name to Write: sample.py                               [41d^G(B[m Get Help   (B[0;7mM-D(B[m DOS Format(B[0;7mM-A(B[m Append    (B[0;7mM-B(B[m Backup File[42d(B[0;7m^C(B[m Cancel     (B[0;7mM-M(B[m Mac Format(B[0;7mM-P(B[m Prepend   (B[0;7m^T(B[m To Files[40;30H[?25l[39;49m(B[m[1K (B[0;7m[ Wrote 33 lines ](B[m[K[23;21H[40d[J[1;62H(B[0;7m        [42;71H(B[m[42;1H[?12l[?25h[?1049l[?1l>]0;admin1@cc-Sy: ~/ceccs18c29/cs232/31Jan20[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/31Jan20[00m$ nano sample.pypython sample.py 
+'/home/admin1/ceccs18c29/cs232/31Jan20/S1Cres.txt' 
+75
+68
+56
+61
+56
+67
+71
+47
+65
+52
+70
+69
+64
+55
+57
+59
+71
+57
+54
+70
+67
+64
+63
+63
+57
+56
+54
+61
+57
+70
+60
+54
+66
+76
+69
+63
+54
+59
+54
+67
+55
+69
+54
+73
+56
+56
+76
+71
+67
+77
+73
+51
+57
+61
+67
+56
+66
+59
+69
+58
+47
+45
+56
+64
+67
+55
+54
+49
+58
+62
+65
+{'CHN18CS003': 9,
+ 'CHN18CS004': 8,
+ 'CHN18CS005': 7,
+ 'CHN18CS007': 7,
+ 'CHN18CS008': 7,
+ 'CHN18CS009': 8,
+ 'CHN18CS010': 8,
+ 'CHN18CS012': 6,
+ 'CHN18CS016': 8,
+ 'CHN18CS017': 7,
+ 'CHN18CS018': 8,
+ 'CHN18CS020': 8,
+ 'CHN18CS021': 8,
+ 'CHN18CS023': 6,
+ 'CHN18CS025': 7,
+ 'CHN18CS026': 7,
+ 'CHN18CS029': 8,
+ 'CHN18CS030': 7,
+ 'CHN18CS032': 6,
+ 'CHN18CS033': 8,
+ 'CHN18CS035': 8,
+ 'CHN18CS036': 8,
+ 'CHN18CS037': 7,
+ 'CHN18CS038': 7,
+ 'CHN18CS039': 7,
+ 'CHN18CS042': 7,
+ 'CHN18CS043': 6,
+ 'CHN18CS049': 7,
+ 'CHN18CS053': 7,
+ 'CHN18CS054': 8,
+ 'CHN18CS056': 7,
+ 'CHN18CS057': 6,
+ 'CHN18CS058': 8,
+ 'CHN18CS059': 9,
+ 'CHN18CS062': 8,
+ 'CHN18CS063': 7,
+ 'CHN18CS068': 6,
+ 'CHN18CS069': 7,
+ 'CHN18CS072': 7,
+ 'CHN18CS073': 8,
+ 'CHN18CS075': 6,
+ 'CHN18CS077': 8,
+ 'CHN18CS079': 6,
+ 'CHN18CS080': 9,
+ 'CHN18CS082': 7,
+ 'CHN18CS084': 7,
+ 'CHN18CS087': 9,
+ 'CHN18CS091': 8,
+ 'CHN18CS092': 8,
+ 'CHN18CS093': 9,
+ 'CHN18CS095': 9,
+ 'CHN18CS096': 6,
+ 'CHN18CS097': 7,
+ 'CHN18CS099': 8,
+ 'CHN18CS100': 8,
+ 'CHN18CS101': 7,
+ 'CHN18CS102': 8,
+ 'CHN18CS103': 8,
+ 'CHN18CS104': 8,
+ 'CHN18CS105': 7,
+ 'CHN18CS106': 5,
+ 'CHN18CS111': 6,
+ 'CHN18CS112': 7,
+ 'CHN18CS113': 8,
+ 'CHN18CS115': 8,
+ 'CHN18CS116': 6,
+ 'CHN18CS118': 6,
+ 'CHN18CS120': 6,
+ 'CHN18CS121': 7,
+ 'CHN18CS122': 7,
+ 'CHN18CS123': 8}
+52
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232/31Jan20[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/31Jan20[00m$ python sample.py [3Pnano sample.py
+[?1049h[1;42r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[40;28H(B[0;7m[ Reading File ][3d(B[m[40;34H(B[0;7m 33 lines ][36d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3           File: sample.py                             [3;1H(B[0;1m[36mimport[39m(B[m pprint,re[4dfname = input()[5dfailed = 0[6dstuddic={}[8d(B[0;1m[36mdef[34m cgpacal[39m(B[m(grades):[9;9Hpoint=0[10;9H(B[0;1m[36mfor[39m(B[m i (B[0;1m[36min[39m(B[m grades:[11;17H(B[0;1m[36mif[39m(B[m((B[0;1m[32m"(O)"[39m(B[m (B[0;1m[36min[39m(B[m i):[12;25Hpoint+=10[13;17H(B[0;1m[36melif[39m(B[m((B[0;1m[32m"(A+)"[39m(B[m (B[0;1m[36min[39m(B[m i):[14;25Hpoint+=9[15;17H(B[0;1m[36melif[39m(B[m((B[0;1m[32m"(A)"[39m(B[m (B[0;1m[36min[39m(B[m i):[16;25Hpoint+=9[17;17H(B[0;1m[36melif[39m(B[m((B[0;1m[32m"(B+)"[39m(B[m (B[0;1m[36min[39m(B[m i):[18;25Hpoint+=6[19;17H(B[0;1m[36melif[39m(B[m((B[0;1m[32m"(B)"[39m(B[m (B[0;1m[36min[39m(B[m i):[20;25Hpoint+=6[21;17H(B[0;1m[36melif[39m(B[m((B[0;1m[32m"(D)"[39m(B[m (B[0;1m[36mor[39m(B[m (B[0;1m[32m"(C)"[39m(B[m (B[0;1m[36min[39m(B[m i):[22;25Hpoint+=5[23;9H(B[0;1m[36mprint[39m(B[m(point)[24;9H(B[0;1m[36mreturn[39m(B[m point/len(grades)[27d(B[0;1m[36mwith[39m(B[m open(fname,(B[0;1m[32m"r+"[39m(B[m) (B[0;1m[36mas[39m(B[m f:[28;9H(B[0;1m[36mfor[39m(B[m i (B[0;1m[36min[39m(B[m f:[29;17H(B[0;1m[36mif[39m(B[m(re.search((B[0;1m[32m"(F)"[39m(B[m, i)):[30;25Hfailed+=1[31;17H(B[0;1m[36melse[39m(B[m:[32;25Hstuddic[i.split()[0]]=cgpacal(i.split()[1:])[42m [34d[49m(B[mpprint.pprint(studdic)[35d(B[0;1m[36mprint[39m(B[m(failed)[41d(B[0;7m^G(B[m Get Help   (B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut Text   (B[0;7m^J(B[m Justify[42d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Uncut Text (B[0;7m^T(B[m To Linter[3d[4d[5d[6d[7d[8d[9d[10d[11d[12d[13d[14d[15d[16d[17d[18d[19d[20d[21d[22d[23d[22;33H[23;21H[1;62H(B[0;7mModified[23;20H(B[m    [40d[K[23;17H   [9Gprin[K   [42m[1K [49m(B[m [1K len(marks)plen(marks)[23;10Hrlen(marks)[23;11Hilen(marks)[23;12Hnlen(marks)[23;13Htlen(marks)[23;14H[9G(B[0;1m[36mprint[39m(B[m(len(marks)[23;15Hlen(marks[24d)n(grades)[24;25H[1P[A))[40d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?           [41;1H Y(B[m Yes[K[42d(B[0;7m N(B[m No  [15G  (B[0;7m^C(B[m Cancel[K[40;62H(B[0;7mFile Name to Write: sample.py                               [41d^G(B[m Get Help   (B[0;7mM-D(B[m DOS Format(B[0;7mM-A(B[m Append    (B[0;7mM-B(B[m Backup File[42d(B[0;7m^C(B[m Cancel     (B[0;7mM-M(B[m Mac Format(B[0;7mM-P(B[m Prepend   (B[0;7m^T(B[m To Files[40;30H[?25l[39;49m(B[m[1K (B[0;7m[ Wrote 33 lines ](B[m[K[23;26H[40d[J[1;62H(B[0;7m        [42;71H(B[m[42;1H[?12l[?25h[?1049l[?1l>]0;admin1@cc-Sy: ~/ceccs18c29/cs232/31Jan20[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/31Jan20[00m$ nano sample.pypython sample.py 
+'/home/admin1/ceccs18c29/cs232/31Jan20/S1Cres.txt' 
+Traceback (most recent call last):
+  File "sample.py", line 30, in <module>
+    studdic[i.split()[0]]=cgpacal(i.split()[1:]) 
+  File "sample.py", line 21, in cgpacal
+    print(len(marks))
+NameError: global name 'marks' is not defined
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232/31Jan20[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/31Jan20[00m$ python sample.py [3Pnano sample.py
+[?1049h[1;42r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[40;28H(B[0;7m[ Reading File ][3d(B[m[40;34H(B[0;7m 33 lines ][36d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3           File: sample.py                             [3;1H(B[0;1m[36mimport[39m(B[m pprint,re[4dfname = input()[5dfailed = 0[6dstuddic={}[8d(B[0;1m[36mdef[34m cgpacal[39m(B[m(grades):[9;9Hpoint=0[10;9H(B[0;1m[36mfor[39m(B[m i (B[0;1m[36min[39m(B[m grades:[11;17H(B[0;1m[36mif[39m(B[m((B[0;1m[32m"(O)"[39m(B[m (B[0;1m[36min[39m(B[m i):[12;25Hpoint+=10[13;17H(B[0;1m[36melif[39m(B[m((B[0;1m[32m"(A+)"[39m(B[m (B[0;1m[36min[39m(B[m i):[14;25Hpoint+=9[15;17H(B[0;1m[36melif[39m(B[m((B[0;1m[32m"(A)"[39m(B[m (B[0;1m[36min[39m(B[m i):[16;25Hpoint+=9[17;17H(B[0;1m[36melif[39m(B[m((B[0;1m[32m"(B+)"[39m(B[m (B[0;1m[36min[39m(B[m i):[18;25Hpoint+=6[19;17H(B[0;1m[36melif[39m(B[m((B[0;1m[32m"(B)"[39m(B[m (B[0;1m[36min[39m(B[m i):[20;25Hpoint+=6[21;17H(B[0;1m[36melif[39m(B[m((B[0;1m[32m"(D)"[39m(B[m (B[0;1m[36mor[39m(B[m (B[0;1m[32m"(C)"[39m(B[m (B[0;1m[36min[39m(B[m i):[22;25Hpoint+=5[23;9H(B[0;1m[36mprint[39m(B[m(len(marks))[24;9H(B[0;1m[36mreturn[39m(B[m point/len(grades)[27d(B[0;1m[36mwith[39m(B[m open(fname,(B[0;1m[32m"r+"[39m(B[m) (B[0;1m[36mas[39m(B[m f:[28;9H(B[0;1m[36mfor[39m(B[m i (B[0;1m[36min[39m(B[m f:[29;17H(B[0;1m[36mif[39m(B[m(re.search((B[0;1m[32m"(F)"[39m(B[m, i)):[30;25Hfailed+=1[31;17H(B[0;1m[36melse[39m(B[m:[32;25Hstuddic[i.split()[0]]=cgpacal(i.split()[1:])[42m [34d[49m(B[mpprint.pprint(studdic)[35d(B[0;1m[36mprint[39m(B[m(failed)[41d(B[0;7m^G(B[m Get Help   (B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut Text   (B[0;7m^J(B[m Justify[42d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Uncut Text (B[0;7m^T(B[m To Linter[3d[4d[5d[6d[7d[8d[9d[10d[11d[12d[13d[14d[15d[16d[40d[K[17d[18d[19d[20d[21d[22d[23d[24d[25d[26d[27d[28d[29d[30d[29;41H[28;20H[27;25H[A[A[24;25H[A[1;62H(B[0;7mModified[23;22H(B[ms))[Ks))[Ks))[Ks))[Kgs))rs))as))ds))es))[40d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?           [41;1H Y(B[m Yes[K[42d(B[0;7m N(B[m No  [15G  (B[0;7m^C(B[m Cancel[K[40;62H(B[0;7mFile Name to Write: sample.py                               [41d^G(B[m Get Help   (B[0;7mM-D(B[m DOS Format(B[0;7mM-A(B[m Append    (B[0;7mM-B(B[m Backup File[42d(B[0;7m^C(B[m Cancel     (B[0;7mM-M(B[m Mac Format(B[0;7mM-P(B[m Prepend   (B[0;7m^T(B[m To Files[40;30H[?25l[39;49m(B[m[1K (B[0;7m[ Wrote 33 lines ](B[m[K[23;24H[40d[J[1;62H(B[0;7m        [42;71H(B[m[42;1H[?12l[?25h[?1049l[?1l>]0;admin1@cc-Sy: ~/ceccs18c29/cs232/31Jan20[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/31Jan20[00m$ nano sample.pypython sample.py 
+'/home/admin1/ceccs18c29/cs232/31Jan20/S1Cres.txt' 
+8
+8
+8
+8
+8
+8
+8
+7
+8
+7
+8
+8
+8
+8
+8
+8
+8
+8
+8
+8
+8
+8
+8
+8
+8
+8
+8
+8
+8
+8
+8
+8
+8
+8
+8
+8
+8
+8
+7
+8
+8
+8
+8
+8
+8
+8
+8
+8
+8
+8
+8
+8
+8
+7
+8
+8
+8
+7
+8
+8
+8
+7
+8
+8
+8
+8
+8
+8
+8
+8
+8
+{'CHN18CS003': 9,
+ 'CHN18CS004': 8,
+ 'CHN18CS005': 7,
+ 'CHN18CS007': 7,
+ 'CHN18CS008': 7,
+ 'CHN18CS009': 8,
+ 'CHN18CS010': 8,
+ 'CHN18CS012': 6,
+ 'CHN18CS016': 8,
+ 'CHN18CS017': 7,
+ 'CHN18CS018': 8,
+ 'CHN18CS020': 8,
+ 'CHN18CS021': 8,
+ 'CHN18CS023': 6,
+ 'CHN18CS025': 7,
+ 'CHN18CS026': 7,
+ 'CHN18CS029': 8,
+ 'CHN18CS030': 7,
+ 'CHN18CS032': 6,
+ 'CHN18CS033': 8,
+ 'CHN18CS035': 8,
+ 'CHN18CS036': 8,
+ 'CHN18CS037': 7,
+ 'CHN18CS038': 7,
+ 'CHN18CS039': 7,
+ 'CHN18CS042': 7,
+ 'CHN18CS043': 6,
+ 'CHN18CS049': 7,
+ 'CHN18CS053': 7,
+ 'CHN18CS054': 8,
+ 'CHN18CS056': 7,
+ 'CHN18CS057': 6,
+ 'CHN18CS058': 8,
+ 'CHN18CS059': 9,
+ 'CHN18CS062': 8,
+ 'CHN18CS063': 7,
+ 'CHN18CS068': 6,
+ 'CHN18CS069': 7,
+ 'CHN18CS072': 7,
+ 'CHN18CS073': 8,
+ 'CHN18CS075': 6,
+ 'CHN18CS077': 8,
+ 'CHN18CS079': 6,
+ 'CHN18CS080': 9,
+ 'CHN18CS082': 7,
+ 'CHN18CS084': 7,
+ 'CHN18CS087': 9,
+ 'CHN18CS091': 8,
+ 'CHN18CS092': 8,
+ 'CHN18CS093': 9,
+ 'CHN18CS095': 9,
+ 'CHN18CS096': 6,
+ 'CHN18CS097': 7,
+ 'CHN18CS099': 8,
+ 'CHN18CS100': 8,
+ 'CHN18CS101': 7,
+ 'CHN18CS102': 8,
+ 'CHN18CS103': 8,
+ 'CHN18CS104': 8,
+ 'CHN18CS105': 7,
+ 'CHN18CS106': 5,
+ 'CHN18CS111': 6,
+ 'CHN18CS112': 7,
+ 'CHN18CS113': 8,
+ 'CHN18CS115': 8,
+ 'CHN18CS116': 6,
+ 'CHN18CS118': 6,
+ 'CHN18CS120': 6,
+ 'CHN18CS121': 7,
+ 'CHN18CS122': 7,
+ 'CHN18CS123': 8}
+52
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232/31Jan20[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/31Jan20[00m$ python sample.py [3Pnano sample.py
+[?1049h[1;42r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[40;28H(B[0;7m[ Reading File ][3d(B[m[40;34H(B[0;7m 33 lines ][36d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3           File: sample.py                             [3;1H(B[0;1m[36mimport[39m(B[m pprint,re[4dfname = input()[5dfailed = 0[6dstuddic={}[8d(B[0;1m[36mdef[34m cgpacal[39m(B[m(grades):[9;9Hpoint=0[10;9H(B[0;1m[36mfor[39m(B[m i (B[0;1m[36min[39m(B[m grades:[11;17H(B[0;1m[36mif[39m(B[m((B[0;1m[32m"(O)"[39m(B[m (B[0;1m[36min[39m(B[m i):[12;25Hpoint+=10[13;17H(B[0;1m[36melif[39m(B[m((B[0;1m[32m"(A+)"[39m(B[m (B[0;1m[36min[39m(B[m i):[14;25Hpoint+=9[15;17H(B[0;1m[36melif[39m(B[m((B[0;1m[32m"(A)"[39m(B[m (B[0;1m[36min[39m(B[m i):[16;25Hpoint+=9[17;17H(B[0;1m[36melif[39m(B[m((B[0;1m[32m"(B+)"[39m(B[m (B[0;1m[36min[39m(B[m i):[18;25Hpoint+=6[19;17H(B[0;1m[36melif[39m(B[m((B[0;1m[32m"(B)"[39m(B[m (B[0;1m[36min[39m(B[m i):[20;25Hpoint+=6[21;17H(B[0;1m[36melif[39m(B[m((B[0;1m[32m"(D)"[39m(B[m (B[0;1m[36mor[39m(B[m (B[0;1m[32m"(C)"[39m(B[m (B[0;1m[36min[39m(B[m i):[22;25Hpoint+=5[23;9H(B[0;1m[36mprint[39m(B[m(len(grades))[24;9H(B[0;1m[36mreturn[39m(B[m point/len(grades)[27d(B[0;1m[36mwith[39m(B[m open(fname,(B[0;1m[32m"r+"[39m(B[m) (B[0;1m[36mas[39m(B[m f:[28;9H(B[0;1m[36mfor[39m(B[m i (B[0;1m[36min[39m(B[m f:[29;17H(B[0;1m[36mif[39m(B[m(re.search((B[0;1m[32m"(F)"[39m(B[m, i)):[30;25Hfailed+=1[31;17H(B[0;1m[36melse[39m(B[m:[32;25Hstuddic[i.split()[0]]=cgpacal(i.split()[1:])[42m [34d[49m(B[mpprint.pprint(studdic)[35d(B[0;1m[36mprint[39m(B[m(failed)[41d(B[0;7m^G(B[m Get Help   (B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut Text   (B[0;7m^J(B[m Justify[42d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Uncut Text (B[0;7m^T(B[m To Linter[3d[4d[5d[6d[7d[8d[9d[10d[11d[12d[13d[14d[15d[16d[17d[18d[19d[20d[21d[22d[23d[24d[25d[26d[27d[28d[40d[K[29d[30d[29;41H[28;20H[27;28H[A[A[24;33H[1;62H(B[0;7mModified[24;33H(B[m)(point/len(grades))[24;17H[40d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?           [41;1H Y(B[m Yes[K[42d(B[0;7m N(B[m No  [15G  (B[0;7m^C(B[m Cancel[K[40;62H(B[0;7mFile Name to Write: sample.py                               [41d^G(B[m Get Help   (B[0;7mM-D(B[m DOS Format(B[0;7mM-A(B[m Append    (B[0;7mM-B(B[m Backup File[42d(B[0;7m^C(B[m Cancel     (B[0;7mM-M(B[m Mac Format(B[0;7mM-P(B[m Prepend   (B[0;7m^T(B[m To Files[40;30H[?25l[39;49m(B[m[1K (B[0;7m[ Wrote 33 lines ](B[m[K[24;17H[40d[J[1;62H(B[0;7m        [42;71H(B[m[42;1H[?12l[?25h[?1049l[?1l>]0;admin1@cc-Sy: ~/ceccs18c29/cs232/31Jan20[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/31Jan20[00m$ nano sample.pypython sample.py 
+'/home/admin1/ceccs18c29/cs232/31Jan20/S1Cres.txt' 
+8
+8
+8
+8
+8
+8
+8
+7
+8
+7
+8
+8
+8
+8
+8
+8
+8
+8
+8
+8
+8
+8
+8
+8
+8
+8
+8
+8
+8
+8
+8
+8
+8
+8
+8
+8
+8
+8
+7
+8
+8
+8
+8
+8
+8
+8
+8
+8
+8
+8
+8
+8
+8
+7
+8
+8
+8
+7
+8
+8
+8
+7
+8
+8
+8
+8
+8
+8
+8
+8
+8
+{'CHN18CS003': 9,
+ 'CHN18CS004': 8,
+ 'CHN18CS005': 7,
+ 'CHN18CS007': 7,
+ 'CHN18CS008': 7,
+ 'CHN18CS009': 8,
+ 'CHN18CS010': 8,
+ 'CHN18CS012': 6,
+ 'CHN18CS016': 8,
+ 'CHN18CS017': 7,
+ 'CHN18CS018': 8,
+ 'CHN18CS020': 8,
+ 'CHN18CS021': 8,
+ 'CHN18CS023': 6,
+ 'CHN18CS025': 7,
+ 'CHN18CS026': 7,
+ 'CHN18CS029': 8,
+ 'CHN18CS030': 7,
+ 'CHN18CS032': 6,
+ 'CHN18CS033': 8,
+ 'CHN18CS035': 8,
+ 'CHN18CS036': 8,
+ 'CHN18CS037': 7,
+ 'CHN18CS038': 7,
+ 'CHN18CS039': 7,
+ 'CHN18CS042': 7,
+ 'CHN18CS043': 6,
+ 'CHN18CS049': 7,
+ 'CHN18CS053': 7,
+ 'CHN18CS054': 8,
+ 'CHN18CS056': 7,
+ 'CHN18CS057': 6,
+ 'CHN18CS058': 8,
+ 'CHN18CS059': 9,
+ 'CHN18CS062': 8,
+ 'CHN18CS063': 7,
+ 'CHN18CS068': 6,
+ 'CHN18CS069': 7,
+ 'CHN18CS072': 7,
+ 'CHN18CS073': 8,
+ 'CHN18CS075': 6,
+ 'CHN18CS077': 8,
+ 'CHN18CS079': 6,
+ 'CHN18CS080': 9,
+ 'CHN18CS082': 7,
+ 'CHN18CS084': 7,
+ 'CHN18CS087': 9,
+ 'CHN18CS091': 8,
+ 'CHN18CS092': 8,
+ 'CHN18CS093': 9,
+ 'CHN18CS095': 9,
+ 'CHN18CS096': 6,
+ 'CHN18CS097': 7,
+ 'CHN18CS099': 8,
+ 'CHN18CS100': 8,
+ 'CHN18CS101': 7,
+ 'CHN18CS102': 8,
+ 'CHN18CS103': 8,
+ 'CHN18CS104': 8,
+ 'CHN18CS105': 7,
+ 'CHN18CS106': 5,
+ 'CHN18CS111': 6,
+ 'CHN18CS112': 7,
+ 'CHN18CS113': 8,
+ 'CHN18CS115': 8,
+ 'CHN18CS116': 6,
+ 'CHN18CS118': 6,
+ 'CHN18CS120': 6,
+ 'CHN18CS121': 7,
+ 'CHN18CS122': 7,
+ 'CHN18CS123': 8}
+52
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232/31Jan20[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/31Jan20[00m$ python sample.py [3Pnano sample.py
+[?1049h[1;42r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[40;28H(B[0;7m[ Reading File ][3d(B[m[40;34H(B[0;7m 33 lines ][36d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3           File: sample.py                             [3;1H(B[0;1m[36mimport[39m(B[m pprint,re[4dfname = input()[5dfailed = 0[6dstuddic={}[8d(B[0;1m[36mdef[34m cgpacal[39m(B[m(grades):[9;9Hpoint=0[10;9H(B[0;1m[36mfor[39m(B[m i (B[0;1m[36min[39m(B[m grades:[11;17H(B[0;1m[36mif[39m(B[m((B[0;1m[32m"(O)"[39m(B[m (B[0;1m[36min[39m(B[m i):[12;25Hpoint+=10[13;17H(B[0;1m[36melif[39m(B[m((B[0;1m[32m"(A+)"[39m(B[m (B[0;1m[36min[39m(B[m i):[14;25Hpoint+=9[15;17H(B[0;1m[36melif[39m(B[m((B[0;1m[32m"(A)"[39m(B[m (B[0;1m[36min[39m(B[m i):[16;25Hpoint+=9[17;17H(B[0;1m[36melif[39m(B[m((B[0;1m[32m"(B+)"[39m(B[m (B[0;1m[36min[39m(B[m i):[18;25Hpoint+=6[19;17H(B[0;1m[36melif[39m(B[m((B[0;1m[32m"(B)"[39m(B[m (B[0;1m[36min[39m(B[m i):[20;25Hpoint+=6[21;17H(B[0;1m[36melif[39m(B[m((B[0;1m[32m"(D)"[39m(B[m (B[0;1m[36mor[39m(B[m (B[0;1m[32m"(C)"[39m(B[m (B[0;1m[36min[39m(B[m i):[22;25Hpoint+=5[23;9H(B[0;1m[36mprint[39m(B[m(len(grades))[24;9H(B[0;1m[36mreturn[39m(B[m (point/len(grades))[27d(B[0;1m[36mwith[39m(B[m open(fname,(B[0;1m[32m"r+"[39m(B[m) (B[0;1m[36mas[39m(B[m f:[28;9H(B[0;1m[36mfor[39m(B[m i (B[0;1m[36min[39m(B[m f:[29;17H(B[0;1m[36mif[39m(B[m(re.search((B[0;1m[32m"(F)"[39m(B[m, i)):[30;25Hfailed+=1[31;17H(B[0;1m[36melse[39m(B[m:[32;25Hstuddic[i.split()[0]]=cgpacal(i.split()[1:])[42m [34d[49m(B[mpprint.pprint(studdic)[35d(B[0;1m[36mprint[39m(B[m(failed)[41d(B[0;7m^G(B[m Get Help   (B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut Text   (B[0;7m^J(B[m Justify[42d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Uncut Text (B[0;7m^T(B[m To Linter[3d[4d[5d[6d[7d[8d[9d[10d[11d[12d[13d[14d[15d[16d[17d[18d[19d[20d[21d[22d[23d[24d[25d[26d[27d[A[40d[K[25d[24;35H[25d[24;28Hr[A[24d[23;27H[1;62H(B[0;7mModified[23;26H(B[m             [9Gprin[K   [42m[1K [49m(B[m [K[23;40r[40;1H
+[1;42r[22;33H[23d[24d[25d[26;28H[27;20H[28;33H[27;20H[26;28H[A[A[23;33H[9Gretur[1P[1P[1P[1P[1P[1Pp (point/len(grades))[23;10Hr (point/len(grades))[23;11Hi (point/len(grades))[23;12Hn (point/len(grades))[23;13H(B[0;1m[36mprint[39m(B[m (point/len(grades))[23;14H [1P[40d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?           [41;1H Y(B[m Yes[K[42d(B[0;7m N(B[m No  [15G  (B[0;7m^C(B[m Cancel[K[40;62H(B[0;7mFile Name to Write: sample.py                               [41d^G(B[m Get Help   (B[0;7mM-D(B[m DOS Format(B[0;7mM-A(B[m Append    (B[0;7mM-B(B[m Backup File[42d(B[0;7m^C(B[m Cancel     (B[0;7mM-M(B[m Mac Format(B[0;7mM-P(B[m Prepend   (B[0;7m^T(B[m To Files[40;30H[?25l[39;49m(B[m[1K (B[0;7m[ Wrote 32 lines ](B[m[K[23;14H[40d[J[1;62H(B[0;7m        [42;71H(B[m[42;1H[?12l[?25h[?1049l[?1l>]0;admin1@cc-Sy: ~/ceccs18c29/cs232/31Jan20[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/31Jan20[00m$ nano sample.pypython sample.py 
+'/home/admin1/ceccs18c29/cs232/31Jan20/S1Cres.txt' 
+9
+8
+7
+7
+7
+8
+8
+6
+8
+7
+8
+8
+8
+6
+7
+7
+8
+7
+6
+8
+8
+8
+7
+7
+7
+7
+6
+7
+7
+8
+7
+6
+8
+9
+8
+7
+6
+7
+7
+8
+6
+8
+6
+9
+7
+7
+9
+8
+8
+9
+9
+6
+7
+8
+8
+7
+8
+8
+8
+7
+5
+6
+7
+8
+8
+6
+6
+6
+7
+7
+8
+{'CHN18CS003': None,
+ 'CHN18CS004': None,
+ 'CHN18CS005': None,
+ 'CHN18CS007': None,
+ 'CHN18CS008': None,
+ 'CHN18CS009': None,
+ 'CHN18CS010': None,
+ 'CHN18CS012': None,
+ 'CHN18CS016': None,
+ 'CHN18CS017': None,
+ 'CHN18CS018': None,
+ 'CHN18CS020': None,
+ 'CHN18CS021': None,
+ 'CHN18CS023': None,
+ 'CHN18CS025': None,
+ 'CHN18CS026': None,
+ 'CHN18CS029': None,
+ 'CHN18CS030': None,
+ 'CHN18CS032': None,
+ 'CHN18CS033': None,
+ 'CHN18CS035': None,
+ 'CHN18CS036': None,
+ 'CHN18CS037': None,
+ 'CHN18CS038': None,
+ 'CHN18CS039': None,
+ 'CHN18CS042': None,
+ 'CHN18CS043': None,
+ 'CHN18CS049': None,
+ 'CHN18CS053': None,
+ 'CHN18CS054': None,
+ 'CHN18CS056': None,
+ 'CHN18CS057': None,
+ 'CHN18CS058': None,
+ 'CHN18CS059': None,
+ 'CHN18CS062': None,
+ 'CHN18CS063': None,
+ 'CHN18CS068': None,
+ 'CHN18CS069': None,
+ 'CHN18CS072': None,
+ 'CHN18CS073': None,
+ 'CHN18CS075': None,
+ 'CHN18CS077': None,
+ 'CHN18CS079': None,
+ 'CHN18CS080': None,
+ 'CHN18CS082': None,
+ 'CHN18CS084': None,
+ 'CHN18CS087': None,
+ 'CHN18CS091': None,
+ 'CHN18CS092': None,
+ 'CHN18CS093': None,
+ 'CHN18CS095': None,
+ 'CHN18CS096': None,
+ 'CHN18CS097': None,
+ 'CHN18CS099': None,
+ 'CHN18CS100': None,
+ 'CHN18CS101': None,
+ 'CHN18CS102': None,
+ 'CHN18CS103': None,
+ 'CHN18CS104': None,
+ 'CHN18CS105': None,
+ 'CHN18CS106': None,
+ 'CHN18CS111': None,
+ 'CHN18CS112': None,
+ 'CHN18CS113': None,
+ 'CHN18CS115': None,
+ 'CHN18CS116': None,
+ 'CHN18CS118': None,
+ 'CHN18CS120': None,
+ 'CHN18CS121': None,
+ 'CHN18CS122': None,
+ 'CHN18CS123': None}
+52
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232/31Jan20[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/31Jan20[00m$ 
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232/31Jan20[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/31Jan20[00m$ python sample.py [3Pnano sample.pypython sample.py [3Pnano sample.py
+[?1049h[1;42r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[40;28H(B[0;7m[ Reading File ][3d(B[m[40;34H(B[0;7m 32 lines ][35d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3           File: sample.py                             [3;1H(B[0;1m[36mimport[39m(B[m pprint,re[4dfname = input()[5dfailed = 0[6dstuddic={}[8d(B[0;1m[36mdef[34m cgpacal[39m(B[m(grades):[9;9Hpoint=0[10;9H(B[0;1m[36mfor[39m(B[m i (B[0;1m[36min[39m(B[m grades:[11;17H(B[0;1m[36mif[39m(B[m((B[0;1m[32m"(O)"[39m(B[m (B[0;1m[36min[39m(B[m i):[12;25Hpoint+=10[13;17H(B[0;1m[36melif[39m(B[m((B[0;1m[32m"(A+)"[39m(B[m (B[0;1m[36min[39m(B[m i):[14;25Hpoint+=9[15;17H(B[0;1m[36melif[39m(B[m((B[0;1m[32m"(A)"[39m(B[m (B[0;1m[36min[39m(B[m i):[16;25Hpoint+=9[17;17H(B[0;1m[36melif[39m(B[m((B[0;1m[32m"(B+)"[39m(B[m (B[0;1m[36min[39m(B[m i):[18;25Hpoint+=6[19;17H(B[0;1m[36melif[39m(B[m((B[0;1m[32m"(B)"[39m(B[m (B[0;1m[36min[39m(B[m i):[20;25Hpoint+=6[21;17H(B[0;1m[36melif[39m(B[m((B[0;1m[32m"(D)"[39m(B[m (B[0;1m[36mor[39m(B[m (B[0;1m[32m"(C)"[39m(B[m (B[0;1m[36min[39m(B[m i):[22;25Hpoint+=5[23;9H(B[0;1m[36mprint[39m(B[m(point/len(grades))[26d(B[0;1m[36mwith[39m(B[m open(fname,(B[0;1m[32m"r+"[39m(B[m) (B[0;1m[36mas[39m(B[m f:[27;9H(B[0;1m[36mfor[39m(B[m i (B[0;1m[36min[39m(B[m f:[28;17H(B[0;1m[36mif[39m(B[m(re.search((B[0;1m[32m"(F)"[39m(B[m, i)):[29;25Hfailed+=1[30;17H(B[0;1m[36melse[39m(B[m:[31;25Hstuddic[i.split()[0]]=cgpacal(i.split()[1:])[42m [33d[49m(B[mpprint.pprint(studdic)[34d(B[0;1m[36mprint[39m(B[m(failed)[41d(B[0;7m^G(B[m Get Help   (B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut Text   (B[0;7m^J(B[m Justify[42d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Uncut Text (B[0;7m^T(B[m To Linter[3d[4d[5d[6d[7d[8d[9d[10d[11d[12d[13d[14d[15d[16d[17d[18d[19d[20d[21d[22d[23d[24d[25d[26d[27d[A[40d[K[25d[A[A[A[A[A[A[A[A[18d[19d[20d[21d[22d[23d[23;9H[24d[23;33Hl[1;62H(B[0;7mModified[23;21H(B[mflen(grades))[23;22Hllen(grades))[23;23Holen(grades))[23;24Halen(grades))[23;25Htlen(grades))[23;26H(len(grades))[23;27Hlen(grades)))[40d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?           [41;1H Y(B[m Yes[K[42d(B[0;7m N(B[m No  [15G  (B[0;7m^C(B[m Cancel[K[40;62H(B[0;7mFile Name to Write: sample.py                               [41d^G(B[m Get Help   (B[0;7mM-D(B[m DOS Format(B[0;7mM-A(B[m Append    (B[0;7mM-B(B[m Backup File[42d(B[0;7m^C(B[m Cancel     (B[0;7mM-M(B[m Mac Format(B[0;7mM-P(B[m Prepend   (B[0;7m^T(B[m To Files[40;30H[?25l[39;49m(B[m[1K (B[0;7m[ Wrote 32 lines ](B[m[K[23;39H[40d[J[1;62H(B[0;7m        [42;71H(B[m[42;1H[?12l[?25h[?1049l[?1l>]0;admin1@cc-Sy: ~/ceccs18c29/cs232/31Jan20[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/31Jan20[00m$ nano sample.pypython sample.py 
+'/home/admin1/ceccs18c29/cs232/31Jan20/S1Cres.txt' 
+9.375
+8.5
+7.0
+7.625
+7.0
+8.375
+8.875
+6.71428571429
+8.125
+7.42857142857
+8.75
+8.625
+8.0
+6.875
+7.125
+7.375
+8.875
+7.125
+6.75
+8.75
+8.375
+8.0
+7.875
+7.875
+7.125
+7.0
+6.75
+7.625
+7.125
+8.75
+7.5
+6.75
+8.25
+9.5
+8.625
+7.875
+6.75
+7.375
+7.71428571429
+8.375
+6.875
+8.625
+6.75
+9.125
+7.0
+7.0
+9.5
+8.875
+8.375
+9.625
+9.125
+6.375
+7.125
+8.71428571429
+8.375
+7.0
+8.25
+8.42857142857
+8.625
+7.25
+5.875
+6.42857142857
+7.0
+8.0
+8.375
+6.875
+6.75
+6.125
+7.25
+7.75
+8.125
+{'CHN18CS003': None,
+ 'CHN18CS004': None,
+ 'CHN18CS005': None,
+ 'CHN18CS007': None,
+ 'CHN18CS008': None,
+ 'CHN18CS009': None,
+ 'CHN18CS010': None,
+ 'CHN18CS012': None,
+ 'CHN18CS016': None,
+ 'CHN18CS017': None,
+ 'CHN18CS018': None,
+ 'CHN18CS020': None,
+ 'CHN18CS021': None,
+ 'CHN18CS023': None,
+ 'CHN18CS025': None,
+ 'CHN18CS026': None,
+ 'CHN18CS029': None,
+ 'CHN18CS030': None,
+ 'CHN18CS032': None,
+ 'CHN18CS033': None,
+ 'CHN18CS035': None,
+ 'CHN18CS036': None,
+ 'CHN18CS037': None,
+ 'CHN18CS038': None,
+ 'CHN18CS039': None,
+ 'CHN18CS042': None,
+ 'CHN18CS043': None,
+ 'CHN18CS049': None,
+ 'CHN18CS053': None,
+ 'CHN18CS054': None,
+ 'CHN18CS056': None,
+ 'CHN18CS057': None,
+ 'CHN18CS058': None,
+ 'CHN18CS059': None,
+ 'CHN18CS062': None,
+ 'CHN18CS063': None,
+ 'CHN18CS068': None,
+ 'CHN18CS069': None,
+ 'CHN18CS072': None,
+ 'CHN18CS073': None,
+ 'CHN18CS075': None,
+ 'CHN18CS077': None,
+ 'CHN18CS079': None,
+ 'CHN18CS080': None,
+ 'CHN18CS082': None,
+ 'CHN18CS084': None,
+ 'CHN18CS087': None,
+ 'CHN18CS091': None,
+ 'CHN18CS092': None,
+ 'CHN18CS093': None,
+ 'CHN18CS095': None,
+ 'CHN18CS096': None,
+ 'CHN18CS097': None,
+ 'CHN18CS099': None,
+ 'CHN18CS100': None,
+ 'CHN18CS101': None,
+ 'CHN18CS102': None,
+ 'CHN18CS103': None,
+ 'CHN18CS104': None,
+ 'CHN18CS105': None,
+ 'CHN18CS106': None,
+ 'CHN18CS111': None,
+ 'CHN18CS112': None,
+ 'CHN18CS113': None,
+ 'CHN18CS115': None,
+ 'CHN18CS116': None,
+ 'CHN18CS118': None,
+ 'CHN18CS120': None,
+ 'CHN18CS121': None,
+ 'CHN18CS122': None,
+ 'CHN18CS123': None}
+52
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232/31Jan20[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/31Jan20[00m$ python sample.py [3Pnano sample.py
+[?1049h[1;42r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[40;28H(B[0;7m[ Reading File ][3d(B[m[40;34H(B[0;7m 32 lines ][35d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3           File: sample.py                             [3;1H(B[0;1m[36mimport[39m(B[m pprint,re[4dfname = input()[5dfailed = 0[6dstuddic={}[8d(B[0;1m[36mdef[34m cgpacal[39m(B[m(grades):[9;9Hpoint=0[10;9H(B[0;1m[36mfor[39m(B[m i (B[0;1m[36min[39m(B[m grades:[11;17H(B[0;1m[36mif[39m(B[m((B[0;1m[32m"(O)"[39m(B[m (B[0;1m[36min[39m(B[m i):[12;25Hpoint+=10[13;17H(B[0;1m[36melif[39m(B[m((B[0;1m[32m"(A+)"[39m(B[m (B[0;1m[36min[39m(B[m i):[14;25Hpoint+=9[15;17H(B[0;1m[36melif[39m(B[m((B[0;1m[32m"(A)"[39m(B[m (B[0;1m[36min[39m(B[m i):[16;25Hpoint+=9[17;17H(B[0;1m[36melif[39m(B[m((B[0;1m[32m"(B+)"[39m(B[m (B[0;1m[36min[39m(B[m i):[18;25Hpoint+=6[19;17H(B[0;1m[36melif[39m(B[m((B[0;1m[32m"(B)"[39m(B[m (B[0;1m[36min[39m(B[m i):[20;25Hpoint+=6[21;17H(B[0;1m[36melif[39m(B[m((B[0;1m[32m"(D)"[39m(B[m (B[0;1m[36mor[39m(B[m (B[0;1m[32m"(C)"[39m(B[m (B[0;1m[36min[39m(B[m i):[22;25Hpoint+=5[23;9H(B[0;1m[36mprint[39m(B[m(point/float(len(grades)))[26d(B[0;1m[36mwith[39m(B[m open(fname,(B[0;1m[32m"r+"[39m(B[m) (B[0;1m[36mas[39m(B[m f:[27;9H(B[0;1m[36mfor[39m(B[m i (B[0;1m[36min[39m(B[m f:[28;17H(B[0;1m[36mif[39m(B[m(re.search((B[0;1m[32m"(F)"[39m(B[m, i)):[29;25Hfailed+=1[30;17H(B[0;1m[36melse[39m(B[m:[31;25Hstuddic[i.split()[0]]=cgpacal(i.split()[1:])[42m [33d[49m(B[mpprint.pprint(studdic)[34d(B[0;1m[36mprint[39m(B[m(failed)[41d(B[0;7m^G(B[m Get Help   (B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut Text   (B[0;7m^J(B[m Justify[42d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Uncut Text (B[0;7m^T(B[m To Linter[3d[4d[5d[6d[7d[8d[9d[10d[11d[12d[13d[14d[15d[16d[17d[18d[19d[20d[21d[22d[23d[24d[25d[A[23;40H[40d[K[23;38H[1;62H(B[0;7mModified[23;9H(B[mprin[1P[1P[1P[1P[1Pr(point/float(len(grades)))[23;10He(point/float(len(grades)))[23;11Ht(point/float(len(grades)))[23;12Hu(point/float(len(grades)))[23;13Hr(point/float(len(grades)))[23;14H[9G(B[0;1m[36mreturn[39m(B[m(point/float(len(grades)))[23;15H[40d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?           [41;1H Y(B[m Yes[K[42d(B[0;7m N(B[m No  [15G  (B[0;7m^C(B[m Cancel[K[40;62H(B[0;7mFile Name to Write: sample.py                               [41d^G(B[m Get Help   (B[0;7mM-D(B[m DOS Format(B[0;7mM-A(B[m Append    (B[0;7mM-B(B[m Backup File[42d(B[0;7m^C(B[m Cancel     (B[0;7mM-M(B[m Mac Format(B[0;7mM-P(B[m Prepend   (B[0;7m^T(B[m To Files[40;30H[?25l[39;49m(B[m[1K (B[0;7m[ Wrote 32 lines ](B[m[K[23;15H[40d[J[1;62H(B[0;7m        [42;71H(B[m[42;1H[?12l[?25h[?1049l[?1l>]0;admin1@cc-Sy: ~/ceccs18c29/cs232/31Jan20[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/31Jan20[00m$ nano sample.pypython sample.py 
+'/home/admin1/ceccs18c29/cs232/31Jan20/S1Cres.txt' 
+{'CHN18CS003': 9.375,
+ 'CHN18CS004': 8.5,
+ 'CHN18CS005': 7.0,
+ 'CHN18CS007': 7.625,
+ 'CHN18CS008': 7.0,
+ 'CHN18CS009': 8.375,
+ 'CHN18CS010': 8.875,
+ 'CHN18CS012': 6.714285714285714,
+ 'CHN18CS016': 8.125,
+ 'CHN18CS017': 7.428571428571429,
+ 'CHN18CS018': 8.75,
+ 'CHN18CS020': 8.625,
+ 'CHN18CS021': 8.0,
+ 'CHN18CS023': 6.875,
+ 'CHN18CS025': 7.125,
+ 'CHN18CS026': 7.375,
+ 'CHN18CS029': 8.875,
+ 'CHN18CS030': 7.125,
+ 'CHN18CS032': 6.75,
+ 'CHN18CS033': 8.75,
+ 'CHN18CS035': 8.375,
+ 'CHN18CS036': 8.0,
+ 'CHN18CS037': 7.875,
+ 'CHN18CS038': 7.875,
+ 'CHN18CS039': 7.125,
+ 'CHN18CS042': 7.0,
+ 'CHN18CS043': 6.75,
+ 'CHN18CS049': 7.625,
+ 'CHN18CS053': 7.125,
+ 'CHN18CS054': 8.75,
+ 'CHN18CS056': 7.5,
+ 'CHN18CS057': 6.75,
+ 'CHN18CS058': 8.25,
+ 'CHN18CS059': 9.5,
+ 'CHN18CS062': 8.625,
+ 'CHN18CS063': 7.875,
+ 'CHN18CS068': 6.75,
+ 'CHN18CS069': 7.375,
+ 'CHN18CS072': 7.714285714285714,
+ 'CHN18CS073': 8.375,
+ 'CHN18CS075': 6.875,
+ 'CHN18CS077': 8.625,
+ 'CHN18CS0
