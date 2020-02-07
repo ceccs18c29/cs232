@@ -1,0 +1,60 @@
+CEC CS 18 C29
+Jesswin W Varghese
+
+--------------------------------
+#1: Familiarisation of Networking commands in Linux
+---------------------------------
+Command/Shell script/Program name: work.txt
+
+---------------------------------
+
+Input: None
+---------------
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+None
+
+-------------------
+Remarks if any:
+
+-> worked with ifconfig to see the network
+
+-> added a route but was not a valid name
+
+-> ssh was used to access the ftp server and added a greet.txt in it
+
+->ping was used to ping 192.168.0.30
+
+-------------------------------------
+-------------------------------------
+
+#2: ssh,rsync,scp
+---------------------------------
+Command/Shell script/Program name: work.txt
+
+---------------------------------
+
+Input: (If relevant)
+---------------
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+dummy,backup
+
+-------------------
+Remarks if any:
+
+-> used rsync to sync files in dummy and backup
+
+-> used ssh to login to the ftp and do some commands
+
+->scp was used to copy a file from dummy to backup
+
+-------------------------------------
+-------------------------------------
+
+-----Important----
+
+->Rest of the scripting was completed today and is in the 31Jan20 folder
+

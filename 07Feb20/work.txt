@@ -1,0 +1,319 @@
+Script started on Friday 07 February 2020 12:23:57 PM IST
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232/07Feb20/2[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/07Feb20/2[00m$ mkdir dummy
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232/07Feb20/2[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/07Feb20/2[00m$ cd dummy/
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232/07Feb20/2/dummy[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/07Feb20/2/dummy[00m$ nano h[K1.txt
+[?1049h[1;42r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[40;30H(B[0;7m[ New File ][3d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3            File: 1.txt                                [41;1H^G(B[m Get Help   (B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut Text   (B[0;7m^J(B[m Justify[42d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Uncut Text (B[0;7m^T(B[m To Spell[3d[1;62H(B[0;7mModified[3d(B[mhello I am the 1st file to[40d[K[3;27H be copies d[40d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?           [41;1H Y(B[m Yes[K[42d(B[0;7m N(B[m No  [15G  (B[0;7m^C(B[m Cancel[K[40;62H(B[0;7mFile Name to Write: 1.txt                                   [41d^G(B[m Get Help   (B[0;7mM-D(B[m DOS Format(B[0;7mM-A(B[m Append    (B[0;7mM-B(B[m Backup File[42d(B[0;7m^C(B[m Cancel     (B[0;7mM-M(B[m Mac Format(B[0;7mM-P(B[m Prepend   (B[0;7m^T(B[m To Files[40;26H[?25l[C[39;49m(B[m[1K (B[0;7m[ Wrote 1 line ](B[m[K[3;37H[40d[J[1;62H(B[0;7m        [42;71H(B[m[42;1H[?12l[?25h[?1049l[?1l>]0;admin1@cc-Sy: ~/ceccs18c29/cs232/07Feb20/2/dummy[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/07Feb20/2/dummy[00m$ nano 1.txt[1P.txt2.txt
+[?1049h[1;42r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[40;30H(B[0;7m[ New File ][3d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3            File: 2.txt                                [41;1H^G(B[m Get Help   (B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut Text   (B[0;7m^J(B[m Justify[42d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Uncut Text (B[0;7m^T(B[m To Spell[3d[1;62H(B[0;7mModified[3d(B[mHello th  I am the seconf[40d[K[3;23H d t= filw     fiel  e          2nf  d file to be copied[40d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?           [41;1H Y(B[m Yes[K[42d(B[0;7m N(B[m No  [15G  (B[0;7m^C(B[m Cancel[K[40;62H(B[0;7mFile Name to Write: 2.txt                                   [41d^G(B[m Get Help   (B[0;7mM-D(B[m DOS Format(B[0;7mM-A(B[m Append    (B[0;7mM-B(B[m Backup File[42d(B[0;7m^C(B[m Cancel     (B[0;7mM-M(B[m Mac Format(B[0;7mM-P(B[m Prepend   (B[0;7m^T(B[m To Files[40;26H[?25l[C[39;49m(B[m[1K (B[0;7m[ Wrote 1 line ](B[m[K[3;37H[40d[J[1;62H(B[0;7m        [42;71H(B[m[42;1H[?12l[?25h[?1049l[?1l>]0;admin1@cc-Sy: ~/ceccs18c29/cs232/07Feb20/2/dummy[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/07Feb20/2/dummy[00m$ nano 2.txt[1P.txt3.txt
+[?1049h[1;42r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[40;30H(B[0;7m[ New File ][3d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3            File: 3.txt                                [41;1H^G(B[m Get Help   (B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut Text   (B[0;7m^J(B[m Justify[42d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Uncut Text (B[0;7m^T(B[m To Spell[3d[1;62H(B[0;7mModified[3d(B[mHello I am the 2nd file to be copied[40d[K[5d[A[3;37H[1P[1P3d file to be copied[3;17Hrd file to be copied[3;18H[40d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?           [41;1H Y(B[m Yes[K[42d(B[0;7m N(B[m No  [15G  (B[0;7m^C(B[m Cancel[K[40;62H(B[0;7mFile Name to Write: 3.txt                                   [41d^G(B[m Get Help   (B[0;7mM-D(B[m DOS Format(B[0;7mM-A(B[m Append    (B[0;7mM-B(B[m Backup File[42d(B[0;7m^C(B[m Cancel     (B[0;7mM-M(B[m Mac Format(B[0;7mM-P(B[m Prepend   (B[0;7m^T(B[m To Files[40;26H[?25l[C[39;49m(B[m[1K (B[0;7m[ Wrote 3 lines ](B[m[K[3;18H[40d[J[1;62H(B[0;7m        [42;71H(B[m[42;1H[?12l[?25h[?1049l[?1l>]0;admin1@cc-Sy: ~/ceccs18c29/cs232/07Feb20/2/dummy[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/07Feb20/2/dummy[00m$ nano 3.txt2.txt3.txt[1P.txt4.txt
+[?1049h[1;42r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[40;30H(B[0;7m[ New File ][3d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3            File: 4.txt                                [41;1H^G(B[m Get Help   (B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut Text   (B[0;7m^J(B[m Justify[42d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Uncut Text (B[0;7m^T(B[m To Spell[3d[1;62H(B[0;7mModified[3d(B[mHello I am the 2nd file to be copied[40d[K[5d[A[3;37H[1P[1P[1P4 file to be copied[3;17Ht file to be copied[3;18Hh file to be copied[3;19H [K[4d file to be copied[3;20Hfile to be copied[4d[K[3;19H[40d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?           [41;1H Y(B[m Yes[K[42d(B[0;7m N(B[m No  [15G  (B[0;7m^C(B[m Cancel[K[40;62H(B[0;7mFile Name to Write: 4.txt                                   [41d^G(B[m Get Help   (B[0;7mM-D(B[m DOS Format(B[0;7mM-A(B[m Append    (B[0;7mM-B(B[m Backup File[42d(B[0;7m^C(B[m Cancel     (B[0;7mM-M(B[m Mac Format(B[0;7mM-P(B[m Prepend   (B[0;7m^T(B[m To Files[40;26H[?25l[C[39;49m(B[m[1K (B[0;7m[ Wrote 3 lines ](B[m[K[3;19H[40d[J[1;62H(B[0;7m        [42;71H(B[m[42;1H[?12l[?25h[?1049l[?1l>]0;admin1@cc-Sy: ~/ceccs18c29/cs232/07Feb20/2/dummy[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/07Feb20/2/dummy[00m$ nano 4.txt[1P.txt5.txt
+[?1049h[1;42r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[40;30H(B[0;7m[ New File ][3d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3            File: 5.txt                                [41;1H^G(B[m Get Help   (B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut Text   (B[0;7m^J(B[m Justify[42d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Uncut Text (B[0;7m^T(B[m To Spell[3d[1;62H(B[0;7mModified[3d(B[mHello I am the 2nd file to be copied[40d[K[5d[A[3;37H[42;1H[?1049l[?1l>[?1049h[1;43r[?12l[?25h[39;49m(B[m[4l[?7h[H[2J(B[0;7m  GNU nano 2.5.3            File: 5.txt                      Modified  [3;1H(B[mHello I am the 2nd file to be copied[41d(B[0;7m^G(B[m Get Help   (B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut Text   (B[0;7m^J(B[m Justify[42d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Uncut Text (B[0;7m^T(B[m To Spell[3;19H[?1h=[?1h=[?1h=[H[2J(B[0;7m  GNU nano 2.5.3            File: 5.txt                      Modified  [3;1H(B[mHello I am the 2nd file to be copied[41d(B[0;7m^G(B[m Get Help   (B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut Text   (B[0;7m^J(B[m Justify[42d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Uncut Text (B[0;7m^T(B[m To Spell[3;19H[4d[L[3;19H[43;1H[?1049l[?1l>[?1049h[1;45r[?12l[?25h[39;49m(B[m[4l[?7h[H[2J(B[0;7m  GNU nano 2.5.3            File: 5.txt                      Modified  [3d(B[mHello I am the 2nd file to be copied[42d(B[0;7m^G(B[m Get Help   (B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut Text   (B[0;7m^J(B[m Justify[43d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Uncut Text (B[0;7m^T(B[m To Spell[3;19H[?1h=[?1h=[?1h=[H[2J(B[0;7m  GNU nano 2.5.3            File: 5.txt                      Modified  [3d(B[mHello I am the 2nd file to be copied[42d(B[0;7m^G(B[m Get Help   (B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut Text   (B[0;7m^J(B[m Justify[43d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Uncut Text (B[0;7m^T(B[m To Spell[3;19H[1;29H(B[0;7m           [1;56HFile: 5.txt                                                                          Modified  [42;1H(B[m[K[43d[K[44d(B[0;7m^G(B[m Get Help     (B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos[97G(B[0;7m^Y(B[m Prev Page    (B[0;7mM-\(B[m First Line  (B[0;7mM-W(B[m WhereIs Next[45d(B[0;7m^X(B[m Exit[45;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Uncut Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line   (B[0;7m^V(B[m Next Page    (B[0;7mM-/(B[m Last Line   (B[0;7mM-](B[m To Bracket[3;19H[45;1H[?1049l[?1l>[?1049h[1;42r[?12l[?25h[39;49m(B[m[4l[?7h[H[2J(B[0;7m  GNU nano 2.5.3                                       File: 5.txt     [3;1H(B[mHello I am the 2nd file to be copied[3;19H[?1h=[?1h=[?1h=[H[2J(B[0;7m  GNU nano 2.5.3                                       File: 5.txt     [3;1H(B[mHello I am the 2nd file to be copied[3;19H[1;29H(B[0;7mFile: 5.txt[1;56H      Modified[41d^G(B[m Get Help   (B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut Text   (B[0;7m^J(B[m Justify[42d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Uncut Text (B[0;7m^T(B[m To Spell[3;19H[1P[1P[1P5 file to be copied[3;17Ht file to be copied[3;18Hh file to be copied[3;19HX file to be copied[3;20H[1PX file to be copied[3;20H[1P[40d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?           [41;1H Y(B[m Yes[K[42d(B[0;7m N(B[m No  [15G  (B[0;7m^C(B[m Cancel[K[40;62H(B[0;7mFile Name to Write: 5.txt                                   [41d^G(B[m Get Help   (B[0;7mM-D(B[m DOS Format(B[0;7mM-A(B[m Append    (B[0;7mM-B(B[m Backup File[42d(B[0;7m^C(B[m Cancel     (B[0;7mM-M(B[m Mac Format(B[0;7mM-P(B[m Prepend   (B[0;7m^T(B[m To Files[40;26H[?25l[C[39;49m(B[m[1K (B[0;7m[ Wrote 3 lines ](B[m[K[3;19H[40d[J[1;62H(B[0;7m        [42;71H(B[m[42;1H[?12l[?25h[?1049l[?1l>]0;admin1@cc-Sy: ~/ceccs18c29/cs232/07Feb20/2/dummy[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/07Feb20/2/dummy[00m$ clear
+[3;J[H[2J]0;admin1@cc-Sy: ~/ceccs18c29/cs232/07Feb20/2/dummy[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/07Feb20/2/dummy[00m$ ls
+1.txt  2.txt  3.txt  4.txt  5.txt
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232/07Feb20/2/dummy[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/07Feb20/2/dummy[00m$ cd ..
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232/07Feb20/2[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/07Feb20/2[00m$ mkdir backup
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232/07Feb20/2[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/07Feb20/2[00m$ rsync -v dummy/ backup/
+skipping directory .
+
+sent 16 bytes  received 12 bytes  56.00 bytes/sec
+total size is 0  speedup is 0.00
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232/07Feb20/2[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/07Feb20/2[00m$ rsync -v dummy/ backup/[C[1@r
+sending incremental file list
+1.txt
+2.txt
+3.txt
+4.txt
+5.txt
+
+sent 549 bytes  received 111 bytes  1,320.00 bytes/sec
+total size is 191  speedup is 0.29
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232/07Feb20/2[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/07Feb20/2[00m$ rsync -rv dummy/ backup/[C[1@ [1@-[1@-d dummy/ backup/ [A]0;admin1@cc-Sy: ~/ceccs18c29/cs232/07Feb20/2[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/07Feb20/2[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[Cr dummy/ backup//[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232/07Feb20/2[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/07Feb20/2[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[Cy dummy/ backup/[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232/07Feb20/2[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/07Feb20/2[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cr dummy/ backup/[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232/07Feb20/2[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/07Feb20/2[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cu dummy/ backup/[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232/07Feb20/2[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/07Feb20/2[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cn dummy/ backup/[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232/07Feb20/2[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/07Feb20/2[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-run dummy/ backup/[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232/07Feb20/2[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/07Feb20/2[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+sending incremental file list
+1.txt
+2.txt
+3.txt
+4.txt
+5.txt
+
+sent 158 bytes  received 31 bytes  378.00 bytes/sec
+total size is 191  speedup is 1.01 (DRY RUN)
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232/07Feb20/2[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/07Feb20/2[00m$ rsync -rv --dry-run dummy/ baackup/[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cv --dry-run dummy/ bac[1Pkup/[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232/07Feb20/2[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/07Feb20/2[00m$ [C[C[C[C[C[C[Czv --dry-run dummy/ backup/[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232/07Feb20/2[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/07Feb20/2[00m$ [C[C[C[C[C[C[C[C
+
+skipping directory .
+
+sent 16 bytes  received 12 bytes  56.00 bytes/sec
+total size is 0  speedup is 0.00 (DRY RUN)
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232/07Feb20/2[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/07Feb20/2[00m$ rsync -zv --dry-run dummy/ baackup/[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crv --dry-run dummy/ backup/[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232/07Feb20/2[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/07Feb20/2[00m$ [C[C[C[C[C[C[C[C[C
+
+sending incremental file list
+1.txt
+2.txt
+3.txt
+4.txt
+5.txt
+
+sent 158 bytes  received 31 bytes  378.00 bytes/sec
+total size is 191  speedup is 1.01 (DRY RUN)
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232/07Feb20/2[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/07Feb20/2[00m$ cd d[Kbackup/
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232/07Feb20/2/backup[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/07Feb20/2/backup[00m$ ls
+1.txt  2.txt  3.txt  4.txt  5.txt
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232/07Feb20/2/backup[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/07Feb20/2/backup[00m$ clear
+[3;J[H[2J]0;admin1@cc-Sy: ~/ceccs18c29/cs232/07Feb20/2/backup[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/07Feb20/2/backup[00m$ cd ..
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232/07Feb20/2[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/07Feb20/2[00m$ exc[K[Kcho "file [Ks coped to backup  using tr[Krs[K[K[Krsy[Kync"
+files coped to backup using rsync
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232/07Feb20/2[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/07Feb20/2[00m$ clear
+[3;J[H[2J]0;admin1@cc-Sy: ~/ceccs18c29/cs232/07Feb20/2[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/07Feb20/2[00m$ ls
+[0m[01;34mbackup[0m  [01;34mdummy[0m  work.txt
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232/07Feb20/2[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/07Feb20/2[00m$ cd backup/
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232/07Feb20/2/backup[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/07Feb20/2/backup[00m$ nano delete.txt
+[?1049h[1;42r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[40;30H(B[0;7m[ New File ][3d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3           File: delete.txt                            [41;1H^G(B[m Get Help   (B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut Text   (B[0;7m^J(B[m Justify[42d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Uncut Text (B[0;7m^T(B[m To Spell[3d[1;62H(B[0;7mModified[3d(B[mI am going to be deleted[40d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?           [41;1H Y(B[m Yes[K[42d(B[0;7m N(B[m No  [15G  (B[0;7m^C(B[m Cancel[K[40;62H(B[0;7mFile Name to Write: delete.txt                              [41d^G(B[m Get Help   (B[0;7mM-D(B[m DOS Format(B[0;7mM-A(B[m Append    (B[0;7mM-B(B[m Backup File[42d(B[0;7m^C(B[m Cancel     (B[0;7mM-M(B[m Mac Format(B[0;7mM-P(B[m Prepend   (B[0;7m^T(B[m To Files[40;31H[?25l[39;49m(B[m[1K (B[0;7m[ Wrote 1 line ](B[m[K[3;25H[40d[J[1;62H(B[0;7m        [42;71H(B[m[42;1H[?12l[?25h[?1049l[?1l>]0;admin1@cc-Sy: ~/ceccs18c29/cs232/07Feb20/2/backup[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/07Feb20/2/backup[00m$ cd ..
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232/07Feb20/2[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/07Feb20/2[00m$ cd ..nano delete.txt[5Pcd backup/ls[Kclearecho "files coped to backup uusing rsync"[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232/07Feb20/2[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/07Feb20/2[00m$ cd ..[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Clear[3Plscd backup/rsync -zrv --dry-run dummy/ bbackup/[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C dummy/ ba[1Pckup/[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232/07Feb20/2[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/07Feb20/2[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C dummy/ bac[1Pkup/[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232/07Feb20/2[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/07Feb20/2[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C dummy/ back[1Pup/[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232/07Feb20/2[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/07Feb20/2[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C dummy/ backu[1Pp/[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232/07Feb20/2[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/07Feb20/2[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C dummy/ backup[1P/[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232/07Feb20/2[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/07Feb20/2[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C dummy/ backup/[K[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232/07Feb20/2[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/07Feb20/2[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[Ce dummy/ backup/[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232/07Feb20/2[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/07Feb20/2[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cl dummy/ backup/[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232/07Feb20/2[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/07Feb20/2[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce dummy/ backup/[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232/07Feb20/2[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/07Feb20/2[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct dummy/ backup/[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232/07Feb20/2[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/07Feb20/2[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce dummy/ backup/[A]0;admin1@cc-Sy: ~/ceccs18c29/cs232/07Feb20/2[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/07Feb20/2[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+sending incremental file list
+deleting delete.txt
+1.txt
+2.txt
+3.txt
+4.txt
+5.txt
+
+sent 534 bytes  received 125 bytes  1,318.00 bytes/sec
+total size is 191  speedup is 0.29
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232/07Feb20/2[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/07Feb20/2[00m$ cd backup/
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232/07Feb20/2/backup[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/07Feb20/2/backup[00m$ ls
+1.txt  2.txt  3.txt  4.txt  5.txt
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232/07Feb20/2/backup[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/07Feb20/2/backup[00m$ echo "extra file in b ackup deleted"
+extra file in backup deleted
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232/07Feb20/2/backup[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/07Feb20/2/backup[00m$ clear
+[3;J[H[2J]0;admin1@cc-Sy: ~/ceccs18c29/cs232/07Feb20/2/backup[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/07Feb20/2/backup[00m$ ssh cs18c29@192.168.0 .2[K30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c29@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+402 packages can be updated.
+0 updates are security updates.
+
+Last login: Fri Feb  7 12:17:33 2020 from 192.168.0.80
+$ ls  
+24Jan2020  31Jan20  cs232  examples.desktop  greet.txt
+$ cd 31
+-sh: 2: cd: can't cd to 31
+$ ^[[A^[[B^[[C^[[C^[[2~                     cd 31Jan20
+$ ls
+report.txt	s1cr.txt   s2-2018.txt	sample.py
+result_CHN.pdf	s1.pdf	   s2.pdf	sgpa-cal.py
+result_CHN.txt	s1res.txt  s2res.txt	work1.txt
+S1Cres.txt	s1.txt	   s2.txt	work.txt
+$ cd ..
+$ clear
+[3;J[H[2J$ exit
+Connection to 192.168.0.30 closed.
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232/07Feb20/2/backup[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/07Feb20/2/backup[00m$ cd ..
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232/07Feb20/2[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/07Feb20/2[00m$ c[Kman scp
+[?1049h[?1h=SCP(1)               BSD General Commands Manual               SCP(1)[m
+[m
+[1mNAME[0m[m
+     [1mscp[0m — secure copy (remote file copy program)[m
+[m
+[1mSYNOPSIS[0m[m
+     [1mscp[0m [[1m-12346BCpqrTv[0m] [[1m-c[0m [4mcipher[24m] [[1m-F[0m [4mssh_config[24m][m
+         [[1m-i[0m [4midentity_file[24m] [[1m-l[0m [4mlimit[24m] [[1m-o[0m [4mssh_option[24m] [[1m-P[0m [4mport[24m][m
+         [[1m-S[0m [4mprogram[24m] [[[4muser[24m@][4mhost1[24m:][4mfile1[24m [4m...[24m [[[4muser[24m@][4mhost2[24m:][4mfile2[24m[m
+[m
+[1mDESCRIPTION[0m[m
+     [1mscp[0m copies files between hosts on a network.  It uses ssh(1) for[m
+     data transfer, and uses the same authentication and provides the[m
+     same security as ssh(1).  [1mscp[0m will ask for passwords or[m
+     passphrases if they are needed for authentication.[m
+[m
+     File names may contain a user and host specification to indicate[m
+     that the file is to be copied to/from that host.  Local file[m
+     names can be made explicit using absolute or relative pathnames[m
+     to avoid [1mscp[0m treating file names containing ‘:’ as host speci‐[m
+     fiers.  Copies between two remote hosts are also permitted.[m
+[m
+     The options are as follows:[m
+[m
+     [1m-1[0m      Forces [1mscp[0m to use protocol 1.[m
+[m
+     [1m-2[0m      Forces [1mscp[0m to use protocol 2.[m
+[m
+     [1m-3[0m      Copies between two remote hosts are transferred through[m
+             the local host.  Without this option the data is copied[m
+             directly between the two remote hosts.  Note that this[m
+             option disables the progress meter.[m
+[m
+     [1m-4[0m      Forces [1mscp[0m to use IPv4 addresses only.[m
+[m
+     [1m-6[0m      Forces [1mscp[0m to use IPv6 addresses only.[m
+[m
+     [1m-B[0m      Selects batch mode (prevents asking for passwords or[m
+             passphrases).[m
+[m
+     [1m-C[0m      Compression enable.  Passes the [1m-C[0m flag to ssh(1) to[m
+[7m Manual page scp(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             enable compression.[m
+[7m Manual page scp(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page scp(1) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K     [1m-c[0m [4mcipher[24m[m
+[7m Manual page scp(1) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             Selects the cipher to use for encrypting the data trans‐[m
+[7m Manual page scp(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             fer.  This option is directly passed to ssh(1).[m
+[7m Manual page scp(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page scp(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K     [1m-F[0m [4mssh_config[24m[m
+[7m Manual page scp(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             Specifies an alternative per-user configuration file for[m
+[7m Manual page scp(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             [1mssh[0m.  This option is directly passed to ssh(1).[m
+[7m Manual page scp(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page scp(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K     [1m-i[0m [4midentity_file[24m[m
+[7m Manual page scp(1) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             Selects the file from which the identity (private key)[m
+[7m Manual page scp(1) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             for public key authentication is read.  This option is[m
+[7m Manual page scp(1) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             directly passed to ssh(1).[m
+[7m Manual page scp(1) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page scp(1) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K     [1m-l[0m [4mlimit[24m[m
+[7m Manual page scp(1) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             Limits the used bandwidth, specified in Kbit/s.[m
+[7m Manual page scp(1) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page scp(1) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K     [1m-o[0m [4mssh_option[24m[m
+[7m Manual page scp(1) line 20 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             Can be used to pass options to [1mssh[0m in the format used in[m
+[7m Manual page scp(1) line 21 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             ssh_config(5).  This is useful for specifying options[m
+[7m Manual page scp(1) line 22 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             for which there is no separate [1mscp[0m command-line flag.[m
+[7m Manual page scp(1) line 23 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             For full details of the options listed below, and their[m
+[7m Manual page scp(1) line 24 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             possible values, see ssh_config(5).[m
+[7m Manual page scp(1) line 25 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page scp(1) line 26 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   AddressFamily[m
+[7m Manual page scp(1) line 27 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   BatchMode[m
+[7m Manual page scp(1) line 28 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   BindAddress[m
+[7m Manual page scp(1) line 29 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   CanonicalDomains[m
+[7m Manual page scp(1) line 30 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   CanonicalizeFallbackLocal[m
+[7m Manual page scp(1) line 31 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   CanonicalizeHostname[m
+[7m Manual page scp(1) line 32 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   CanonicalizeMaxDots[m
+[7m Manual page scp(1) line 33 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   CanonicalizePermittedCNAMEs[m
+[7m Manual page scp(1) line 34 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   CertificateFile[m
+[7m Manual page scp(1) line 35 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   ChallengeResponseAuthentication[m
+[7m Manual page scp(1) line 36 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   CheckHostIP[m
+[7m Manual page scp(1) line 37 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   Cipher[m
+[7m Manual page scp(1) line 38 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   Ciphers[m
+[7m Manual page scp(1) line 39 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   Compression[m
+[7m Manual page scp(1) line 40 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   CompressionLevel[m
+[7m Manual page scp(1) line 41 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   ConnectionAttempts[m
+[7m Manual page scp(1) line 42 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   ConnectTimeout[m
+[7m Manual page scp(1) line 43 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   ControlMaster[m
+[7m Manual page scp(1) line 44 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   ControlPath[m
+[7m Manual page scp(1) line 45 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   ControlPersist[m
+[7m Manual page scp(1) line 46 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   GlobalKnownHostsFile[m
+[7m Manual page scp(1) line 47 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   GSSAPIAuthentication[m
+[7m Manual page scp(1) line 48 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   GSSAPIDelegateCredentials[m
+[7m Manual page scp(1) line 49 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   HashKnownHosts[m
+[7m Manual page scp(1) line 50 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   Host[m
+[7m Manual page scp(1) line 51 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   HostbasedAuthentication[m
+[7m Manual page scp(1) line 52 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   HostbasedKeyTypes[m
+[7m Manual page scp(1) line 53 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   HostKeyAlgorithms[m
+[7m Manual page scp(1) line 54 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   HostKeyAlias[m
+[7m Manual page scp(1) line 55 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   HostName[m
+[7m Manual page scp(1) line 56 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   IdentityFile[m
+[7m Manual page scp(1) line 57 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   IdentitiesOnly[m
+[7m Manual page scp(1) line 58 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   IPQoS[m
+[7m Manual page scp(1) line 59 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   KbdInteractiveAuthentication[m
+[7m Manual page scp(1) line 60 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   KbdInteractiveDevices[m
+[7m Manual page scp(1) line 61 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   KexAlgorithms[m
+[7m Manual page scp(1) line 62 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   LogLevel[m
+[7m Manual page scp(1) line 63 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   MACs[m
+[7m Manual page scp(1) line 64 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   NoHostAuthenticationForLocalhost[m
+[7m Manual page scp(1) line 65 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   NumberOfPasswordPrompts[m
+[7m Manual page scp(1) line 66 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   PasswordAuthentication[m
+[7m Manual page scp(1) line 67 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   PKCS11Provider[m
+[7m Manual page scp(1) line 68 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   Port[m
+[7m Manual page scp(1) line 69 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   PreferredAuthentications[m
+[7m Manual page scp(1) line 70 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   Protocol[m
+[7m Manual page scp(1) line 71 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   ProxyCommand[m
+[7m Manual page scp(1) line 72 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   PubkeyAcceptedKeyTypes[m
+[7m Manual page scp(1) line 73 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   PubkeyAuthentication[m
+[7m Manual page scp(1) line 74 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   RekeyLimit[m
+[7m Manual page scp(1) line 75 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   RhostsRSAAuthentication[m
+[7m Manual page scp(1) line 76 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   RSAAuthentication[m
+[7m Manual page scp(1) line 77 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   SendEnv[m
+[7m Manual page scp(1) line 78 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   ServerAliveInterval[m
+[7m Manual page scp(1) line 79 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   ServerAliveCountMax[m
+[7m Manual page scp(1) line 80 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   StrictHostKeyChecking[m
+[7m Manual page scp(1) line 81 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   TCPKeepAlive[m
+[7m Manual page scp(1) line 82 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   UpdateHostKeys[m
+[7m Manual page scp(1) line 83 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   UsePrivilegedPort[m
+[7m Manual page scp(1) line 84 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   User[m
+[7m Manual page scp(1) line 85 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   UserKnownHostsFile[m
+[7m Manual page scp(1) line 86 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   VerifyHostKeyDNS[m
+[7m Manual page scp(1) line 87 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page scp(1) line 88 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K     [1m-P[0m [4mport[24m[m
+[7m Manual page scp(1) line 89 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             Specifies the port to connect to on the remote host.[m
+[7m Manual page scp(1) line 90 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             Note that this option is written with a capital ‘P’,[m
+[7m Manual page scp(1) line 91 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             because [1m-p[0m is already reserved for preserving the times[m
+[7m Manual page scp(1) line 92 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             and modes of the file.[m
+[7m Manual page scp(1) line 93 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page scp(1) line 94 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K     [1m-p[0m      Preserves modification times, access times, and modes[m
+[7m Manual page scp(1) line 95 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             from the original file.[m
+[7m Manual page scp(1) line 96 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page scp(1) line 97 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K     [1m-q[0m      Quiet mode: disables the progress meter as well as warn‐[m
+[7m Manual page scp(1) line 98 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             ing and diagnostic messages from ssh(1).[m
+[7m Manual page scp(1) line 99 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page scp(1) line 100 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K     [1m-r[0m      Recursively copy entire directories.  Note that [1mscp[0m fol‐[m
+[7m Manual page scp(1) line 101 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             lows symbolic links encountered in the tree traversal.[m
+[7m Manual page scp(1) line 102 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page scp(1) line 103 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K     [1m-S[0m [4mprogram[24m[m
+[7m Manual page scp(1) line 104 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             Name of [4mprogram[24m to use for the encrypted connection.[m
+[7m Manual page scp(1) line 105 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             The program must understand ssh(1) options.[m
+[7m Manual page scp(1) line 106 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page scp(1) line 107 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K     [1m-T[0m      Disable strict filename checking.  By default when copy‐[m
+[7m Manual page scp(1) line 108 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             ing files from a remote host to a local directory [1mscp[0m[m
+[7m Manual page scp(1) line 109 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             checks that the received filenames match those requested[m
+[7m Manual page scp(1) line 110 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             on the command-line to prevent the remote end from send‐[m
+[7m Manual page scp(1) line 111 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             ing unexpected or unwanted files.  Because of differ‐[m
+[7m Manual page scp(1) line 112 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             ences in how various operating systems and shells inter‐[m
+[7m Manual page scp(1) line 113 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             pret filename wildcards, these checks may cause wanted[m
+[7m Manual page scp(1) line 114 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             files to be rejected.  This option disables these checks[m
+[7m Manual page scp(1) line 115 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             at the expense of fully trusting that the server will[m
+[7m Manual page scp(1) line 116 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             not send unexpected filenames.[m
+[7m Manual page scp(1) line 117 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page scp(1) line 118 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K     [1m-v[0m      Verbose mode.  Causes [1mscp[0m and ssh(1) to print debugging[m
+[7m Manual page scp(1) line 119 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             messages about their progress.  This is helpful in[m
+[7m Manual page scp(1) line 120 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             debugging connection, authentication, and configuration[m
+[7m Manual page scp(1) line 121 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             problems.[m
+[7m Manual page scp(1) line 122 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page scp(1) line 123 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mEXIT[0m [1mSTATUS[0m[m
+[7m Manual page scp(1) line 124 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K     The [1mscp[0m utility exits 0 on success, and >0 if an error occurs.[m
+[7m Manual page scp(1) line 125 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page scp(1) line 126 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mSEE[0m [1mALSO[0m[m
+[7m Manual page scp(1) line 127 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K     sftp(1), ssh(1), ssh-add(1), ssh-agent(1), ssh-keygen(1),[m
+[7m Manual page scp(1) line 128 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K     ssh_config(5), sshd(8)[m
+[7m Manual page scp(1) line 129 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page scp(1) line 130 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mHISTORY[0m[m
+[7m Manual page scp(1) line 131 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K     [1mscp[0m is based on the rcp program in BSD source code from the[m
+[7m Manual page scp(1) line 132 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K     Regents of the University of California.[m
+[7m Manual page scp(1) line 133 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page scp(1) line 134 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mAUTHORS[0m[m
+[7m Manual page scp(1) line 135 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K     Timo Rinne <[4mtri@iki.fi[24m>[m
+[7m Manual page scp(1) line 136 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K     Tatu Ylonen <[4mylo@cs.hut.fi[24m>[m
+[7m Manual page scp(1) line 137 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page scp(1) line 138 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[KBSD                       September 25, 2015                      BSD[m
+[7m Manual page scp(1) line 139 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page scp(1) line 139/179 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page scp(1) line 139/179 (END) (press h for help or q to quit)[27m[K[K[?1l>[?1049l]0;admin1@cc-Sy: ~/ceccs18c29/cs232/07Feb20/2[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/07Feb20/2[00m$ scp dummy/ backup/
+cp: omitting directory 'dummy/'
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232/07Feb20/2[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/07Feb20/2[00m$ scp dummy/ backup/[C1 backup/.txt  backup/
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232/07Feb20/2[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/07Feb20/2[00m$ clear
+[3;J[H[2J]0;admin1@cc-Sy: ~/ceccs18c29/cs232/07Feb20/2[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/07Feb20/2[00m$ echo "scp same ad[Ks [K[K[K[K[K[K[K[K[K is similatr[K[Kr ro[K[Kto rsyn c"
+scp is similar to rsync
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232/07Feb20/2[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/07Feb20/2[00m$ ls
+[0m[01;34mbackup[0m  [01;34mdummy[0m  work.txt
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232/07Feb20/2[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/07Feb20/2[00m$ cd ..
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232/07Feb20[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/07Feb20[00m$ cd [K[K[Kmv 1/report.txt ./
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232/07Feb20[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/07Feb20[00m$ ls
+[0m[01;34m1[0m  [01;34m2[0m  report.txt
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232/07Feb20[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/07Feb20[00m$ lsmv 1/report.txt ./ls[K[Knano report.txt 
+[?1049h[1;42r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[40;28H(B[0;7m[ Reading File ][3d(B[m[40;34H(B[0;7m 30 lines ][33d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3           File: report.txt                            [3;1H(B[mCEC CS 18 C29[4dJesswin W Varghese[6d--------------------------------[7d#1: Familiarisation of Networking commands in Linux[8d---------------------------------[9dCommand/Shell script/Program name: work.txt[11d---------------------------------[13dInput: None[14d---------------[16d--------------------------------[17dOutput: or Input & Output (whichever is applicable)[18dNone[20d-------------------[21dRemarks if any:[23d-> worked with ifconfig to see the network[25d-> added a route but was not a valid name[27d-> ssh was used to access the ftp server and added a greet.txt in it[29d->ping was used to ping 192.168.0.30[31d-------------------------------------[32d-------------------------------------[41d(B[0;7m^G(B[m Get Help   (B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut Text   (B[0;7m^J(B[m Justify[42d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Uncut Text (B[0;7m^T(B[m To Spell[3d[4d[5d[6d[7d[8d[9d[10d[11d[12d[13d[14d[15d[16d[17d[18d[19d[20d[21d[22d[23d[24d[25d[26d[27d[28d[40d[K[29d[30d[31d[32d[33d[A[33d[1;62H(B[0;7mModified[34d(B[m[7;32r[7;1H[8T[1;42r[3;1H[K[4d-> worked with ifconfig to see the network[6d-> added a route but was not a valid name[8d-> ssh was used to access the ftp server and added a greet.txt in it[10d->ping was used to ping 192.168.0.30[12d-------------------------------------[13d-------------------------------------[15;5HAim/task[K[17;34H[K[21;8H(If relevant)[26d[K[31d[K[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A-[A1[1P2: Aim/task#2: Aim/task[16d[15;13H        ssh,rsync,scp[16d[17d[18d[17;34H: work.txt[18d[19;34H[20d[21;21H[22;16H[23d[24;33H[25;44H[26ddummy,backup[A[A[A[24;13H[25d[26d[27d[28;13H[29dny:[30d[31d-> used rsync to copyt  file s sy[1P[1P[1P[1Ps files[19Gy files[20Gn files[21Gc files[22G files[32d[33d[34d[A[A[31;28H fr  in dummt y and backup[32d[33d-> used ssgh  g  h h to login toi  the ftp and so  do some commands[34d[35d->[36d[A->scp was used to copy a file d feom    rom sum   dummy to backup[A[33;51H[A[31;48H[A[29;16H[A----[A[26;13H[25;51H)[26;13H[27d[28;20H[29;16H[30d[31;48H[32d[33;52H[34d[35;51H[36d[37d[38d[39d[A[A[2;40r[40;1H[19S[1;42r[2;1H[K[18d-------------------------------------[19d-------------------------------------[21d[40d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?           [41;1H Y(B[m Yes[K[42d(B[0;7m N(B[m No  [15G  (B[0;7m^C(B[m Cancel[K[40;62H(B[0;7mFile Name to Write: report.txt                              [41d^G(B[m Get Help   (B[0;7mM-D(B[m DOS Format(B[0;7mM-A(B[m Append    (B[0;7mM-B(B[m Backup File[42d(B[0;7m^C(B[m Cancel     (B[0;7mM-M(B[m Mac Format(B[0;7mM-P(B[m Prepend   (B[0;7m^T(B[m To Files[40;31H[?25l[26G[39;49m(B[m[1K (B[0;7m[ Wrote 58 lines ](B[m[K[21d[40d[J[1;62H(B[0;7m        [42;71H(B[m[42;1H[?12l[?25h[?1049l[?1l>]0;admin1@cc-Sy: ~/ceccs18c29/cs232/07Feb20[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/07Feb20[00m$ ls
+[0m[01;34m1[0m  [01;34m2[0m  report.txt
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232/07Feb20[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/07Feb20[00m$ cd [K[K[Kmvg[K 2/
+backup/   dummy/    work.txt  
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232/07Feb20[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/07Feb20[00m$ mv 2/dummy/[K[K[K[K[K[K[K[K[K[K[Kexit
+exit
+
+Script done on Friday 07 February 2020 12:35:44 PM IST

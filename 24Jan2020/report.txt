@@ -1,6 +1,7 @@
 CEC CS 18 C29
 Jesswin W Varghese
 
+Date:24/01/20
 --------------------------------
 #1: Learn how to use Git
 ---------------------------------
@@ -69,11 +70,4 @@ Output: abc.txt
 -------------------
 Remarks if any: 
 -> abc.txt is the output from ls -l
-
-#3:
-
-#4:
-
-#5:
-
 
