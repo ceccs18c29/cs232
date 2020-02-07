@@ -30,5 +30,5 @@ with open(fname,"r+") as f:
 			studdic[i.split()[0]] =-len(re.findall("(F)",i))
 		else:
 			studdic[i.split()[0]]=cgpacal(i.split()[1:]) 
-for student in studdic.keys():
+for student in sorted(studdic.keys()):
 	print("{0}\n{1}\n".format(student,studdic[student]))
