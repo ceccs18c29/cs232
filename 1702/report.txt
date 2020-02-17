@@ -1,0 +1,24 @@
+CEC CS 18 c29
+Jesswin W Varghese
+
+--------------------------------
+#1: Create own web page at the server
+---------------------------------
+Command/Shell script/Program name:
+work.txt
+---------------------------------
+
+Input: (If relevant)
+---------------
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+
+-------------------
+Remarks if any:
+1.Webpage was pushed to the server 
+
+2.You can access it by going to:
+
+http://192.168.0.30/cs18c/cs18c29/
