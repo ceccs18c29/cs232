@@ -3199,4 +3199,112 @@ cleatr: command not found
 ]0;admin1@cc-Sy: ~/ceccs18c29/cs232/31Jan20[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/31Jan20[00m$ clear
 [3;J[H[2J]0;admin1@cc-Sy: ~/ceccs18c29/cs232/31Jan20[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232/31Jan20[00m$ gitr[K[K[K[Kcd ..
 ]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ nano index.html
-[?1049h[1;43r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[41;66H(B[0;7m[ New File ][3d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3                                   File: index.html                                                                            [42;1H^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7m^Y(B[m Prev Page   (B[0;7mM-\(B[m First Line (B[0;7mM-W(B[m WhereIs Next[43d(B[0;7m^X(B[m Exit[43;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7m^V(B[m Next Page   (B[0;7mM-/(B[m Last Line  (B[0;7mM-](B[m To Bracket[3d[1;134H(B[0;7mModified[3;13H(B[0m[36m<td valign=[32m"top"[36m><br>[4;13H</td>[5;13H<td valign=[32m"top"[36m><br>[6;13H</td>[7;13H<td valign=[32m"top"[36m><br>[8;13H</td>[9;13H<td valign=[32m"top"[36m><br>[10;13H</td>[11;13H<td valign=[32m"top"[36m><br>[12;13H</td>[13;13H<td valign=[32m"top"[36m><br>[14;13H</td>[15;11H</tr>[16;11H<tr>[17d<td valign=[32m"top"[36m><br>[18;13H</td>[19;13H<td valign=[32m"top"[36m><br>[20;13H</td>[21;13H<td valign=[32m"top"[36m><br>[22;13H</td>[23;13H<td valign=[32m"top"[36m><br>[24;13H</td>[25;13H<td valign=[32m"top"[36m><br>[26;13H</td>[27;13H<td valign=[32m"top"[36m><br>[28;13H</td>[29;11H</tr>[30;9H</tbody>[31;7H</table>[32;7H<b><br>[33;9H<br>[34;7H</b></div>[35;3H</body>[36d</html>[41d[39m(B[m[K[37d[32d[27d[22d[17d[12d[7d[7;11H[36m</tr>[39m(B[m[K[8;11H[36m<tr>[39m(B[m[K[15;11H  [36m<td valign=[32m"top"[36m><br>[16;11H[39m(B[m  [36m</td>[21;11H</tr>[39m(B[m[K[22;11H[36m<tr>[39m(B[m[K[29;11H  [36m<td valign=[32m"top"[36m><br>[30;9H[39m(B[m    [36m</td>[31;12H[39m(B[m[1K [36m<td valign=[32m"top"[36m><br>[32;12H[39m(B[m[1K 
+[?1049h[1;43r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[41;66H(B[0;7m[ New File ][3d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3                                   File: index.html                                                                            [42;1H^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7m^Y(B[m Prev Page   (B[0;7mM-\(B[m First Line (B[0;7mM-W(B[m WhereIs Next[43d(B[0;7m^X(B[m Exit[43;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7m^V(B[m Next Page   (B[0;7mM-/(B[m Last Line  (B[0;7mM-](B[m To Bracket[3d[1;134H(B[0;7mModified[3;13H(B[0m[36m<td valign=[32m"top"[36m><br>[4;13H</td>[5;13H<td valign=[32m"top"[36m><br>[6;13H</td>[7;13H<td valign=[32m"top"[36m><br>[8;13H</td>[9;13H<td valign=[32m"top"[36m><br>[10;13H</td>[11;13H<td valign=[32m"top"[36m><br>[12;13H</td>[13;13H<td valign=[32m"top"[36m><br>[14;13H</td>[15;11H</tr>[16;11H<tr>[17d<td valign=[32m"top"[36m><br>[18;13H</td>[19;13H<td valign=[32m"top"[36m><br>[20;13H</td>[21;13H<td valign=[32m"top"[36m><br>[22;13H</td>[23;13H<td valign=[32m"top"[36m><br>[24;13H</td>[25;13H<td valign=[32m"top"[36m><br>[26;13H</td>[27;13H<td valign=[32m"top"[36m><br>[28;13H</td>[29;11H</tr>[30;9H</tbody>[31;7H</table>[32;7H<b><br>[33;9H<br>[34;7H</b></div>[35;3H</body>[36d</html>[41d[39m(B[m[K[37d[32d[27d[22d[17d[12d[7d[7;11H[36m</tr>[39m(B[m[K[8;11H[36m<tr>[39m(B[m[K[15;11H  [36m<td valign=[32m"top"[36m><br>[16;11H[39m(B[m  [36m</td>[21;11H</tr>[39m(B[m[K[22;11H[36m<tr>[39m(B[m[K[29;11H  [36m<td valign=[32m"top"[36m><br>[30;9H[39m(B[m    [36m</td>[31;12H[39m(B[m[1K [36m<td valign=[32m"top"[36m><br>[32;12H[39m(B[m[1K [36m</td>[33;9H[39m(B[m    [36m<td valign=[32m"top"[36m><br>[34;12H[39m(B[m[1K [36m</td>[35;10H[39m(B[m[1K [36m</tr>[36;10H[39m(B[m[1K [36m<tr>[37d<td valign=[32m"top"[36m><br>[38;13H</td>[39;13H<td valign=[32m"top"[36m><br>[40;13H</td>[22d[39m(B[m[17d[12d[7d[3;14H[36m/td>[39m(B[m[K[4;14H[36mtd valign=[32m"top"[36m>[39m(B[mCode Link[36m<br>[5;14H/td>[39m(B[m[K[6;14H[36mtd valign=[32m"top"[36m>[39m(B[mDate of [36m<br>[7;11H[39m(B[m    Upload[36m<br>[8;11H[39m(B[m  [36m</td>[9;30H[39m(B[mDescription/Link[36m<br>[11;30H[39m(B[mResult/Link[36m<br>[13;11H</tr>[39m(B[m[K[14;11H[36m<tr>[39m(B[m[K[21;11H  [36m<td valign=[32m"top"[36m><br>[22;11H[39m(B[m  [36m</td>[27;11H</tr>[39m(B[m[K[28;11H[36m<tr>[39m(B[m[K[35;11H  [36m<td valign=[32m"top"[36m><br>[36;11H[39m(B[m  [36m</td>[22d[39m(B[m[17d[12d[A[A[A[A[A[A[A[A[A[2;40r[2;1H[17T[1;43r[3;1H[36m<!DOCTYPE html PUBLIC [32m"-//W3C//DTD HTML 4.01 Transitional//EN"[36m>[4d<html>[5;3H<head>[6;5H<meta http-equiv=[32m"content-type"[36m content=[32m"text/html; charset=UTF-8"[36m>[7;5H<title>[39m(B[mcs17d00[36m</title>[8;3H</head>[9;3H<body>[10;5H<div align=[32m"center"[36m>[39m(B[mS4D[36m<b>[39m(B[m CS232 Free and Open Source Software Lab[36m<br>[11;9H<br>[12;9H[39m(B[mHome page of cs17d00 Sample[36m<br>[13;7H</b>[14;7H<table width=[32m"100%"[36m border=[32m"1"[36m cellspacing=[32m"2"[36m cellpadding=[32m"2"[36m>[15;9H<tbody>[16;11H<tr>[17d<td valign=[32m"top"[36m><b>[39m(B[mNo[36m</b><br>[18;13H</td>[19;13H<td valign=[32m"top"[36m>[39m(B[mExperiment Description[36m<br>[39m(B[m[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[4d[5d[6d[7d[8d[9d[8;10H[A[C[Ccs17d[1P8d00[36m</title>[7;16H[39m(B[md[1Pc00[36m</title>[7;17H[39m(B[m00[1P0[1P2[36m</title>[7;18H[39m(B[m9[36m</title>[7;19H[39m(B[m[8;10H[9d[10;19H[11;13H[12;19H[13;11H[12;19Hof cs17d00 Sample[C[C[36m<br>[39m(B[m[K[36m<br>[39m(B[m[K[36m<br>[39m(B[m[K[36m<br>[39m(B[m[K[36m<br>[39m(B[m[K[36m<br>[39m(B[m[K[36m<br>[39m(B[m[K0[36m<br>[39m(B[m[K[36m<br>[39m(B[m[K[36m<br>[39m(B[m[K[36m<br>[39m(B[m[K9[36m<br>[39m(B[mc[36m<br>[39m(B[m2[36m<br>[39m(B[m9[36m<br>[39m(B[m [36m<br>[39m(B[m[13;11H[14;30H[15;16H[16d[17;30H[18;18H[19;30H[20;18H[21;30H[22;18H[23;30H[24;25H[41d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                                                                                   [42;1H Y(B[m Yes[K[43d(B[0;7m N(B[m No  [43;16H (B[0;7m^C(B[m Cancel[K[41;62H(B[0;7mFile Name to Write: index.html                              [42d^G(B[m Get Help[42;29H(B[0;7mM-D(B[m DOS Format[42;57H(B[0;7mM-A(B[m Append[42;85H(B[0;7mM-B(B[m Backup File[43d(B[0;7m^C(B[m Cancel[17G            (B[0;7mM-M(B[m Mac Format[43;57H(B[0;7mM-P(B[m Prepend[43;85H(B[0;7m^T(B[m To Files[41;31H[?25l[41;62H[39;49m(B[m[1K (B[0;7m[ Wrote 92 lines ](B[m[K[24;25H[41d[J[1;134H(B[0;7m        [43;143H(B[m[43;1H[?12l[?25h[?1049l[?1l>]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ git add -A
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ git commit - [Km "ds[Kd[K[Kdome[K[K[K[Kd[Ksome changhes[K[K[Kes"
+[master 56316a6] some changes
+ 9 files changed, 3794 insertions(+), 403 deletions(-)
+ create mode 100644 1702/work.txt
+ create mode 100644 31Jan20/cgpa.txt
+ create mode 100644 31Jan20/s1-2018.txt
+ create mode 100644 31Jan20/s1res-cgpa.txt
+ rewrite 31Jan20/s2-2018.txt (100%)
+ create mode 100644 31Jan20/script.py
+ delete mode 100644 31Jan20/sgpa-cal.py
+ create mode 100644 31Jan20/studname.txt
+ create mode 100644 index.html
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ gitr[K push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': cec18     ceccs18c29
+Password for 'https://ceccs18c29@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/ceccs18c29/cs232.git/'
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ git pushcommit -m "some changes"push[K
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': ceccs18c29
+Password for 'https://ceccs18c29@github.com': 
+Counting objects: 11, done.
+Delta compression using up to 4 threads.
+Compressing objects:  11% (1/9)   Compressing objects:  22% (2/9)   Compressing objects:  33% (3/9)   Compressing objects:  44% (4/9)   Compressing objects:  55% (5/9)   Compressing objects:  66% (6/9)   Compressing objects:  77% (7/9)   Compressing objects:  88% (8/9)   Compressing objects: 100% (9/9)   Compressing objects: 100% (9/9), done.
+Writing objects:   9% (1/11)   Writing objects:  18% (2/11)   Writing objects:  27% (3/11)   Writing objects:  36% (4/11)   Writing objects:  45% (5/11)   Writing objects:  54% (6/11)   Writing objects:  63% (7/11)   Writing objects:  72% (8/11)   Writing objects:  81% (9/11)   Writing objects:  90% (10/11)   Writing objects: 100% (11/11)   Writing objects: 100% (11/11), 40.42 KiB | 0 bytes/s, done.
+Total 11 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/2)[Kremote: Resolving deltas:  50% (1/2)[Kremote: Resolving deltas: 100% (2/2)[Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
+To https://github.com/ceccs18c29/cs232.git
+   037bb4b..56316a6  master -> master
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ p[Ksftp cs18cs[K29@192.168.0.2[K30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c29@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> put -r
+You must specify at least one path after a put command.
+sftp> put -r'/home/admin1/ceccs18c29/cs232/31Jan20' 
+put: Invalid flag -/
+sftp> put -r'/home/admin1/ceccs18c29/cs232/31Jan20'[1@ '
+Uploading /home/admin1/ceccs18c29/cs232/31Jan20/ to /home/cs18c29/31Jan20
+Entering /home/admin1/ceccs18c29/cs232/31Jan20/
+/home/admin1/ceccs18c29/cs232/31Jan20/report.txt                                                               0%    0     0.0KB/s   --:-- ETA/home/admin1/ceccs18c29/cs232/31Jan20/report.txt                                                             100%  871     0.9KB/s   00:00    
+/home/admin1/ceccs18c29/cs232/31Jan20/s2-2018.txt                                                              0%    0     0.0KB/s   --:-- ETA/home/admin1/ceccs18c29/cs232/31Jan20/s2-2018.txt                                                            100% 1864     1.8KB/s   00:00    
+/home/admin1/ceccs18c29/cs232/31Jan20/work1.txt                                                                0%    0     0.0KB/s   --:-- ETA/home/admin1/ceccs18c29/cs232/31Jan20/work1.txt                                                              100%   20KB  19.8KB/s   00:00    
+/home/admin1/ceccs18c29/cs232/31Jan20/cgpa.txt                                                               100%    0     0.0KB/s   00:00    
+/home/admin1/ceccs18c29/cs232/31Jan20/s1-2018.txt                                                              0%    0     0.0KB/s   --:-- ETA/home/admin1/ceccs18c29/cs232/31Jan20/s1-2018.txt                                                            100% 1864     1.8KB/s   00:00    
+/home/admin1/ceccs18c29/cs232/31Jan20/s1.pdf                                                                   0%    0     0.0KB/s   --:-- ETA/home/admin1/ceccs18c29/cs232/31Jan20/s1.pdf                                                                 100%   28KB  27.5KB/s   00:00    
+/home/admin1/ceccs18c29/cs232/31Jan20/s1.txt                                                                   0%    0     0.0KB/s   --:-- ETA/home/admin1/ceccs18c29/cs232/31Jan20/s1.txt                                                                 100%   46KB  46.1KB/s   00:00    
+/home/admin1/ceccs18c29/cs232/31Jan20/studname.txt                                                             0%    0     0.0KB/s   --:-- ETA/home/admin1/ceccs18c29/cs232/31Jan20/studname.txt                                                           100% 1677     1.6KB/s   00:00    
+/home/admin1/ceccs18c29/cs232/31Jan20/script.py                                                                0%    0     0.0KB/s   --:-- ETA/home/admin1/ceccs18c29/cs232/31Jan20/script.py                                                              100% 1695     1.7KB/s   00:00    
+/home/admin1/ceccs18c29/cs232/31Jan20/s2res.txt                                                                0%    0     0.0KB/s   --:-- ETA/home/admin1/ceccs18c29/cs232/31Jan20/s2res.txt                                                              100%   11KB  11.5KB/s   00:00    
+/home/admin1/ceccs18c29/cs232/31Jan20/s1res.txt                                                                0%    0     0.0KB/s   --:-- ETA/home/admin1/ceccs18c29/cs232/31Jan20/s1res.txt                                                              100%   12KB  11.7KB/s   00:00    
+/home/admin1/ceccs18c29/cs232/31Jan20/s2.txt                                                                   0%    0     0.0KB/s   --:-- ETA/home/admin1/ceccs18c29/cs232/31Jan20/s2.txt                                                                 100%   43KB  43.5KB/s   00:00    
+/home/admin1/ceccs18c29/cs232/31Jan20/work.txt                                                                 0%    0     0.0KB/s   --:-- ETA/home/admin1/ceccs18c29/cs232/31Jan20/work.txt                                                               100%   20KB  19.8KB/s   00:00    
+/home/admin1/ceccs18c29/cs232/31Jan20/s2.pdf                                                                   0%    0     0.0KB/s   --:-- ETA/home/admin1/ceccs18c29/cs232/31Jan20/s2.pdf                                                                 100%   26KB  26.4KB/s   00:00    
+/home/admin1/ceccs18c29/cs232/31Jan20/s1res-cgpa.txt                                                           0%    0     0.0KB/s   --:-- ETA/home/admin1/ceccs18c29/cs232/31Jan20/s1res-cgpa.txt                                                         100% 1864     1.8KB/s   00:00    
+sftp> put -r '/home/admin1/ceccs18c29/cs232/index.html' 
+Uploading /home/admin1/ceccs18c29/cs232/index.html to /home/cs18c29/index.html
+/home/admin1/ceccs18c29/cs232/index.html                                                                       0%    0     0.0KB/s   --:-- ETA/home/admin1/ceccs18c29/cs232/index.html                                                                     100% 2327     2.3KB/s   00:00    
+sftp> 
+]0;admin1@cc-Sy: ~/ceccs18c29/cs232[01;32madmin1@cc-Sy[00m:[01;34m~/ceccs18c29/cs232[00m$ ecit[K[K[Kxit
+exit
+
+Script done on Monday 17 February 2020 12:03:39 PM IST
