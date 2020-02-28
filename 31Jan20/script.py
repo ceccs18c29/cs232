@@ -3,26 +3,32 @@ fname = input("Enter the name of the file:")
 failed = 0
 studdic={}
 cgpa= {}
+credlis = {"MA101":4,"CY100":4,"PH100":4,"BE110":4,"BE103":3,"PH110":2,"EE110":2,"PH110":2,"EE110":2,"CS110":2,"BE100":4,"EC100":3,"CY100":4,"ME100":3,"BE10105":3}
 
 def cgpacal(grades):
 	point=0
 	for i in grades:
+		print(i)
+		try:
+			cred = credlis[i[:5]]
+		except:
+			cred = credlis[i[:7]]
 		if("(O)" in i):
-			point+=10
+			point+=10*cred
 		elif("(A+)" in i):
-			point+=9
+			point+=9*cred
 		elif("(A)" in i):
-                        point+=8.5
+                        point+=8.5*cred
 		elif("(B+)" in i):
-                        point+=8
+                        point+=8*cred
 		elif("(B)" in i):
-                        point+=7
+                        point+=7*cred
 		elif("(C)" in i):
-                        point+=6
+                        point+=6*cred
 		elif("(P)" in i):
-                        point+=5
+                        point+=5*cred
 
-	return("{:.2f}".format(point/float(len(grades))))
+	return("{:.2f}".format(point/24))
 
 
 with open(fname,"r+") as f:

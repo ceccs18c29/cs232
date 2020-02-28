@@ -1,0 +1,28 @@
+CEC CS 18 c29
+Jesswin W Varghese
+
+--------------------------------
+#1: Linux Installation
+---------------------------------
+Command/Shell script/Program name
+
+---------------------------------
+
+Input: (If relevant)
+---------------
+Linux install media
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+Linux 
+
+-------------------
+Remarks if any:
+
+> Installed linux on Sir's PC 
+
+> Happy that I was able to install on that old hardware
+
+> images are placed in the same folder
+
+
+-------------------------------------
