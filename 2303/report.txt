@@ -1,0 +1,33 @@
+CEC CS 18 C29
+Jesswin W Varghese
+
+--------------------------------
+#1: Making a shell script to implement menu driven calculator
+
+---------------------------------
+Command/Shell script/Program name
+
+shell-script used : calc.sh
+
+---------------------------------
+
+Input:
+---------------
+two numbers are the input
+
+--------------------------------
+Output:
+
+The output is the choice of the user.It can be 
+the Sum,Difference,Product,Quotient or Remainder(Modulus)
+
+-------------------------------------
+Remarks: 
+work.txt produced was about 453mb of size because of some reason.So I
+made a new script and to show my legitamacy I ran wc command on the last script while 
+the current script was running, hope you would understand me and I assure that the code I 
+produced was my own was not copied from my fellow classmates
+-------------------------------------
+-------------------------------------
+
+

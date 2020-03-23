@@ -1,0 +1,29 @@
+Script started on 2020-03-23 23:25:57+05:30 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="123" LINES="32"]
+]0;jesswinw@harley: ~/cs232/2303[01;32mjesswinw@harley[00m:[01;34m~/cs232/2303[00m$ wc wr[K[K[K[K[Kecho :[K"size pf [K[K[Kof previous wr[Kork.txt"
+size of previous work.txt
+]0;jesswinw@harley: ~/cs232/2303[01;32mjesswinw@harley[00m:[01;34m~/cs232/2303[00m$ work[K[K[Kc work.[K[K[K[K[K[K[K[Ke[Kec[K[Kwc work.txt 
+   549449   4692727 435347456 work.txt
+]0;jesswinw@harley: ~/cs232/2303[01;32mjesswinw@harley[00m:[01;34m~/cs232/2303[00m$ echo "the now running script is work1 [K.txt gonna rename later"
+the now running script is work1.txt gonna rename later
+]0;jesswinw@harley: ~/cs232/2303[01;32mjesswinw@harley[00m:[01;34m~/cs232/2303[00m$ clear
+[H[2J[3J]0;jesswinw@harley: ~/cs232/2303[01;32mjesswinw@harley[00m:[01;34m~/cs232/2303[00m$ ./calc.sh 
+[H[2J[3JEnter 1st no:
+22
+Enter 2nd no:
+11
+[H[2J[3JNumbers are 22 and 11
+----Enter your Choice----
+1.Addition
+2.Subtraction
+3.Multiplication
+4.Division
+5.Modulus
+1
+Sum=33
+Do you want to continue?(y/n)
+n
+]0;jesswinw@harley: ~/cs232/2303[01;32mjesswinw@harley[00m:[01;34m~/cs232/2303[00m$ clear
+[H[2J[3J]0;jesswinw@harley: ~/cs232/2303[01;32mjesswinw@harley[00m:[01;34m~/cs232/2303[00m$ exit
+exit
+
+Script done on 2020-03-23 23:30:39+05:30 [COMMAND_EXIT_CODE="0"]
