@@ -1,0 +1,32 @@
+CEC CS 18 C29
+Jesswin W Varghese
+
+--------------------------------
+t(8.1): Package Management
+---------------------------------
+Command/Shell script/Program name
+
+#package installed using dpkg
+cowsay_3.03+dfsg2-6_all.deb
+
+---------------------------------
+
+Input: (If relevant)
+----------------------
+#installation file
+cowsay_3.03+dfsg2-6_all.deb
+
+--------------------------------
+Output: 
+#file with details of packages installed in the local computer(dpkg -l)
+packages.txt
+
+-------------------
+Remarks if any:
+
+1. cowsay is the deb package installed as well as using dpkg
+
+2. neofetch was installed using apt package manager
+
+-------------------------------------
+-------------------------------------
